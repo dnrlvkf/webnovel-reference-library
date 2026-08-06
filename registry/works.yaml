@@ -1,0 +1,10 @@
+- id: REF-02
+  status: active
+  identity_exposure: sealed
+  primary_source_id: SRC-COL2-027
+  boundary_status: exact
+  confirmed_scope: 1-284
+  research_mode: precision
+  current_scope: 1-10
+  current_question: "How does the protagonist restrict an overwhelming single-target ability and build a scalable survival system?"
+  last_receipt: RCPT-20260806-1812-REF02

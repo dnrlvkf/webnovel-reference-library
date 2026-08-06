@@ -1,0 +1,16 @@
+schema_version: "1.1"
+repository_role: reference-research-canonical
+canonical_branch: "main"
+sop_path: "REFERENCE_RESEARCH_ANALYSIS_SOP_v6.md"
+repository_contract_path: "REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.md"
+work_model_schema_path: "REFERENCE_WORK_MODEL_SCHEMA_v1.md"
+anonymity_contract_path: "REFERENCE_RESEARCH_ANONYMITY_CONTRACT_v1.md"
+works_registry_path: "registry/works.yaml"
+source_inventory_path: "registry/source_inventory.yaml"
+private_identity_map_path: "registry/private/work_identity_map.yaml"
+recent_receipts_index_path: "indexes/recent_receipts.md"
+identity_policy:
+  default_exposure: sealed
+  sealed_map_required: true
+  derived_layers_allow_real_work_title: false
+  commit_messages_allow_real_work_title: false

@@ -1,0 +1,13 @@
+access: restricted
+purpose: source re-entry, checksum verification, duplicate REF prevention
+never_copy_to_general_research: true
+
+mappings:
+  - ref_id: REF-02
+    source_id: SRC-COL2-027
+    work_title: "즉사수선전：선협 세계에서 즉사기로 살아남기"
+    source_filename: "즉사수선전：선협 세계에서 즉사기로 살아남기 1-284.txt"
+    collection_member_index: 27
+    source_sha256: 17b0f41b6b64eefe6f3d1354d22e2d75529be153b1f0f7fd71f00a016f96b766
+    identity_status: verified
+    exposure: sealed
