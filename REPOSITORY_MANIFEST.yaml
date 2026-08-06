@@ -1,9 +1,10 @@
-schema_version: "1.2"
+schema_version: "1.3"
 repository_role: reference-research-canonical
 canonical_branch: "main"
 
 standard_source: project_source
 standard_source_lock_path: "REFERENCE_RESEARCH_STANDARD_SOURCE_LOCK_v1.yaml"
+repository_contract_addendum_path: "REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.1_PROJECT_SOURCE_ADDENDUM.md"
 sop_filename: "REFERENCE_RESEARCH_ANALYSIS_SOP_v6.md"
 repository_contract_filename: "REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.md"
 work_model_schema_filename: "REFERENCE_WORK_MODEL_SCHEMA_v1.md"
@@ -24,4 +25,5 @@ standard_verification_policy:
   require_filename_match: true
   require_sha256_match: true
   require_size_match: true
+  require_contract_addendum: true
   mismatch_status: HOLD_STANDARD_SOURCE
