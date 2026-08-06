@@ -1,0 +1,30 @@
+schema_version: "1.0"
+role: reference-research-standard-source-lock
+canonical_source: project_source
+verification_required: true
+
+standards:
+  - key: analysis_sop
+    filename: "REFERENCE_RESEARCH_ANALYSIS_SOP_v6.md"
+    sha256: "d83c28d809fcad738e134282af4ffe8f4d668cde40a65d1ac83fd457e667bd9b"
+    size_bytes: 78408
+    status: approved
+
+  - key: repository_contract
+    filename: "REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.md"
+    sha256: "8a6479621af6d1196433ca5760ae727eb5ccc1b876dea468df3faafc964e304e"
+    size_bytes: 12579
+    status: approved
+
+  - key: work_model_schema
+    filename: "REFERENCE_WORK_MODEL_SCHEMA_v1.md"
+    sha256: "825324e6b2e4d3cdafce6decf1919c80aac1d9d59863c237960d49be64f79121"
+    size_bytes: 11902
+    status: approved
+
+rules:
+  - Read the project-source file directly before research.
+  - Verify filename, SHA-256, and byte size against this lock.
+  - HOLD all research writes if a required file is unavailable or mismatched.
+  - GitHub remains canonical for research records, indexes, receipts, and commit state.
+  - Updating a standard requires a new approved file, lock revision, and manifest update.
