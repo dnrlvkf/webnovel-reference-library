@@ -1,0 +1,12 @@
+REF-39 초간단 Notion 업로드 안내
+
+이 폴더의 파일 16개를 전부 REF-39 원천 레지스트리 페이지 맨 아래로 끌어놓으세요.
+
+구성:
+- 00_이_폴더의_파일을_전부_Notion에_올리세요.txt
+- REF39_PERSISTENT_SOURCE_VOLUME_01.txt ~ 12.txt
+- volume_manifest.json
+- boundary_report.txt
+- REF39_EXACT_ORIGINAL_BYTES_BACKUP.zip
+
+업로드가 모두 끝난 뒤 채팅에 "REF-39 16개 다 올렸어"라고 적으세요.

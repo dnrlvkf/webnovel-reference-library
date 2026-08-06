@@ -1,0 +1,12 @@
+REF-46 실제 원문 영속 첨부용 폴더
+
+이 폴더 안의 파일을 하나도 빼지 말고 전부 선택하여 Notion의 REF-46 페이지 맨 아래에 끌어다 놓으세요.
+
+올릴 파일 수: 총 15개
+- REF46_PERSISTENT_SOURCE_VOLUME_01.txt ~ 12.txt: 12개
+- volume_manifest.json: 1개
+- bundle_summary.json: 1개
+- ref46_persistent_source_volumes_v1.zip: 1개
+
+주의: 이 안내 파일(00_...)은 올리지 않아도 됩니다.
+업로드가 끝나면 ChatGPT에 “15개 다 올렸어”라고 말하세요.

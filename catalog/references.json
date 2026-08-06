@@ -1,0 +1,790 @@
+[
+  {
+    "ref_code": "REF-01",
+    "works": [
+      "선협에서 상태창 개발하기"
+    ],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "379",
+    "non_canon": "Yes",
+    "index_block": "787",
+    "file_hint": "379",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 23,
+      "source_scenes": 6,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-02",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "284",
+    "non_canon": "Yes",
+    "index_block": "595",
+    "file_hint": "284",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 12,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-03",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "351",
+    "non_canon": "Yes",
+    "index_block": "776",
+    "file_hint": "351",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 4,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-04",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "863",
+    "non_canon": "Yes",
+    "index_block": "2725",
+    "file_hint": "863",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 18,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-05",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "912",
+    "non_canon": "Yes",
+    "index_block": "1945",
+    "file_hint": "917",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 5,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-06",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "302",
+    "non_canon": "Yes",
+    "index_block": "751",
+    "file_hint": "302",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-07",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "368",
+    "non_canon": "Yes",
+    "index_block": "884",
+    "file_hint": "368",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-08",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "915",
+    "non_canon": "Yes",
+    "index_block": "1766",
+    "file_hint": "915",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 5,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-09",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "unresolved",
+    "restored_boundary": "0",
+    "non_canon": "Yes",
+    "index_block": "576",
+    "file_hint": "247",
+    "technical_note": "경계 미복원. 회차 번호가 아니라 블록·문자 위치만 근거로 사용.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-10",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "46",
+    "non_canon": "Yes",
+    "index_block": "98",
+    "file_hint": "47",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-11",
+    "works": [
+      "시한부 천재가 살아남는 법"
+    ],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "829",
+    "non_canon": "Yes",
+    "index_block": "1834",
+    "file_hint": "829",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 8,
+      "source_scenes": 12,
+      "anonymous_reading_scenes": 22,
+      "expression_scenes": 24
+    }
+  },
+  {
+    "ref_code": "REF-12",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "198",
+    "non_canon": "Yes",
+    "index_block": "546",
+    "file_hint": "198",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-13",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "668",
+    "non_canon": "Yes",
+    "index_block": "1345",
+    "file_hint": "668",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-14",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "partial",
+    "restored_boundary": "84",
+    "non_canon": "Yes",
+    "index_block": "232",
+    "file_hint": "111",
+    "technical_note": "일부 경계만 복원. 블록 번호를 회차 번호라고 부르지 않음.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-15",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "401",
+    "non_canon": "Yes",
+    "index_block": "976",
+    "file_hint": "400",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-16",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "852",
+    "non_canon": "Yes",
+    "index_block": "1894",
+    "file_hint": "855",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 5,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-17",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "120",
+    "non_canon": "Yes",
+    "index_block": "279",
+    "file_hint": "121",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-18",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "481",
+    "non_canon": "Yes",
+    "index_block": "1066",
+    "file_hint": "481",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 5,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-19",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "182",
+    "non_canon": "Yes",
+    "index_block": "339",
+    "file_hint": "185",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 5,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-20",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "221",
+    "non_canon": "Yes",
+    "index_block": "553",
+    "file_hint": "219",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-21",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "422",
+    "non_canon": "Yes",
+    "index_block": "964",
+    "file_hint": "424",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-22",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "368",
+    "non_canon": "Yes",
+    "index_block": "894",
+    "file_hint": "368",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-23",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "1270",
+    "non_canon": "Yes",
+    "index_block": "2357",
+    "file_hint": "1270",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-24",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "227",
+    "non_canon": "Yes",
+    "index_block": "497",
+    "file_hint": "228",
+    "technical_note": "기술 경계가 거의 일치하나 회차 호칭은 원문 문맥 확인 후 사용.",
+    "counts": {
+      "evidence_threads": 5,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-25",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "1184",
+    "non_canon": "Yes",
+    "index_block": "2440",
+    "file_hint": "1184",
+    "technical_note": "원문 경계와 파일 힌트 일치. 의미 분석 완료를 뜻하지 않음.",
+    "counts": {
+      "evidence_threads": 5,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-26",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "400",
+    "non_canon": "Yes",
+    "index_block": "869",
+    "file_hint": "400",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-26.txt. 자동 경계와 파일 힌트가 일치한다. 중복 표제·부가 텍스트는 원문 문맥으로 재확인하며, 의미 분석 완료를 뜻하지 않는다.",
+    "counts": {
+      "evidence_threads": 13,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-27",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "425",
+    "non_canon": "Yes",
+    "index_block": "844",
+    "file_hint": "425",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-27.txt. 끝 경계는 확인됐으나 중간 표제 누락·중복 가능성이 있어 회차 호칭은 원문 문맥 확인 후 사용한다.",
+    "counts": {
+      "evidence_threads": 1,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-28",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "partial",
+    "restored_boundary": "74",
+    "non_canon": "Yes",
+    "index_block": "996",
+    "file_hint": "470",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-28.txt. 순차 회차는 1~74 범위까지 우선 확인됐다. 후반 부가 문서·문답의 숫자가 회차 표제로 오인될 수 있어 이후 경계는 문자 위치와 문맥으로만 사용한다.",
+    "counts": {
+      "evidence_threads": 1,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-29",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "partial",
+    "restored_boundary": "0",
+    "non_canon": "Yes",
+    "index_block": "472",
+    "file_hint": "238",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-29.txt. 현재 파일의 확인 범위는 120~238이며 1~119가 없다. 누락 구간의 사건·관계·초기 설정을 추정하지 않는다.",
+    "counts": {
+      "evidence_threads": 1,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-30",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "unresolved",
+    "restored_boundary": "0",
+    "non_canon": "Yes",
+    "index_block": "521",
+    "file_hint": "263",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-30.txt. 원문 전체 검색은 가능하나 자동 표제 규칙으로 회차 경계를 복원하지 못했다. 경계 수리 전에는 문자 위치와 직접 인용 문맥만 근거로 사용한다.",
+    "counts": {
+      "evidence_threads": 1,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-31",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "1257",
+    "non_canon": "Yes",
+    "index_block": "2550",
+    "file_hint": "1257",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-31.txt. 끝 경계는 확인됐으나 일부 표제 누락·번호 변형이 있어 회차 번호는 주변 제목 연쇄를 재확인한 뒤 사용한다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-32",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "unresolved",
+    "restored_boundary": "0",
+    "non_canon": "Yes",
+    "index_block": "829",
+    "file_hint": "322",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-32.txt. 원문 검색은 가능하나 표제 형식이 자동 경계 규칙과 맞지 않는다. 회차 번호 대신 문자 위치·앞뒤 문맥으로 근거를 고정한다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-33",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "partial",
+    "restored_boundary": "0",
+    "non_canon": "Yes",
+    "index_block": "207",
+    "file_hint": "117",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-33.txt. 현재 확인되는 표제 범위는 100~117이며 1~99가 없다. 초반 관계와 설정을 후반 문맥으로 역추정하지 않는다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-34",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "partial",
+    "restored_boundary": "0",
+    "non_canon": "Yes",
+    "index_block": "3402",
+    "file_hint": "1373",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-34.txt. 현재 확인 범위는 171~1373이며 1~170이 없다. 기존에 보유한 다른 판본과 자동 병합하지 않고 판본 차이를 먼저 대조한다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-35",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "993",
+    "non_canon": "Yes",
+    "index_block": "2332",
+    "file_hint": "993",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-35.txt. 장편 끝 경계는 확인됐으나 일부 표제가 누락되거나 변형됐다. 회차 번호는 제목 연쇄와 본문 문맥을 함께 확인한다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-36",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "unresolved",
+    "restored_boundary": "0",
+    "non_canon": "Yes",
+    "index_block": "370",
+    "file_hint": "164",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-36.txt. 자동 탐지된 숫자가 실제 회차 수를 대표하지 않는다. 경계 수리 전에는 회차 호칭을 사용하지 않고 문자 위치와 직접 문맥만 기록한다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-37",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "partial",
+    "restored_boundary": "0",
+    "non_canon": "Yes",
+    "index_block": "1626",
+    "file_hint": "957",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-37.txt. 현재 확인되는 표제 범위는 93~957이며 1~92가 없다. 누락된 도입부의 인과·인물 관계를 후반 정보로 채우지 않는다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-38",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "304",
+    "non_canon": "Yes",
+    "index_block": "617",
+    "file_hint": "305",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-38.txt. 0~304의 영기반 표제가 확인됐다. 외부 표기 1~305와 혼동하지 않도록 원문 표제를 우선한다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-39",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "549",
+    "non_canon": "Yes",
+    "index_block": "2054",
+    "file_hint": "549",
+    "technical_note": "전체 원문 직접 재검증 완료. 본편 489회 + 외전 60회 = 549회. 기존 401회 중단은 누락이 아니라 402회 이후 표제 형식 변화 때문이었다. 원문 복구 완료, Notion 영속 첨부 및 03-A 장면 재절단은 별도 진행.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-40",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "unresolved",
+    "restored_boundary": "0",
+    "non_canon": "Yes",
+    "index_block": "3891",
+    "file_hint": "2060",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-40.txt. 대용량 원문 검색은 가능하지만 자동 표제 탐지가 실패했다. 경계 복원 전에는 회차 번호를 근거처럼 사용하지 않는다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-41",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "near-exact",
+    "restored_boundary": "843",
+    "non_canon": "Yes",
+    "index_block": "1590",
+    "file_hint": "843",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-41.txt. 끝 경계는 확인됐으나 일부 중간 표제가 누락됐다. 장기 재등장은 앞뒤 표제와 문자 위치를 함께 검증한다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-42",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "179",
+    "non_canon": "Yes",
+    "index_block": "419",
+    "file_hint": "179",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-42.txt. 1~179 경계가 확인됐다. 의미 분석과 메커니즘 승격은 별도 증거 스레드에서 수행한다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-43",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "763",
+    "non_canon": "Yes",
+    "index_block": "1372",
+    "file_hint": "763",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-43.txt. 1~763 경계가 확인됐다. 원천 등록은 기술적 검색 가능성만 보증하며 의미 분석 완료를 뜻하지 않는다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-44",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "382",
+    "non_canon": "Yes",
+    "index_block": "781",
+    "file_hint": "382",
+    "technical_note": "ChatGPT Library /공용 참고작 원문/REF-44.txt. 1~382 경계가 확인됐다. 상위 카드 비교는 독립 독해가 끝난 뒤에만 수행한다.",
+    "counts": {
+      "evidence_threads": 0,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 0,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-45",
+    "works": [],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "350",
+    "non_canon": "Yes",
+    "index_block": "1853",
+    "file_hint": "350",
+    "technical_note": "원천 추적 전용 실제 식별자: 악당은 살고 싶다 1-350.txt. UTF-16LE 원본, 프롤로그부터 350화 본문 종단 확인. 원본 SHA-256 95d22f155d582ec702142b906161f4b36241627a76cdf858ff9b39cd6d686a4e. 초기 구간은 장 제목형 표제, 후반은 숫자 회차 표제. 의미 연구는 별도 심층 증거층에서 진행한다.",
+    "counts": {
+      "evidence_threads": 13,
+      "source_scenes": 0,
+      "anonymous_reading_scenes": 9,
+      "expression_scenes": 0
+    }
+  },
+  {
+    "ref_code": "REF-46",
+    "works": [
+      "게임 속 바바리안으로 살아남기"
+    ],
+    "searchable": "Yes",
+    "boundary_status": "exact",
+    "restored_boundary": "917",
+    "non_canon": "Yes",
+    "index_block": "4214",
+    "file_hint": "917",
+    "technical_note": "원천 추적 전용 실제 식별자: 게임 속 바바리안으로 살아남기 1-917.txt. UTF-8 원본, 1화 서장부터 917화 루트 (5)와 파일 종단 확인. SHA-256 9cf9d175c228c02e960a04f3d721f29bb4362b380065f2fd200b828291ba1191. 58·60화 표제 병합, 352화 쉼표 표기, 593화가 93화로 오기, 715·911화의 '화' 누락을 보정하면 1~917 연속 경계다. 의미 연구는 별도 심층 증거층에서 진행한다.",
+    "counts": {
+      "evidence_threads": 21,
+      "source_scenes": 229,
+      "anonymous_reading_scenes": 229,
+      "expression_scenes": 114
+    }
+  }
+]

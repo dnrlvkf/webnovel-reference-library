@@ -1,0 +1,41 @@
+{
+  "schema_version": "REFERENCE-LIBRARY-MIGRATION-1",
+  "repository": "dnrlvkf/webnovel-reference-library",
+  "visibility": "private",
+  "source_export_sha256": "ea39c5b1befc84cc1b9e90da21aaf1f6b493fbe235558a54d72e999c2771e2bb",
+  "notion_files": 1089,
+  "extension_counts": {
+    ".csv": 30,
+    ".json": 3,
+    ".md": 1022,
+    ".txt": 32,
+    ".zip": 2
+  },
+  "reference_count": 46,
+  "table_rows": {
+    "execution-cards.csv": 65,
+    "reference-registry.csv": 46,
+    "evidence-threads.csv": 151,
+    "card-promotion-candidates.csv": 16,
+    "research-receipts.csv": 32,
+    "scope-audits.csv": 27,
+    "source-scene-index.csv": 248,
+    "temporary-reading-bundles.csv": 5,
+    "anonymous-reading-scenes.csv": 261,
+    "anonymous-expression-scenes.csv": 139,
+    "expression-units.csv": 25,
+    "work-receipts.csv": 3,
+    "retrospectives.csv": 1,
+    "hypothesis-promotion-candidates.csv": 1
+  },
+  "persistent_sources": {
+    "REF-39": {
+      "volumes": 12,
+      "exact_backup": "sources/REF-39/exact-original-bytes-backup.zip"
+    },
+    "REF-46": {
+      "volumes": 12,
+      "manifest": "sources/REF-46/volume_manifest.json"
+    }
+  }
+}
