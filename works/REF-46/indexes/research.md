@@ -6,13 +6,15 @@
 - migration_status: `targeted works-layer bridge; legacy catalog retained`
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_receipt: `RCPT-20260809-0002-REF46`
-- research_content_sha: `assigned_after_premerge_audit`
-- latest_status: `prepared_on_research_branch`
+- research_content_sha: `0b6877c9e13192d5dbf45fa8dd0e89787466ba6c`
+- latest_status: `complete / merged_to_main`
 
 ## 현재 연구 질문
 
+이번 완료 배치는 다음 세 질문을 순차 해결했다.
+
 1. 마법사 장교 A의 208→360 사이에서 다인 생명 책임을 직접 맡는 다리 장면은 무엇이며, 변화가 심리 성장·역할 권한·문제 영역 중 무엇으로 설명되는가.
-2. 높은 연구 가치에도 사람·시간·생존 비용 때문에 연구 욕구를 스스로 제한하는 반례가 있는가.
+2. 높은 연구 가치에도 사람·시간·생존 비용 때문에 연구 욕구를 제한하는 반례가 있는가.
 3. 베테랑 안내자 A의 `자기 부족 → 교육 사업 실패 → 필요 기반 역할 수락 → 교육 만족`을 하나의 자존감 곡선이 아니라 어떤 역할별 자기평가 변화로 읽어야 하는가.
 
 ## 원천 장면
@@ -179,9 +181,12 @@
 
 ## 감사
 
-- 기존 `AUDIT-REF46-0001`, `AUDIT-REF46-0002` 유지.
-- 이번 배치는 신규 source scene 9건과 기존 CHARACTER 2건·PROSE 1건 보강으로 제한.
-- 신규 TH/Macro/Micro를 만들지 않아 등록 수 증가를 억제함.
+- `AUDIT-REF46-0001` — 최초 works-layer 배치 병합 전 감사 / passed
+- `AUDIT-REF46-0002` — 최초 works-layer 배치 병합 후 감사 / complete
+- `AUDIT-REF46-0003` — 책임·우선순위·역할 자기평가 배치 병합 전 감사 / passed
+- `AUDIT-REF46-0004` — 같은 배치 병합 후 canonical 감사 / complete
+
+이번 배치는 신규 source scene 9건과 기존 CHARACTER 2건·PROSE 1건 보강으로 제한했고 신규 TH/Macro/Micro를 만들지 않았다.
 
 ## 다음 질문
 
