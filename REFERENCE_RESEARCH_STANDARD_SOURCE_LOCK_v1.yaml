@@ -5,9 +5,9 @@ verification_required: true
 
 standards:
   - key: analysis_sop
-    filename: "REFERENCE_RESEARCH_ANALYSIS_SOP_v6.md"
-    sha256: "d83c28d809fcad738e134282af4ffe8f4d668cde40a65d1ac83fd457e667bd9b"
-    size_bytes: 78408
+    filename: "REFERENCE_RESEARCH_ANALYSIS_SOP_v6.1.md"
+    sha256: "fc60b40c9e2dda72271284d295bf6daabd121b5494e16b3b5452e810f2cdb431"
+    size_bytes: 94818
     status: approved
 
   - key: repository_contract
