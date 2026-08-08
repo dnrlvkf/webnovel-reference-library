@@ -8,3 +8,15 @@
   current_scope: 1-10
   current_question: "How does the protagonist restrict an overwhelming single-target ability and build a scalable survival system?"
   last_receipt: RCPT-20260806-1812-REF02
+
+- id: REF-46
+  status: active
+  identity_exposure: sealed
+  source_binding: legacy_registry_verified
+  source_registry_path: works/REF-46/source_registry/SOURCE-BRIDGE-REF46.md
+  boundary_status: exact
+  confirmed_scope: 1-917
+  research_mode: traversal
+  current_scope: targeted-roundtrip-118-817
+  current_question: "How do character judgment, dialogue/narration form, and POV information rights vary together across distant scenes?"
+  last_receipt: RCPT-20260808-2330-REF46
