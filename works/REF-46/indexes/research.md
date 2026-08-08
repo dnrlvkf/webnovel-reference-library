@@ -6,7 +6,8 @@
 - migration_status: `targeted works-layer bridge; legacy catalog retained`
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_receipt: `RCPT-20260808-2330-REF46`
-- latest_status: `prepared_on_branch`
+- research_content_sha: `5ad04e80790340197421a98e7ec436ea91279335`
+- latest_status: `complete / merged_to_main`
 
 ## 현재 연구 질문
 
@@ -75,14 +76,14 @@
 
 - `TH-REF46-01` — 기존 `VERIFIED_THREAD` works 브리지 및 경계 보강
 - `TH-REF46-05` — 기존 `VERIFIED_THREAD` works 브리지 및 오판 메커니즘 보강
-- `MIC-REF46-0001` — 인정 충족 직후 짧은 감정 분절 → 미해결 욕망 → 고백 억제
+- `MIC-REF46-0001` — 인정 충족 직후 감정 분절 → 미해결 욕망 → 고백 억제
 
 ## Macro·Micro 판정
 
 - 신규 Macro: `없음`
-  - 이유: 오늘 장면의 검색 가치는 원천 장면, CHARACTER, PROSE, STORY, 기존 TH에 이미 분리되어 있고 별도 Macro는 중복 가능성이 높다.
+  - 오늘 장면의 검색 가치는 원천 장면, CHARACTER, PROSE, STORY, 기존 TH에 이미 분리되어 있고 별도 Macro는 중복 가능성이 높음.
 - 신규 Micro: `MIC-REF46-0001` 1건
-  - 이유: `직전 보상 → 감정 파편 → 미해결 욕망 → 침묵 선택 → 없으면 감정이 과도하게 깨끗하게 닫힘`의 독립 사슬이 성립함.
+  - `직전 보상 → 감정 파편 → 미해결 욕망 → 침묵 선택 → 없으면 감정이 과도하게 깨끗하게 닫힘`의 독립 사슬이 성립함.
 
 ## 기존 TH 보강
 
@@ -116,9 +117,14 @@
 
 기존 `catalog/`의 REF-46 연구는 삭제·대량 복사하지 않는다.
 
-- 레거시 `SCENE-15` ↔ 신규 `SC-REF46-0004`의 원천이 겹치지만 연구 질문이 다름. 신규 장면은 `인격 판정/정체 판정`과 표현을 좁혀 재진입한다.
-- 레거시 `SCENE-41` ↔ 신규 `SC-REF46-0005`의 원천이 겹치지만 기존 장면은 주인공 A의 최종 책임, 신규 장면은 마법사 장교 A의 판단 이전과 발화 형태에 초점을 둔다.
-- 레거시 TH ID `TH-REF46-01`, `TH-REF46-05`는 ID를 바꾸지 않고 works 파일로 브리지한다.
+- legacy `SCENE-15` ↔ 신규 `SC-REF46-0004`: 원천은 겹치지만 신규 장면은 인격 판정/정체 판정과 표현을 좁혀 재진입.
+- legacy `SCENE-41` ↔ 신규 `SC-REF46-0005`: 기존 장면은 주인공 A의 최종 책임, 신규 장면은 마법사 장교 A의 판단 이전과 발화 형태에 초점.
+- legacy TH ID `TH-REF46-01`, `TH-REF46-05`는 ID를 바꾸지 않고 works 파일로 브리지.
+
+## 감사
+
+- `AUDIT-REF46-0001` — 병합 전 연구 품질·중복·익명성 감사 / passed
+- `AUDIT-REF46-0002` — canonical main fast-forward 후 원격 반영 감사 / complete
 
 ## 다음 질문
 
