@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260809-0002-REF46` | `REF-46` | 작품 전체 왕복 채굴 | `149~718화 선택 구간 + 책임·연구욕구·역할평가 왕복` | `0b6877c9e13192d5dbf45fa8dd0e89787466ba6c` | complete |
 | `RCPT-20260808-2330-REF46` | `REF-46` | 작품 전체 왕복 채굴 | `118~817화 선택 구간 + 왕복 대조` | `5ad04e80790340197421a98e7ec436ea91279335` | complete |
 | `RCPT-20260806-2030-REF02` | `REF-02` | 구간 정밀 분석 | `SRC-COL2-027 / 31~40화` | `38ef62370b07e0da7bfe84ca76595b692da0f39f` | complete |
 | `RCPT-20260806-2013-REF02-FINAL` | `REF-02` | 구간 정밀 분석 + HOLD 해제 | `SRC-COL2-027 / 21~30화` | `59aa9f8c389f59335eb7b4ca9702716b897c8fa8` | complete |
@@ -12,6 +13,8 @@
 
 ## 경로
 
+- `works/REF-46/research_receipts/RCPT-20260809-0002-REF46.md`
+- `works/REF-46/research_receipts/RCPT-20260809-0002-REF46-SEAL.md`
 - `works/REF-46/research_receipts/RCPT-20260808-2330-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260808-2330-REF46-SEAL.md`
 - `works/REF-02/research_receipts/RCPT-20260806-2030-REF02.md`
