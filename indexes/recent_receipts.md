@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260813-1732-REF46` | `REF-46` | 작품 전체 왕복 채굴 / direct command-failure audit | `1~917화 전체 검색 + 285, 338, 354~364, 391, 551~560, 710화 이후 재독` | `49e1a1fe262bc14b9ecd697d697403fe30ad8528` | complete |
 | `RCPT-20260813-1713-REF46` | `REF-46` | 작품 전체 왕복 채굴 / role self-evaluation follow-up | `1~917화 전체 검색 + 149, 449, 473, 634화 재독` | `fe3b4baca9a959fbd56939b5ee81165d9e06cb12` | complete |
 | `RCPT-20260813-1302-REF02` | `REF-02` | 작품 전체 왕복 채굴 / SOP v6.1 | `SRC-COL2-027 / 1~284화 exact / early-middle-late reread` | `a75c00314c1f213cca72b519e448b8f56ed3c99d` | complete |
 | `RCPT-20260813-1237-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 241~284화` | `ab80452f5e4ef08e8acd7bc7d4a7039f47d2a1e2` | complete_first_pass_batch |
@@ -21,6 +22,8 @@
 
 ## 경로
 
+- `works/REF-46/research_receipts/RCPT-20260813-1732-REF46.md`
+- `works/REF-46/research_receipts/RCPT-20260813-1732-REF46-SEAL.md`
 - `works/REF-46/research_receipts/RCPT-20260813-1713-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260813-1713-REF46-SEAL.md`
 - `works/REF-02/research_receipts/RCPT-20260813-1302-REF02.md`
