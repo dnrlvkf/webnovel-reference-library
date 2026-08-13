@@ -6,12 +6,12 @@
 - migration_status: `targeted works-layer bridge; legacy catalog retained`
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_receipt: `RCPT-20260813-1713-REF46`
-- research_content_sha: `PENDING_MERGE`
-- latest_status: `followup_pending_merge`
+- research_content_sha: `fe3b4baca9a959fbd56939b5ee81165d9e06cb12`
+- latest_status: `complete / merged_to_main`
 
 ## 현재 연구 질문
 
-이번 후속 배치는 직전 배치의 베테랑 안내자 A HOLD 두 개를 직접 닫는다.
+이번 후속 배치는 직전 배치의 베테랑 안내자 A HOLD 두 개를 직접 닫았다.
 
 1. 449화 교습소 실패에서 동료가 말하려다 차단된 다른 사정이 1~917화 후속에서 공개되는가.
 2. 634화 교육 만족이 149화의 현장 부족 판정 자체를 수정하는가, 아니면 역할별 자기평가 분리가 작품 경계까지 유지되는가.
@@ -43,7 +43,7 @@
 - `SC-REF46-0018` — 473화 / 시혜 가능성은 거절하려다 실제 전문성 수요라는 설명 뒤 교육 역할 수락
 - `SC-REF46-0019` — 634화 / 제자의 생환·감사를 교육 성과로 체감하고 남는 여력을 행정 지원에 사용
 
-이번 후속은 기존 Source Scene의 재독·작품 전체 검색으로 충분해 신규 Source Scene을 만들지 않는다.
+이번 후속은 기존 Source Scene의 재독·작품 전체 검색으로 충분해 신규 Source Scene을 만들지 않았다.
 
 ## 작품 모델
 
@@ -85,7 +85,7 @@
 기존 `PRO-REF46-0001` 유지.
 
 - 449화: 짧고 단호한 대화 차단은 `비공개 의사`를 직접 증명하지만 숨은 실패 원인을 증명하지 않는다.
-- 634화: 교육 만족을 길게 설명하다 감정 노출 직전에 말꼬리를 흐리고 헛기침으로 체면을 회수한다. 동시에 곧바로 타인 성취 비교의 자조가 남아 전면적 자기긍정으로 닫히지 않는다.
+- 634화: 교육 만족을 길게 설명하다 감정 노출 지점에서 말꼬리를 흐리고 헛기침으로 체면을 회수한다. 동시에 곧바로 타인 성취 비교의 자조가 남아 전면적 자기긍정으로 닫히지 않는다.
 
 ### TECHNIQUE
 
@@ -167,7 +167,8 @@
 ## 감사
 
 - `AUDIT-REF46-0001~0004` — 기존 works-layer 감사 유지.
-- `AUDIT-REF46-0005` — 이번 follow-up pre-merge 감사.
+- `AUDIT-REF46-0005` — 이번 follow-up pre-merge 감사 / passed.
+- `AUDIT-REF46-0006` — 이번 follow-up post-merge 감사 / passed.
 
 ## 다음 질문
 
