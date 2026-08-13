@@ -3,9 +3,10 @@
 - work_id: `REF-46`
 - mode: `작품 전체 왕복 채굴`
 - base_sha: `43c816305647ac7b0f497c7df7116684a404d528`
-- status: `passed_pre_merge`
+- research_content_sha: `b8573713ddf4a250cdbef2d2549de698f6782aa7`
+- status: `complete_pre_and_post_merge`
 
-## 감사 결과
+## pre-merge checks
 
 - source boundary `1~917화 / exact`와 source SHA 재검증 통과.
 - standard-source lock 검증 통과.
@@ -15,8 +16,16 @@
 - 807화는 보조 근거로만 사용.
 - 신규 Source Scene/TH/Macro/Micro 0.
 - 기존 CHARACTER 모델 보강 우선, 중복 메커니즘 파일 없음.
-- identity sealed, 일반 연구층에 실제 식별자·독특한 원문 문장 없음.
+- identity sealed.
 
-## 판정
+## canonical post-merge checks
 
-`고가치 연구 전체를 본인이 최종 권한으로 중단하는 완전한 사례`는 `NOT_OBSERVED_WITHIN_SOURCE_BOUNDARY`.
+- `main`에서 `CHR-REF46-0003`의 연구 중단 경계 수정 확인.
+- `main`에서 `BATCH-REF46-0005`, `RCPT-20260814-0513-REF46`, 갱신된 연구 인덱스와 본 감사 파일 존재 확인.
+- `국소 실험 연기 / 외부 중단 / 우선순위 게이트 / 자기 최종 중단` 구분 유지.
+- `고가치 연구 전체의 자기 최종 중단`: `NOT_OBSERVED_WITHIN_SOURCE_BOUNDARY` 유지.
+- unresolved conflict 없음.
+
+## result
+
+canonical audit passed.
