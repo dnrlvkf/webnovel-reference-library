@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260813-0951-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 61~120화` | `8c5b59c7266213f298223372b5f13ae0b01199a4` | complete |
 | `RCPT-20260813-0924-REF02` | `REF-02` | 구간 정밀 분석 / SOP v6.1 | `SRC-COL2-027 / 51~60화` | `cdcad32bd082c4ca05f8fb766ad903c2992b3e15` | complete |
 | `RCPT-20260813-0906-REF02` | `REF-02` | 구간 정밀 분석 / SOP v6.1 | `SRC-COL2-027 / 41~50화` | `f299e1a9f7a04ca92d7c85458e6c3c1d1d379559` | complete |
 | `RCPT-20260809-0002-REF46` | `REF-46` | 작품 전체 왕복 채굴 | `149~718화 선택 구간 + 책임·연구욕구·역할평가 왕복` | `0b6877c9e13192d5dbf45fa8dd0e89787466ba6c` | complete |
@@ -15,6 +16,8 @@
 
 ## 경로
 
+- `works/REF-02/research_receipts/RCPT-20260813-0951-REF02.md`
+- `works/REF-02/research_receipts/RCPT-20260813-0951-REF02-SEAL.md`
 - `works/REF-02/research_receipts/RCPT-20260813-0924-REF02.md`
 - `works/REF-02/research_receipts/RCPT-20260813-0924-REF02-SEAL.md`
 - `works/REF-02/research_receipts/RCPT-20260813-0906-REF02.md`
