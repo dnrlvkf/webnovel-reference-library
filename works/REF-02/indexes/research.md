@@ -119,6 +119,7 @@
 
 - `AUDIT-REF02-0001~0010` — historical / 31~120 pre/post audits
 - `AUDIT-REF02-0011` — 121~180 adaptive pre-merge / passed
+- `AUDIT-REF02-0012` — 121~180 adaptive post-merge / complete
 
 ## 121~180화 핵심 판정
 
