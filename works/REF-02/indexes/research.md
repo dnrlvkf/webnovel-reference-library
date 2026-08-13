@@ -6,7 +6,7 @@
 - canonical_completed_precision_scope: `1~50화`
 - latest_batch: `BATCH-REF02-0005`
 - latest_receipt: `RCPT-20260813-0906-REF02`
-- latest_status: `complete_pending_seal`
+- latest_status: `complete`
 - research_content_sha: `f299e1a9f7a04ca92d7c85458e6c3c1d1d379559`
 
 ## 표준 상태
@@ -36,7 +36,6 @@
 ## 작품 모델
 
 ### 누적 모델
-
 - `CHR-REF02-0001` — 생존·자율성·인간다움·초월 위험 수용·관계 의무의 조건별 판단 지도, 1~50화
 - `REL-REF02-0001` — 제한 계약에서 감사·사과·비공식 의무까지, 11~50화
 - `EVT-REF02-0001` — 사건 결과의 성장 인프라·새 위험 전환, 1~30화
@@ -44,7 +43,6 @@
 - `PRO-REF02-0001` — 설명·시점·재분류 운용, 1~30화
 
 ### 31~40화
-
 - `REL-REF02-0002` — 경쟁 상위 조직과의 비용·권리 협력
 - `ORG-REF02-0001`, `ORG-REF02-0002` — 경쟁 조직 모델
 - `EVT-REF02-0002` — 비경 수확·자율 법기·법역 토벌
@@ -52,7 +50,6 @@
 - `PRO-REF02-0002` — 합리적 오해·역할 설명·구조 비유
 
 ### 41~50화
-
 - `REL-REF02-0003` — 소개자의 신뢰가 절차적 보호로 바뀌는 초기 관계
 - `EVT-REF02-0003` — 결전 후 포식·분리 신원·축기·중층부 진입
 - `STY-REF02-0003` — 승리·은폐·성장 보상을 즉시 다음 비용으로 뒤집는 배열
@@ -80,7 +77,7 @@
 - `AUDIT-REF02-0003` — 31~40 pre-merge / passed
 - `AUDIT-REF02-0004` — 31~40 post-merge / complete
 - `AUDIT-REF02-0005` — 41~50 v6.1 pre-merge / passed
-- `AUDIT-REF02-0006` — 41~50 post-merge / pending creation
+- `AUDIT-REF02-0006` — 41~50 post-merge / complete
 
 ## 41~50화 핵심 미확인
 
