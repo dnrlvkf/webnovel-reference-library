@@ -16,6 +16,7 @@
 ## 경로
 
 - `works/REF-02/research_receipts/RCPT-20260813-0924-REF02.md`
+- `works/REF-02/research_receipts/RCPT-20260813-0924-REF02-SEAL.md`
 - `works/REF-02/research_receipts/RCPT-20260813-0906-REF02.md`
 - `works/REF-02/research_receipts/RCPT-20260813-0906-REF02-SEAL.md`
 - `works/REF-46/research_receipts/RCPT-20260809-0002-REF46.md`
