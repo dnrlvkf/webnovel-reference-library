@@ -3,12 +3,11 @@
 - identity: `sealed`
 - source: `SRC-COL2-027`
 - boundary: `1~284화 / exact`
-- canonical_completed_precision_scope: `1~120화`
-- prepared_scope: `121~180화`
+- canonical_completed_precision_scope: `1~180화`
 - latest_batch: `BATCH-REF02-0008`
 - latest_receipt: `RCPT-20260813-1046-REF02`
-- latest_status: `pending_merge`
-- research_content_sha: `PENDING_MERGE`
+- latest_status: `complete`
+- research_content_sha: `19055585f6791dbb8fa17b1a780575bec92d9506`
 
 ## 표준 상태
 
@@ -36,7 +35,7 @@
 - `BATCH-REF02-0005` — 41~50화 / complete
 - `BATCH-REF02-0006` — 51~60화 / complete
 - `BATCH-REF02-0007` — 61~120화 / adaptive sweep / complete
-- `BATCH-REF02-0008` — 121~180화 / adaptive sweep / pending merge
+- `BATCH-REF02-0008` — 121~180화 / adaptive sweep / complete
 
 ## 원천 장면
 
@@ -47,13 +46,13 @@
 - `SC-REF02-0033~0042` — 41~50화
 - `SC-REF02-0043~0052` — 51~60화
 - `SC-REF02-0053~0062` — 61~120화 / adaptive re-entry clusters
-- `SC-REF02-0063~0071` — 121~180화 / adaptive re-entry clusters / branch
+- `SC-REF02-0063~0071` — 121~180화 / adaptive re-entry clusters
 
 ## 작품 모델
 
 ### CHARACTER
 
-- `CHR-REF02-0001` — 1~180화 조건별 판단 지도 준비
+- `CHR-REF02-0001` — 1~180화 조건별 판단 지도
   - 조직 내부 역할과 정보 충성 분리
   - 강제 상태와 자발적 적대 구분
   - 현재 감사와 미래 안전권 분리
@@ -63,12 +62,12 @@
 
 ### RELATIONSHIP
 
-- `REL-REF02-0001` — 제한 거래→비밀권 장기 동업→상위 수련·신체 승급 책임→상호 비밀권·상계 공동 목표 / 보강
+- `REL-REF02-0001` — 제한 거래→비밀권 장기 동업→상위 수련·신체 승급 책임→상호 비밀권·상계 공동 목표
 - `REL-REF02-0002` — 경쟁 상위 조직과 비용·권리 협력
 - `REL-REF02-0003` — 소개자의 신뢰와 절차적 보호
-- `REL-REF02-0004` — 검증 동료 A·B의 역할 보완·장기 투자·원거리 전술 문법 / 보강
-- `REL-REF02-0005` — 상위 후계자 A의 친구 욕망·경계 충돌·자기희생 오독·비밀권·자율성 / 신규
-- `REL-REF02-0006` — 위험 상위자와 복수 계약→공동 공로·유해 반환→원조·잠입·영혼 종결 협력 / 신규
+- `REL-REF02-0004` — 검증 동료 A·B의 역할 보완·장기 투자·원거리 전술 문법
+- `REL-REF02-0005` — 상위 후계자 A의 친구 욕망·경계 충돌·자기희생 오독·비밀권·자율성
+- `REL-REF02-0006` — 위험 상위자와 복수 계약→공동 공로·유해 반환→원조·잠입·영혼 종결 협력
 
 ### ORGANIZATION
 
@@ -78,20 +77,20 @@
 ### EVENT
 
 - `EVT-REF02-0001~0005` — 1~120화
-- `EVT-REF02-0006` — 가짜 신분 내부 임무→국가·조직 균열→복수 계약→관계망 연합→원영경·법역→상층부 진입 / 신규
+- `EVT-REF02-0006` — 가짜 신분 내부 임무→국가·조직 균열→복수 계약→관계망 연합→원영경·법역→상층부 진입
 
 ### STORY / PAYOFF
 
 - `STY-REF02-0001~0005` — 1~120화
-- `STY-REF02-0006` — 내부 검증 오해·관계 오독·승리 종료 지연·빈 법역 재분류 / 신규
+- `STY-REF02-0006` — 내부 검증 오해·관계 오독·승리 종료 지연·빈 법역 재분류
 - `PAY-REF02-0001` — 전쟁 초반 핵심 인력 암살→후반 합격진 빈자리
 - `PAY-REF02-0002` — 초기 깊은 체질 흔적→106화 신원 재연결
-- `PAY-REF02-0003` — 자율성 질문→주인공 부재 상태에서 정치 후보 A의 조직 통제 거부 / 신규
+- `PAY-REF02-0003` — 자율성 질문→주인공 부재 상태에서 정치 후보 A의 조직 통제 거부
 
 ### PROSE
 
 - `PRO-REF02-0001~0005` — 1~120화
-- `PRO-REF02-0006` — 반응 증거화·관계 오독·법칙/시간층 관찰·법역 재분류·후반 감정 직접 발화 / 신규
+- `PRO-REF02-0006` — 반응 증거화·관계 오독·법칙/시간층 관찰·법역 재분류·후반 감정 직접 발화
 
 ## 활성 TH
 
@@ -104,7 +103,7 @@
 - `TH-REF02-TEC-05` — `VERIFIED_THREAD`; 우회·입력 가정 교란·경계 균열을 포함하는 최소 구조 개입으로 확장
 - `TH-REF02-TEC-06` — `VERIFIED_THREAD`
 - `TH-REF02-TEC-07` — `VERIFIED_THREAD`; 개별 술식 학습→빈 법역 플랫폼 합성
-- `TH-REF02-TEC-08` — `VERIFIED_THREAD`; 육신 제압과 도주 영혼 종결 2단 전투 / 신규
+- `TH-REF02-TEC-08` — `VERIFIED_THREAD`; 육신 제압과 도주 영혼 종결 2단 전투
 - `TH-REF02-EVT-03` — `VERIFIED_THREAD`
 
 ## Macro·Micro
@@ -112,7 +111,7 @@
 - `MAC-REF02-0001` — 상대 내면 비전환 관계 협상
 - `MAC-REF02-0002` — 주인공 부재 POV의 관계 욕망과 구조 행동
 - `MAC-REF02-0003` — 과거 구원 가능성보다 현재 선택 우선
-- `MAC-REF02-0004` — 빈 법역을 결핍에서 미할당 플랫폼으로 재분류하고 즉시 전투 증명 / 신규
+- `MAC-REF02-0004` — 빈 법역을 결핍에서 미할당 플랫폼으로 재분류하고 즉시 전투 증명
 - `MIC-REF02-0001` — 반사 발화가 사과를 발생시키는 표현 단위
 - 121~180화 신규 Micro: 없음
 
@@ -157,11 +156,14 @@
 - 비상 능력의 분신·가짜 본체 대상 지정 실패
 - 육신/영혼 분업의 상계 특수 도주 수단 대응
 
-## 다음 절차
+## 원격 상태
 
-1. canonical `main` HEAD를 BASE SHA와 다시 비교.
-2. 변경 파일·신규 ID·링크·익명성·스키마·적응형 기록 억제를 재감사.
-3. 통과하면 PR 생성·merge.
-4. merge 뒤 `canonical_completed_precision_scope`를 `1~180화`로 올림.
-5. receipt·global recent receipts·post-merge audit·FINAL SHA seal을 봉인.
-6. 다음 adaptive sweep: `181~240화`.
+- PR: `#12` / merged
+- research content SHA: `19055585f6791dbb8fa17b1a780575bec92d9506`
+- final SHA: `RCPT-20260813-1046-REF02-SEAL` 참조
+- remote status: `verified_on_main`
+
+## 다음 범위
+
+- adaptive sweep: `181~240화`
+- 질문: 상층부 원영경·법역 전투의 카운터·비용·실패, 육신/영혼 분업의 상계급 반례, 장기 동업자 A의 상계 공동 책임, 상위 후계자 A의 재교차, TEC-07 구조 오판 실패, 이질 동기 연합의 보상·배신 비용
