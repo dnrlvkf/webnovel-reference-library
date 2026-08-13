@@ -7,8 +7,8 @@
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_batch: `BATCH-REF46-0005`
 - latest_receipt: `RCPT-20260814-0513-REF46`
-- research_content_sha: `PENDING_MERGE`
-- latest_status: `pending_merge`
+- research_content_sha: `b8573713ddf4a250cdbef2d2549de698f6782aa7`
+- latest_status: `complete / verified_on_main`
 
 ## 현재 연구 질문
 
@@ -219,7 +219,7 @@
 - `AUDIT-REF46-0006` — 역할 자기평가 follow-up post-merge / passed.
 - `AUDIT-REF46-0007` — 직접 지휘 실패 비용 pre-merge / passed.
 - `AUDIT-REF46-0008` — 직접 지휘 실패 비용 post-merge / passed.
-- `AUDIT-REF46-0009` — 연구 최종 중단권 pre-merge / passed.
+- `AUDIT-REF46-0009` — 연구 최종 중단권 pre/post 통합 감사 / complete.
 
 ## 다음 질문
 
