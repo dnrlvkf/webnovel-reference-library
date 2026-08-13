@@ -3,12 +3,11 @@
 - identity: `sealed`
 - source: `SRC-COL2-027`
 - boundary: `1~284화 / exact`
-- canonical_completed_precision_scope: `1~180화`
-- prepared_scope: `181~240화`
+- canonical_completed_precision_scope: `1~240화`
 - latest_batch: `BATCH-REF02-0009`
 - latest_receipt: `RCPT-20260813-1150-REF02`
-- latest_status: `pending_merge`
-- research_content_sha: `PENDING_MERGE`
+- latest_status: `complete`
+- research_content_sha: `3299c0c4229db744f8cba33e82c6fe7c54e35605`
 
 ## 표준 상태
 
@@ -37,20 +36,20 @@
 - `BATCH-REF02-0006` — 51~60화 / complete
 - `BATCH-REF02-0007` — 61~120화 / adaptive / complete
 - `BATCH-REF02-0008` — 121~180화 / adaptive / complete
-- `BATCH-REF02-0009` — 181~240화 / adaptive / pending merge
+- `BATCH-REF02-0009` — 181~240화 / adaptive / complete
 
 ## 원천 장면
 
 - `SC-REF02-0001~0052` — 1~60화
 - `SC-REF02-0053~0062` — 61~120화 / adaptive clusters
 - `SC-REF02-0063~0071` — 121~180화 / adaptive clusters
-- `SC-REF02-0072~0081` — 181~240화 / adaptive clusters / branch
+- `SC-REF02-0072~0081` — 181~240화 / adaptive clusters
 
 ## 작품 모델
 
 ### CHARACTER
 
-- `CHR-REF02-0001` — 1~240화 주인공 A 조건별 판단 지도 준비
+- `CHR-REF02-0001` — 1~240화 주인공 A 조건별 판단 지도
   - 장기 생존·선택권
   - 인간다움·약한 감정 수용
   - 초월 위험·실행 오차
@@ -58,32 +57,37 @@
   - 강제 상태·자발 적대 분리
   - 문제 해결 책임과 사후 통치 책임 분리
   - 상위 힘 모사의 채무·행동권 박탈
-- `CHR-REF02-0002` — 상위 동맹 A / 과거 본능 실패→후대 기준→현혹 붕괴→비가역 비용 복귀→유산 인계 / 신규
+- `CHR-REF02-0002` — 상위 동맹 A / 과거 본능 실패→후대 기준→현혹 붕괴→비가역 비용 복귀→유산 인계
 
 ### RELATIONSHIP
 
 - `REL-REF02-0001` — 장기 동업자 A / 비밀권·이동권·신체 성장 책임·상계 공동 목표 + 기존 조직 의무/기억 강제 침해
-- `REL-REF02-0002~0004` — 기존 조직·검증 동료 관계 유지
+- `REL-REF02-0002~0004` — 기존 조직·검증 동료 관계
 - `REL-REF02-0005` — 상위 후계자 A / 자율성 선택→독립 재등장→상위 체계 강제 분리
 - `REL-REF02-0006` — 상위 동행자 A / 복수 계약→공동 공로·원조·잠입·영혼 종결
-- `REL-REF02-0007` — 상위 동맹 A / 현재 기술↔미래 후대 연구 의무→현혹 붕괴→비가역 비용 복귀→유산 / 신규
+- `REL-REF02-0007` — 상위 동맹 A / 현재 기술↔미래 후대 연구 의무→현혹 붕괴→비가역 비용 복귀→유산
+
+### ORGANIZATION
+
+- `ORG-REF02-0001~0004` — 기존 모델 유지.
+- 181~240화의 기능 한정 최고 직위, 옛 명령 절대화, 억압 조직 해체는 CHARACTER/RELATIONSHIP/EVENT/STORY에 흡수해 신규 조직 파일을 억제함.
 
 ### EVENT
 
 - `EVT-REF02-0001~0006` — 1~180화
-- `EVT-REF02-0007` — 유산 의무→관계/조직 충돌→실시간 합성→무코어 지연전→상층 우발 세계→조직 해체→초월 채무/강제 승급 / 신규
+- `EVT-REF02-0007` — 유산 의무→관계/조직 충돌→실시간 합성→무코어 지연전→상층 우발 세계→조직 해체→초월 채무/강제 승급
 
 ### STORY / PAYOFF
 
 - `STY-REF02-0001~0006` — 1~180화
-- `STY-REF02-0007` — 기존 성공 문법을 실패·반례·상위 권리로 다시 여는 배열 / 신규
+- `STY-REF02-0007` — 기존 성공 문법을 실패·반례·상위 권리로 다시 여는 배열
 - `PAY-REF02-0001~0003` — 기존 장기 회수
-- `PAY-REF02-0004` — 85화 재회 예고/상위 힘 차용→238~240화 원본 감지·채무·강제 소환/승급 / 신규
+- `PAY-REF02-0004` — 초기 재회 예고/상위 힘 차용→반복 모사→238~240화 원본 감지·채무·강제 소환/승급
 
 ### PROSE
 
 - `PRO-REF02-0001~0006` — 1~180화
-- `PRO-REF02-0007` — 신념 붕괴 비용·시간 해상도·외로움 수련·다중 잠입 정보차·강제 승급 감각 / 신규
+- `PRO-REF02-0007` — 신념 붕괴 비용·시간 해상도·외로움 수련·다중 잠입 정보차·강제 승급 감각
 
 ## 활성 TH
 
@@ -101,8 +105,8 @@
 ## Macro·Micro
 
 - `MAC-REF02-0001~0004` — 기존
-- `MAC-REF02-0005` — 신념 설명→실제 붕괴→비가역 비용→복귀→유산 / 신규
-- `MAC-REF02-0006` — 외로움/취약함 수용→독립성 재정의→개념 술식→피로 / 신규
+- `MAC-REF02-0005` — 신념 설명→실제 붕괴→비가역 비용→복귀→유산
+- `MAC-REF02-0006` — 외로움/취약함 수용→독립성 재정의→개념 술식→피로
 - `MIC-REF02-0001` — 기존
 - 181~240화 신규 Micro: 없음
 
@@ -149,14 +153,14 @@
 
 - `AUDIT-REF02-0001~0012` — historical / 31~180 pre/post
 - `AUDIT-REF02-0013` — 181~240 adaptive pre-merge / passed
+- `AUDIT-REF02-0014` — 181~240 adaptive post-merge / complete
 
 ## 원격 상태
 
-- BASE SHA: `2d74306f46a4de79d5ca0e82563a3035dc7d902b`
-- branch: `research/ref02-episodes-181-240-adaptive-v61`
-- PR: pending
-- research content SHA: pending
-- remote status: branch_pre_merge
+- PR: `#13` / merged
+- research content SHA: `3299c0c4229db744f8cba33e82c6fe7c54e35605`
+- final SHA: `RCPT-20260813-1150-REF02-SEAL` 참조
+- remote status: `verified_on_main`
 
 ## 다음 범위
 
