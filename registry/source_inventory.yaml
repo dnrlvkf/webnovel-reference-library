@@ -27,7 +27,7 @@ bound_sources:
         segment_sha256: 64cecf136f0126089665e62d0459322376461e7e60a2b1a59483c1c6531b86e1
       - episodes: 9-10
         lines: 2531-3224
-        segment_sha256: 0b375e2b59c23d4b0925b12b57c68780600a016f96b766
+        segment_sha256: 0b375e2b59c23d4b0925b12b57c68780600d561f7dfb764390a5782acbd6320e
       - episodes: 51-60
         lines: 19453-23466
         segment_sha256: 14459ef08a6bc5126a3b2d7daf4d059c05ff0959cea06b8fda02047b0747defd
