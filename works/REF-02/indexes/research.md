@@ -6,7 +6,7 @@
 - canonical_completed_precision_scope: `1~60화`
 - latest_batch: `BATCH-REF02-0006`
 - latest_receipt: `RCPT-20260813-0924-REF02`
-- latest_status: `post_merge_audit_pending`
+- latest_status: `complete`
 - research_content_sha: `cdcad32bd082c4ca05f8fb766ad903c2992b3e15`
 
 ## 표준 상태
@@ -24,7 +24,7 @@
 - `BATCH-REF02-0003` — 21~30화 / complete
 - `BATCH-REF02-0004` — 31~40화 / complete
 - `BATCH-REF02-0005` — 41~50화 / complete
-- `BATCH-REF02-0006` — 51~60화 / merged, post-merge audit pending
+- `BATCH-REF02-0006` — 51~60화 / complete
 
 ## 원천 장면
 
@@ -92,7 +92,7 @@
 - `AUDIT-REF02-0005` — 41~50 pre-merge / passed
 - `AUDIT-REF02-0006` — 41~50 post-merge / complete
 - `AUDIT-REF02-0007` — 51~60 pre-merge / passed
-- `AUDIT-REF02-0008` — 51~60 post-merge / pending creation
+- `AUDIT-REF02-0008` — 51~60 post-merge / complete
 
 ## 51~60화 핵심 판정
 
