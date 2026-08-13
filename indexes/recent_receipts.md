@@ -24,7 +24,6 @@
 ## 경로
 
 - `works/REF-46/research_receipts/RCPT-20260814-0513-REF46.md`
-- `works/REF-46/research_receipts/RCPT-20260814-0513-REF46-SEAL.md`
 - `works/REF-46/research_receipts/RCPT-20260813-1732-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260813-1732-REF46-SEAL.md`
 - `works/REF-46/research_receipts/RCPT-20260813-1713-REF46.md`
