@@ -14,7 +14,7 @@ bound_sources:
     byte_size: 4366295
     sha256: 17b0f41b6b64eefe6f3d1354d22e2d75529be153b1f0f7fd71f00a016f96b766
     encoding: utf-8
-    current_research_scope: 1-60
+    current_research_scope: 1-120
     source_locations:
       - episodes: 1-2
         lines: 1-770
@@ -31,5 +31,8 @@ bound_sources:
       - episodes: 51-60
         lines: 19453-23466
         segment_sha256: 14459ef08a6bc5126a3b2d7daf4d059c05ff0959cea06b8fda02047b0747defd
+      - episodes: 61-120
+        lines: 23467-46482
+        segment_sha256: 8bd5ce4d5867874d36b1470da79921a821294b51be0b899c678facb78693855c
 
 unbound_source_policy: assign SRC ID, verify hash and boundary, then bind to an existing or new REF; never infer identity from episode count alone.
