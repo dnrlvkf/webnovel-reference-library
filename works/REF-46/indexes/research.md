@@ -7,8 +7,8 @@
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_batch: `BATCH-REF46-0009`
 - latest_receipt: `RCPT-20260814-1646-REF46`
-- research_content_sha: `PENDING_MERGE`
-- latest_status: `pending_merge`
+- research_content_sha: `a9468d31b26a8f1a7a25d2530b5ac2953d6862c1`
+- latest_status: `complete / verified_on_main`
 
 ## 현재 연구 질문
 
@@ -44,7 +44,7 @@
 - `SC-REF46-0001` — 118화 / 중상 상태의 끊어진 발화와 동료 치료 우선순위
 - `SC-REF46-0002` — 134화 / 과장된 자신감과 진짜 평가 앞 자기축소
 - `SC-REF46-0003` — 142~143화 / 결심 후 발화 변화, 관계 망설임, 인정 뒤 미해소 죽음 감정
-- `SC-REF46-0004` — 150화 / 정확한 관찰과 틀린 존재론적 정체 결론
+- `SC-REF46-0004` — 150화 / 정확한 관찰과 틀린 존재론적 결론
 - `SC-REF46-0005` — 208화 / 다인 책임 앞 발화 붕괴와 결정권 이전
 - `SC-REF46-0006` — 360화 / 공식 보고 압축과 의도적 누락·죄책감
 - `SC-REF46-0007` — 362화 / 3인칭 정보권 이동과 독자 정보 우위
@@ -241,6 +241,7 @@
 - `AUDIT-REF46-0012~0013` — 책임 소유 구조 pre/post / passed.
 - `AUDIT-REF46-0014~0015` — 교육 실패·사망 자기평가 pre/post / passed.
 - `AUDIT-REF46-0016` — 죽음 경험 이후 역할·생존 재결합 pre-merge / passed.
+- `AUDIT-REF46-0017` — 죽음 경험 이후 역할·생존 재결합 post-merge / passed.
 
 ## 다음 질문
 
