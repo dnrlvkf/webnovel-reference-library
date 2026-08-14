@@ -7,8 +7,8 @@
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_batch: `BATCH-REF46-0007`
 - latest_receipt: `RCPT-20260814-1452-REF46`
-- research_content_sha: `PENDING_MERGE`
-- latest_status: `pending_merge`
+- research_content_sha: `308126f52c41a17c0075d7cfd17306ebbb00312e`
+- latest_status: `complete / verified_on_main`
 
 ## 현재 연구 질문
 
@@ -232,6 +232,7 @@ B. `문제 영역 적합성 / 관찰 가능성 / 역할 권한 / 위임·공동 
 - `AUDIT-REF46-0010` — 상향 설득 후회 follow-up pre-merge / passed.
 - `AUDIT-REF46-0011` — 상향 설득 후회 follow-up post-merge / passed.
 - `AUDIT-REF46-0012` — 책임 소유 구조 pre-merge / passed.
+- `AUDIT-REF46-0013` — 책임 소유 구조 post-merge / passed.
 
 ## 다음 질문
 
