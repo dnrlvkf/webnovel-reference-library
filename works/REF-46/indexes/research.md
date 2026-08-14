@@ -7,8 +7,8 @@
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_batch: `BATCH-REF46-0008`
 - latest_receipt: `RCPT-20260814-1548-REF46`
-- research_content_sha: `PENDING_MERGE`
-- latest_status: `pending_merge`
+- research_content_sha: `2362e25c48b17341c5365d5a971dd643999a41be`
+- latest_status: `complete / verified_on_main`
 
 ## 현재 연구 질문
 
@@ -224,6 +224,7 @@
 - `AUDIT-REF46-0010~0011` — 상향 설득 후회 follow-up pre/post / passed.
 - `AUDIT-REF46-0012~0013` — 책임 소유 구조 pre/post / passed.
 - `AUDIT-REF46-0014` — 교육 실패·사망 자기평가 pre-merge / passed.
+- `AUDIT-REF46-0015` — 교육 실패·사망 자기평가 post-merge / passed.
 
 ## 다음 질문
 
