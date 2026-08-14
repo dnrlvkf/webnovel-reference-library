@@ -7,8 +7,8 @@
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_batch: `BATCH-REF46-0006`
 - latest_receipt: `RCPT-20260814-1419-REF46`
-- research_content_sha: `PENDING_MERGE`
-- latest_status: `pending_merge`
+- research_content_sha: `724d7bcc75945c4e6bd66c99ec83537fa615c941`
+- latest_status: `complete / verified_on_main`
 
 ## 현재 연구 질문
 
@@ -16,7 +16,7 @@
 
 > `상부가 위험 경고를 가볍게 받음 → 사후 후회 → 후속 유사 상황 → 더 강한 재경고/재보고 → 상부 판단 변화 또는 비용 감소`
 
-1~917화 전체 왕복 결과 이 완전한 사슬은 확인되지 않았다.
+1~917화 전체 왕복 결과 이 완전 사슬은 확인되지 않았다.
 
 - 354~355화: 위험 예측 적중 뒤 상부 설득 강도 부족을 직접 후회.
 - 360화: 복귀 즉시 정식 전황 보고를 하지만, 상부가 같은 종류의 고확신 경고를 다시 묵살하는 비교 상황은 아님. 결과 중심 압축과 핵심 정보 누락이 함께 존재.
@@ -207,6 +207,7 @@
 - `AUDIT-REF46-0008` — 직접 지휘 실패 비용 post-merge / passed.
 - `AUDIT-REF46-0009` — 연구 최종 중단권 pre/post 통합 감사 / complete.
 - `AUDIT-REF46-0010` — 상향 설득 후회 follow-up pre-merge / passed.
+- `AUDIT-REF46-0011` — 상향 설득 후회 follow-up post-merge / passed.
 
 ## 다음 질문
 
