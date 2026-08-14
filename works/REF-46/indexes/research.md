@@ -7,8 +7,8 @@
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_batch: `BATCH-REF46-0010`
 - latest_receipt: `RCPT-20260814-1728-REF46`
-- research_content_sha: `PENDING_MERGE`
-- latest_status: `pending_merge`
+- research_content_sha: `ce0453d13eb9a8039a42a0ec4f1a8b0053f32000`
+- latest_status: `complete / verified_on_main`
 
 ## 현재 연구 질문
 
@@ -263,7 +263,7 @@
 - `AUDIT-REF46-0012~0013` — 책임 소유 구조 pre/post / passed.
 - `AUDIT-REF46-0014~0015` — 교육 실패·사망 자기평가 pre/post / passed.
 - `AUDIT-REF46-0016~0017` — 죽음 경험 이후 역할·생존 재결합 pre/post / passed.
-- `AUDIT-REF46-0018` — 역할별 자기평가와 대사 문형 미시 감사 / passed_pre_merge.
+- `AUDIT-REF46-0018~0019` — 역할별 자기평가와 대사 문형 미시 감사 pre/post / passed.
 
 ## 다음 질문
 
