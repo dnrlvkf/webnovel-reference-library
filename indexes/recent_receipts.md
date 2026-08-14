@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260814-1548-REF46` | `REF-46` | 작품 전체 왕복 채굴 / education failure self-evaluation audit | `1~917화 전체 검색 + 473, 478, 634, 739~743화 및 후속 교육 역할/유산 재독` | `2362e25c48b17341c5365d5a971dd643999a41be` | complete |
 | `RCPT-20260814-1452-REF46` | `REF-46` | 작품 전체 왕복 채굴 / responsibility architecture audit | `1~917화 전체 검색 + 208, 254, 285, 338, 354~355, 391, 590, 616화 재독` | `308126f52c41a17c0075d7cfd17306ebbb00312e` | complete |
 | `RCPT-20260814-1419-REF46` | `REF-46` | 작품 전체 왕복 채굴 / upward warning follow-up | `1~917화 전체 검색 + 354~355, 360~364, 373, 391, 553, 777화 재독` | `724d7bcc75945c4e6bd66c99ec83537fa615c941` | complete |
 | `RCPT-20260814-0513-REF46` | `REF-46` | 작품 전체 왕복 채굴 / research-stop authority audit | `1~917화 전체 검색 + 170~171, 604~606, 717~718, 807화 재독` | `b8573713ddf4a250cdbef2d2549de698f6782aa7` | complete |
@@ -25,6 +26,7 @@
 
 ## 경로
 
+- `works/REF-46/research_receipts/RCPT-20260814-1548-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260814-1452-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260814-1419-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260814-0513-REF46.md`
