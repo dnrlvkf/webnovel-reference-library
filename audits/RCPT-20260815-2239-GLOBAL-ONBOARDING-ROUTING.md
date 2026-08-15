@@ -8,9 +8,10 @@
 - source_scope: `no new source-text research claim; Project Source standards + current repository routing/contracts + sample-derived research question only`
 - base_sha: `683826ba52dc9291a5cc695b322e6079a4848e09`
 - research_content_sha: `037c61860d948fe40c55c39a41bacf7f182a1593`
-- final_sha: `PENDING_INDEX_SEAL`
-- remote_status: `pending_index_seal`
-- status: `content_complete_pending_index_seal`
+- final_sha: `76b00b294a71208c87d6bc7e69ebc3974dfa2028`
+- final_sha_mode: `self_excluding_receipt_finalization`
+- remote_status: `ready_for_main_reflection`
+- status: `complete`
 
 ## 표준 검증
 
@@ -56,6 +57,8 @@
   - 첫 제시·재온보딩 연구 시 라우팅 계약을 먼저 적용하고 작품별 독립 연구 후 비교하도록 루트 작업 규칙에 추가.
 - `README.md`
   - 연구 시작점에 동일 라우팅을 설명하고 `좋은 1화`의 공통 문형·사건 템플릿 문서가 아님을 명시.
+- `indexes/recent_receipts.md`
+  - 본 영수증을 최상단에 추가하고 연구 내용 SHA `037c61860d948fe40c55c39a41bacf7f182a1593`를 연결.
 
 ## 변경하지 않은 것
 
@@ -91,6 +94,7 @@
 - `1화`라는 숫자보다 첫 제시·재온보딩·압축 회수의 역할 차이를 연구하게 함.
 - 작품 내부 비교가 작품 간 비교보다 우선되도록 기존 격리 원칙과 일치.
 - source-reentry 계약을 유지하여 파생 연구 기록이 산문 생성기가 되지 않도록 함.
+- recent receipt index seal SHA: `76b00b294a71208c87d6bc7e69ebc3974dfa2028`.
 
 ## 변경 파일
 
@@ -99,7 +103,7 @@
 - `AGENTS.md`
 - `README.md`
 - `audits/RCPT-20260815-2239-GLOBAL-ONBOARDING-ROUTING.md`
-- `indexes/recent_receipts.md` (index seal 예정)
+- `indexes/recent_receipts.md`
 
 ## 다음 질문
 
