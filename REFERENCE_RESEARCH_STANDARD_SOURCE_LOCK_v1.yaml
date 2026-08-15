@@ -5,9 +5,9 @@ verification_required: true
 
 standards:
   - key: analysis_sop
-    filename: "REFERENCE_RESEARCH_ANALYSIS_SOP_v7.md"
-    sha256: "21e870fe54e307ff826d0d030eb23904a4ad307dc60e05234de33fa95b046d88"
-    size_bytes: 116100
+    filename: "REFERENCE_RESEARCH_ANALYSIS_SOP_v7.1.md"
+    sha256: "3803ff35ff9d68211aa2ab655b76dd387567f441a424f41e2a8e5884722fe8c5"
+    size_bytes: 120486
     status: approved
 
   - key: repository_contract
@@ -18,8 +18,8 @@ standards:
 
   - key: work_model_schema
     filename: "REFERENCE_WORK_MODEL_SCHEMA_v2.md"
-    sha256: "8ed80e0684ab5fb2908004a7242548fdaac9dd02724f0456429cb68a8c44d7c4"
-    size_bytes: 19275
+    sha256: "1e6f5188749130900349cc7f54a9c07f888946d912485124fe45c7b4f50563f8"
+    size_bytes: 19277
     status: approved
 
 rules:
