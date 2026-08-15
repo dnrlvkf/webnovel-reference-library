@@ -6,13 +6,14 @@
 - raw_encoding: `UTF-16`
 - line_basis: UTF-16 decode 후 `splitlines` 기준 1-based
 - claimed_scope: `1-350`
-- verified episode header scope: `167-350`
+- verified episode header scope: `ep1 direct boundary verified; 167-350 previously verified`
 - boundary_status: `partial_header_verification`
 
 ## 이번 재독 위치
 
 | scene | episode | lines | normalized segment sha256 |
 |---|---:|---:|---|
+| `FULL-EP-REF47-0001` | 1 | 471-862 | `a4085b570676be7cd9fc2e59942651d7ad151d7c62286336445d7654460c1368` |
 | `SC-REF47-0001` | 245 | 131481-131519 | `ae61fe5c4d8446e3d15735c9d390e3dab5f3f52d2c4877df7e177c8978ea6e14` |
 | `SC-REF47-0002` | 253 | 135351-135385 | `23e6d5f71dc69f13d1b0df544f90e49c9a31e05e079bc30b7d3cae55c8647f71` |
 | `SC-REF47-0003` | 255 | 136273-136311 | `f37431d6a5aa5fe83339f588e810137d192375fec9cf7cff44ac0c63c28e697d` |
@@ -32,3 +33,5 @@
 | `SC-REF47-0017` | 331 | 176495-176571 | `c659e68a4d5cd9a0ad306ff13332b65433abddce22c80a694bbb3a000fce840d` |
 
 정규화 구간 해시는 해당 행 범위를 `\n`으로 결합하고 마지막 개행을 붙인 UTF-8 바이트 기준이다.
+
+`ep1`은 line 471의 episode header와 line 863의 다음 episode header를 직접 확인해 471-862 경계를 검증했다. 이는 기존 `1-166화 개별 episode header 미확정` 상태 전체를 해제하는 것이 아니라 ep1 한 건의 직접 경계 검증만 추가한다.
