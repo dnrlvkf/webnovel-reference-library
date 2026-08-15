@@ -1,8 +1,8 @@
 # REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.1_PROJECT_SOURCE_ADDENDUM
 
-> **SUPERSEDED / HISTORICAL COMPATIBILITY RECORD**
+> **SUPERSEDED / HISTORICAL COMPATIBILITY RECORD — NON-AUTHORITATIVE**
 >
-> 이 문서는 과거 프로젝트 소스 정본 전환 시점의 호환 기록이다. 현재 연구·집필·부트스트랩 지침으로 사용하지 않는다. 현행 적용 부속서는 `REPOSITORY_MANIFEST.yaml`의 `repository_contract_addendum_path`가 가리키는 문서이며, 현재 매니페스트는 `REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.3_PROJECT_SOURCE_ADDENDUM.md`를 가리킨다. 아래의 SOP v6 / schema v1 참조는 역사적 출처 정보일 뿐 현행 표준이 아니다.
+> 이 문서는 과거 프로젝트 소스 정본 전환 시점의 호환 기록이다. 현재 연구·집필·부트스트랩 지침으로 사용하지 않는다. **현행 적용 부속서는 오직 `REPOSITORY_MANIFEST.yaml`의 `repository_contract_addendum_path`가 가리키는 문서다.** 이 역사 파일 안의 SOP·Schema·필수 루트 경로·당시 적용 버전 표기는 모두 과거 상태 기록이며 현재 권위를 갖지 않는다.
 
 > 프로젝트 소스 정본 문서와 GitHub 연구 기록 정본을 분리하기 위한 저장소 계약 부속서
 
