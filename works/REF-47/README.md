@@ -3,17 +3,31 @@
 - identity exposure: sealed
 - primary source: `SRC-DIRECT-001`
 - source bridge: `source_registry/SOURCE-BRIDGE-REF47.md`
-- current mode: 작품 전체 왕복 채굴 / PSE-PVAR pilot
-- current question: 강한 진술 뒤 과도한 추론을 제한할 때 보정·이유·재분류를 문장/문단 경계에 어떻게 분배하는가
+- current mode: 작품 전체 왕복 채굴 / dialogue–narration allocation
+- current question: 판단을 대화로 좁힐 때 무엇을 대사로 말하고 무엇을 지문·행동·침묵·사건에 남기는가
 
-## 이번 파일셋
+## 파일셋 1 — 추론 범위 제한
 
 - source scenes: `source_scenes/SOURCE-SCENES-REF47-0001-0004.md`
 - prose model: `prose/PRO-REF47-0001.md`
 - prose evidence: `prose/evidence/PSE-REF47-0001.md` ~ `0004.md`
 - variation set: `prose/variations/PVAR-REF47-0001.md`
-- indexes: `indexes/prose.md`, `indexes/prose_evidence.md`, `indexes/prose_variations.md`
-- audit: `audits/AUD-20260815-PSE-PVAR-PILOT.md`
 - receipt: `research_receipts/RCPT-20260815-1753-REF47.md`
 
-이 파일셋은 작품 전체 문체 모델 완성이 아니라 새 PSE/PVAR 층의 첫 실제 운용 시험이다. 다른 트랙은 이번 질문에서 강제로 채우지 않는다.
+## 파일셋 2 — 대사·지문 업무 분담
+
+- source scenes: `source_scenes/SOURCE-SCENES-REF47-0005-0008.md`
+- prose model: `prose/PRO-REF47-0002.md`
+- prose evidence: `prose/evidence/PSE-REF47-0005.md` ~ `0008.md`
+- variation set: `prose/variations/PVAR-REF47-0002.md`
+- batch: `research_batches/BATCH-20260815-DIALOGUE-NARRATION.md`
+- audit: `audits/AUD-20260815-DIALOGUE-NARRATION.md`
+- receipt: `research_receipts/RCPT-20260815-1807-REF47.md`
+
+## 공통 인덱스
+
+- `indexes/prose.md`
+- `indexes/prose_evidence.md`
+- `indexes/prose_variations.md`
+
+현재 REF-47은 작품 전체 문체 모델 완성이 아니라 PSE/PVAR를 실제 집필 문제에 연결해 검증하는 단계다. 다른 트랙은 원문 근거가 충분할 때만 별도 ID로 승격한다.
