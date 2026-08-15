@@ -9,10 +9,10 @@
 - base_sha: `255343d8a51cfccad1d6179b40adf297b4233c3d`
 - branch: `research/retrieval-nonforcing-contract`
 - research_content_sha: `5957239d7004e0604ea80995e32908f4ea2919ff`
-- final_sha: `PENDING_FINAL_CHECKPOINT`
+- final_sha: `a81267c4b1648e81b1ef9ffd847024a3bc676e81`
 - final_sha_mode: `self_excluding_receipt_finalization`
-- remote_status: `pending_merge`
-- status: `prepared_for_merge`
+- remote_status: `verified_on_main`
+- status: `complete`
 
 ## 조회
 - project-source SOP v7 / repository contract v1 / work model schema v2 + lock 재검증
@@ -41,6 +41,11 @@
 - CONTRADICTED: 전체 결합 일치가 참고 적격성이라는 전제.
 - CONTRADICTED: 성공 장면 beat 순서가 권장 템플릿이라는 전제.
 - HOLD: schema v3 또는 새 retrieval record type.
+
+## 검증
+- PR #29 merged to main.
+- research final SHA: `a81267c4b1648e81b1ef9ffd847024a3bc676e81`.
+- receipt finalization is intentionally excluded from final_sha.
 
 ## 다음 질문
 부분 검색 계약을 적용한 새 테스트 원고가 이전 테스트보다 캐릭터 고유성·관계 권리·사건 운동·독자 그림을 강화하면서도 외부 Source Scene 결합 복제를 줄이는가.
