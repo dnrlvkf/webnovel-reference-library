@@ -10,10 +10,10 @@
 - base_sha: `082c065bc4068c335242793fa080354a4a41f878`
 - branch: `research/expression-episode-context-20260815`
 - research_content_sha: `db154cbb1b6133036ea84c2a99d9fc065a55bf01`
-- final_sha: `db154cbb1b6133036ea84c2a99d9fc065a55bf01`
+- final_sha: `5105d41ab3ceb27849dc6a463396bb635c1a39cf`
 - final_sha_mode: `self_excluding_receipt_and_index_finalization`
-- remote_status: `branch_verified_before_pr`
-- status: `complete_pending_merge`
+- remote_status: `verified_on_main`
+- status: `complete`
 
 ## 조회한 기록
 
@@ -91,13 +91,16 @@
 - `episode_context_envelope`는 임시 컴파일/독해 메모로 명시해 스키마 확장 조건을 우회하지 않음.
 - 기존 native anchor 우선, 표면 모방 금지, 대표/대비/실패 비교 원칙 유지.
 - REF-47 ep256 전체 재독으로 국소 PSE만 읽었을 때 놓치는 선행 제시량과 산문 파형 조건을 실제 검증함.
+- diff 감사 중 기존 REF-02 영수증 한 행의 우발 변경을 발견해 PR 전 원상복구함.
+- PR #32 변경 파일 4개만 확인하고 병합함.
+- research merge SHA: `5105d41ab3ceb27849dc6a463396bb635c1a39cf`.
 
 ## 변경 파일
 
 - `indexes/expression_retrieval.md`
 - `indexes/prose_realization_retrieval.md`
 - `audits/RCPT-20260815-2007-GLOBAL-EXPRESSION-CONTEXT.md`
-- `indexes/recent_receipts.md` (receipt indexing/finalization 단계)
+- `indexes/recent_receipts.md`
 
 ## 다음 질문
 
