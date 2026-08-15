@@ -8,9 +8,10 @@
 - source_scope: `no new source-text research claim; current manifest, legacy addenda v1.1-v1.3, catalog legacy boundary, current README/AGENTS routing only`
 - base_sha: `6ffc8f1e0e1576a3c9d2f5639d687de05fd36b3a`
 - research_content_sha: `c48d13a8ce87d61c25a9f5f27d06c085d47b3f48`
-- final_sha: `PENDING_INDEX_SEAL`
-- remote_status: `pending_index_seal`
-- status: `content_complete_pending_index_seal`
+- final_sha: `7ce20d2d7145c90f146ed0b45be3c25a38b5f470`
+- final_sha_mode: `self_excluding_receipt_finalization`
+- remote_status: `ready_for_main_reflection`
+- status: `complete`
 
 ## 조회한 기록
 
@@ -51,6 +52,8 @@
   - legacy non-authoritative roots: `catalog/`, `history/`.
   - historical contract paths: v1.1 / v1.2 / v1.3.
   - 기본 연구 검색에서 legacy roots 제외, bootstrap authority에서 historical contracts 제외, 현재 권위는 manifest에서만 판정하도록 기계 판독 정책 추가.
+- `indexes/recent_receipts.md`
+  - 본 감사 영수증을 최상단에 추가하고 연구 내용 SHA `c48d13a8ce87d61c25a9f5f27d06c085d47b3f48`를 연결.
 
 ## 변경하지 않은 것
 
@@ -68,6 +71,7 @@
 - 과거 실행 카드 값은 역사 자료로 보존하되 기본 연구 검색에서는 비권위 경로로 제외하는 것이 적절함.
 - 과거 계약 파일이 자기 자신 또는 특정 옛 버전을 현행으로 가리키는 경로를 제거함.
 - 새 채팅이나 도구가 루트 파일을 임의 순서로 발견하더라도 manifest를 확인하지 않은 과거 계약을 bootstrap 권위로 삼지 않도록 fail-closed 경계를 강화함.
+- recent receipt index seal SHA: `7ce20d2d7145c90f146ed0b45be3c25a38b5f470`.
 
 ## 변경 파일
 
@@ -76,7 +80,7 @@
 - `REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.3_PROJECT_SOURCE_ADDENDUM.md`
 - `REPOSITORY_MANIFEST.yaml`
 - `audits/RCPT-20260815-2244-GLOBAL-LEGACY-AUTHORITY-HARDENING.md`
-- `indexes/recent_receipts.md` (index seal 예정)
+- `indexes/recent_receipts.md`
 
 ## 다음 질문
 
