@@ -17,6 +17,7 @@ recent_receipts_index_path: "indexes/recent_receipts.md"
 scene_retrieval_contract_path: "indexes/scene_retrieval_contract.md"
 expression_retrieval_path: "indexes/expression_retrieval.md"
 prose_realization_retrieval_path: "indexes/prose_realization_retrieval.md"
+initial_onboarding_research_path: "indexes/initial_onboarding_research.md"
 
 identity_policy:
   default_exposure: sealed
