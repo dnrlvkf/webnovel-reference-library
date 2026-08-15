@@ -10,6 +10,8 @@
 4. `REFERENCE_RESEARCH_ANONYMITY_CONTRACT`
 5. `REPOSITORY_MANIFEST.yaml`이 가리키는 현행 검색 계약과 대상 `REF`의 작품 모델·원천 장면·PSE/PVAR·TH·최근 연구 영수증
 
+작품의 첫 진입, 신규 인물·관계·조직·공간·직업·능력·규칙의 첫 제시 또는 재온보딩을 연구할 때는 `indexes/initial_onboarding_research.md`를 사용합니다. 이 인덱스는 `좋은 1화`의 공통 문형이나 사건 템플릿을 만드는 문서가 아니라, 각 작품에서 독자가 무엇을 먼저 학습해야 했는지와 그 문제를 여섯 트랙이 어떻게 해결했는지를 기존 작품 모델에 독립적으로 저장하도록 라우팅하는 계약입니다. 작품별 근거가 성립하기 전에는 다른 REF의 성공 방식을 현재 작품의 정답으로 가져오지 않습니다.
+
 집필 검색에서 Source Scene을 사용할 때는 `indexes/scene_retrieval_contract.md`를 먼저 읽습니다. Source Scene의 실제 결합 사슬은 연구를 위한 `observed_chain`이며 집필용 `recommended_chain`이 아닙니다. 장면 전체 일치나 성공 장면의 beat 순서를 요구하지 않고, 현재 문제와 맞는 부분만 찾은 뒤 불일치 경계와 가져오지 말아야 할 요소를 함께 기록합니다.
 
 ## 공통 배치 운영
