@@ -4,7 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
-| `RCPT-20260815-1933-GLOBAL-ENTRYPOINT-REFRESH` | `GLOBAL / REF-02` | repository maintenance / entrypoint and state consistency audit | `no new source-text research claim; operational metadata and routing only` | `ab10b4b0346cb0a135ca20c1ac8d7dc1447ae9bd` | complete_pending_merge |
+| `RCPT-20260815-1933-GLOBAL-ENTRYPOINT-REFRESH` | `GLOBAL / REF-02` | repository maintenance / entrypoint and state consistency audit | `no new source-text research claim; operational metadata and routing only` | `ab10b4b0346cb0a135ca20c1ac8d7dc1447ae9bd` | complete |
 | `RCPT-20260815-1911-GLOBAL-SCENE-RETRIEVAL` | `GLOBAL / REF-47` | 작품 전체 왕복 채굴 / retrieval-contract audit | `REF-47 / SRC-DIRECT-001 / ep238,256,298,331 selected ranges reverified; no new source claim` | `5957239d7004e0604ea80995e32908f4ea2919ff` | complete |
 | `RCPT-20260815-1900-REF47` | `REF-47` | 작품 전체 왕복 채굴 / integrated scene-chain pilot | `SRC-DIRECT-001 / ep238,256,298,331 selected ranges` | `d711ca0c83669c1212a19f47698e35eb8e2cd0e5` | complete |
 | `RCPT-20260815-1846-REF47` | `REF-47` | 작품 전체 왕복 채굴 / dialogue cohesion | `SRC-DIRECT-001 / ep230,256(existing),298,329,331 selected ranges` | `c2df66829c7d04b595ddaefcdb7558c6f3ccbc39` | complete |
