@@ -1,13 +1,13 @@
-schema_version: "1.0"
+schema_version: "1.1"
 role: reference-research-standard-source-lock
 canonical_source: project_source
 verification_required: true
 
 standards:
   - key: analysis_sop
-    filename: "REFERENCE_RESEARCH_ANALYSIS_SOP_v6.1.md"
-    sha256: "fc60b40c9e2dda72271284d295bf6daabd121b5494e16b3b5452e810f2cdb431"
-    size_bytes: 94818
+    filename: "REFERENCE_RESEARCH_ANALYSIS_SOP_v7.md"
+    sha256: "21e870fe54e307ff826d0d030eb23904a4ad307dc60e05234de33fa95b046d88"
+    size_bytes: 116100
     status: approved
 
   - key: repository_contract
@@ -17,9 +17,9 @@ standards:
     status: approved
 
   - key: work_model_schema
-    filename: "REFERENCE_WORK_MODEL_SCHEMA_v1.md"
-    sha256: "825324e6b2e4d3cdafce6decf1919c80aac1d9d59863c237960d49be64f79121"
-    size_bytes: 11902
+    filename: "REFERENCE_WORK_MODEL_SCHEMA_v2.md"
+    sha256: "8ed80e0684ab5fb2908004a7242548fdaac9dd02724f0456429cb68a8c44d7c4"
+    size_bytes: 19275
     status: approved
 
 rules:
