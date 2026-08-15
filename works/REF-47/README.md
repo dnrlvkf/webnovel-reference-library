@@ -3,8 +3,8 @@
 - identity exposure: sealed
 - primary source: `SRC-DIRECT-001`
 - source bridge: `source_registry/SOURCE-BRIDGE-REF47.md`
-- current mode: 작품 전체 왕복 채굴 / retrieval-contract validation
-- current question: 통합 Source Scene의 실제 결합은 보존하되, 집필에서 장면 전체 일치나 beat 재현을 강제하지 않고 부분 문제만 안전하게 가져올 수 있는가
+- current mode: 구간 정밀 분석 / full-episode expression waveform
+- current question: 한 회차 전체에서 대사·지문·내면·설명·행동·효과음·UI·문단·문장이 어떤 파형으로 교대하며, 각 장면의 실제 한국어가 어떤 문법·어휘·생략·배열로 그 교대를 실현하는가
 
 ## 파일셋 1 — 추론 범위 제한
 
@@ -55,6 +55,16 @@
 - receipt: `research_receipts/RCPT-20260815-1900-REF47.md`
 - status: schema promotion `HOLD` — drafting test로 실제 검색 개선을 확인하기 전 v3를 만들지 않음
 
+## 파일셋 6 — 회차 전체 표현 파형
+
+- prose model: `prose/PRO-REF47-0005.md`
+- source scope: `SRC-DIRECT-001 / ep1 / lines 471-862`
+- batch: `research_batches/BATCH-20260815-EP1-EXPRESSION-WAVE.md`
+- audit: `audits/AUD-20260815-EP1-EXPRESSION-WAVE.md`
+- receipt: `research_receipts/RCPT-20260815-2151-REF47.md`
+- method: `회차 전체 → 장면 → 표현 채널 배열 → 문단 → 문장 → 절·어휘`
+- note: 이번 배치에서는 회차 파형 손실을 피하기 위해 새 PSE/PVAR를 기계적으로 만들지 않음
+
 ## 공통 인덱스
 
 - `indexes/source_scenes.md` — cross-track observed chain을 보존하되 부분 문제로 검색하는 상위 진입점
@@ -63,4 +73,4 @@
 - `indexes/prose_evidence.md`
 - `indexes/prose_variations.md`
 
-현재 REF-47은 작품 전체 문체 모델 완성이 아니라 실제 집필 실패를 원문으로 역추적해 검색 구조를 검증하는 단계다. Source Scene의 결합 사슬은 작가가 그 장면에서 실제로 한 선택을 복원하기 위해 보존하지만, 집필에서는 그 결합을 재현하지 않는다. 현재 장면의 CHARACTER·RELATIONSHIP·EVENT·STORY·PROSE 문제를 분해해 부분 일치로 원문에 재진입하고, 필요할 때 PVAR/PSE로 다른 실현을 확인한 뒤 대상 작품 조건으로 새로 조립한다.
+현재 REF-47은 작품 전체 문체 모델 완성이 아니라 실제 집필 실패를 원문으로 역추적해 검색 구조를 검증하는 단계다. Source Scene의 결합 사슬은 작가가 그 장면에서 실제로 한 선택을 복원하기 위해 보존하지만, 집필에서는 그 결합을 재현하지 않는다. 표현 연구에서는 국소 문장을 바로 실행 공식으로 바꾸지 않고 해당 회차 전체를 다시 읽어 장면별 대사·지문·내면·설명·행동·효과음·UI 파형을 먼저 확인한 뒤 문단·문장·절·어휘로 내려간다.
