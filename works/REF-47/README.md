@@ -3,8 +3,8 @@
 - identity exposure: sealed
 - primary source: `SRC-DIRECT-001`
 - source bridge: `source_registry/SOURCE-BRIDGE-REF47.md`
-- current mode: 구간 정밀 분석 / full-episode expression waveform
-- current question: 한 회차 전체에서 대사·지문·내면·설명·행동·효과음·UI·문단·문장이 어떤 파형으로 교대하며, 각 장면의 실제 한국어가 어떤 문법·어휘·생략·배열로 그 교대를 실현하는가
+- current mode: 구간 정밀 분석 / 초기 제시·온보딩
+- current question: ep1의 초기 제시 선택이 같은 작품의 후속 신규 인물·관계·규칙 온보딩과 압축 회수에서 어떻게 반복·변형·반례화되는가
 
 ## 파일셋 1 — 추론 범위 제한
 
@@ -65,12 +65,28 @@
 - method: `회차 전체 → 장면 → 표현 채널 배열 → 문단 → 문장 → 절·어휘`
 - note: 이번 배치에서는 회차 파형 손실을 피하기 위해 새 PSE/PVAR를 기계적으로 만들지 않음
 
+## 파일셋 7 — 초기 제시·온보딩 기준점
+
+- global routing: `../../indexes/initial_onboarding_research.md`
+- premise: `work_model/premise.md`
+- reader information: `work_model/reader_information_model.md`
+- character: `characters/CHR-REF47-0001.md`
+- relationship: `relationships/REL-REF47-0001.md`
+- event: `events/EVT-REF47-0001.md`
+- story episode: `story/episodes/EP-0001.md`
+- existing prose evidence: `prose/PRO-REF47-0005.md`
+- batch: `research_batches/BATCH-20260815-EP1-ONBOARDING.md`
+- audit: `audits/AUD-20260815-EP1-ONBOARDING.md`
+- source scope: `ep1 lines 471-862`; next-episode immediate recovery only `ep2 lines 863-929`
+- note: ep1을 전역 1화 공식으로 만들지 않고 같은 REF의 후속 신규 온보딩·압축 회수와 먼저 비교한다.
+
 ## 공통 인덱스
 
 - `indexes/source_scenes.md` — cross-track observed chain을 보존하되 부분 문제로 검색하는 상위 진입점
 - `../../indexes/scene_retrieval_contract.md` — `observed_chain ≠ recommended_chain`, 부분 일치, 불일치 경계, 결합 강제 감사 계약
+- `../../indexes/initial_onboarding_research.md` — 첫 제시·재온보딩을 작품별 독립 연구한 뒤 비교하는 라우팅 계약
 - `indexes/prose.md`
 - `indexes/prose_evidence.md`
 - `indexes/prose_variations.md`
 
-현재 REF-47은 작품 전체 문체 모델 완성이 아니라 실제 집필 실패를 원문으로 역추적해 검색 구조를 검증하는 단계다. Source Scene의 결합 사슬은 작가가 그 장면에서 실제로 한 선택을 복원하기 위해 보존하지만, 집필에서는 그 결합을 재현하지 않는다. 표현 연구에서는 국소 문장을 바로 실행 공식으로 바꾸지 않고 해당 회차 전체를 다시 읽어 장면별 대사·지문·내면·설명·행동·효과음·UI 파형을 먼저 확인한 뒤 문단·문장·절·어휘로 내려간다.
+현재 REF-47은 작품 전체 문체 모델 완성이 아니라 실제 집필 실패와 초기 제시 문제를 원문으로 역추적해 검색 구조를 검증하는 단계다. Source Scene의 결합 사슬은 작가가 그 장면에서 실제로 한 선택을 복원하기 위해 보존하지만, 집필에서는 그 결합을 재현하지 않는다. 표현 연구에서는 국소 문장을 바로 실행 공식으로 바꾸지 않고 해당 회차 전체를 다시 읽어 장면별 대사·지문·내면·설명·행동·효과음·UI 파형을 먼저 확인한 뒤 문단·문장·절·어휘로 내려간다. 초기 제시 연구에서도 ep1의 표면을 정답으로 만들지 않고, 같은 작품의 후속 첫 제시·압축 회수·반례를 왕복한 뒤에만 작품 내부 메커니즘을 판단한다.
