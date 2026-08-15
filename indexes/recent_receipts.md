@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260815-1900-REF47` | `REF-47` | 작품 전체 왕복 채굴 / integrated scene-chain pilot | `SRC-DIRECT-001 / ep238,256,298,331 selected ranges` | `d711ca0c83669c1212a19f47698e35eb8e2cd0e5` | complete |
 | `RCPT-20260815-1846-REF47` | `REF-47` | 작품 전체 왕복 채굴 / dialogue cohesion | `SRC-DIRECT-001 / ep230,256(existing),298,329,331 selected ranges` | `c2df66829c7d04b595ddaefcdb7558c6f3ccbc39` | complete |
 | `RCPT-20260815-1819-REF47` | `REF-47` | 작품 전체 왕복 채굴 / sound-effect allocation | `SRC-DIRECT-001 / ep228,269,300,307,318,319 selected ranges` | `0f4d48f590c70ecae24dd50aa109a294428dfeed` | complete |
 | `RCPT-20260815-1807-REF47` | `REF-47` | 작품 전체 왕복 채굴 / dialogue-narration allocation | `SRC-DIRECT-001 / ep238,251,256,300 selected ranges` | `a8291d5bdfe5a4ac52ff15bf995ea6ed474ad3ba` | complete |
@@ -33,6 +34,7 @@
 
 ## 경로
 
+- `works/REF-47/research_receipts/RCPT-20260815-1900-REF47.md`
 - `works/REF-47/research_receipts/RCPT-20260815-1846-REF47.md`
 - `works/REF-47/research_receipts/RCPT-20260815-1819-REF47.md`
 - `works/REF-47/research_receipts/RCPT-20260815-1807-REF47.md`
