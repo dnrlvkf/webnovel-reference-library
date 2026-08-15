@@ -8,7 +8,9 @@
 2. `REFERENCE_RESEARCH_REPOSITORY_CONTRACT`
 3. `REFERENCE_WORK_MODEL_SCHEMA`
 4. `REFERENCE_RESEARCH_ANONYMITY_CONTRACT`
-5. 대상 `REF`의 작품 모델·원천 장면·PSE/PVAR·TH·최근 연구 영수증
+5. `REPOSITORY_MANIFEST.yaml`이 가리키는 현행 검색 계약과 대상 `REF`의 작품 모델·원천 장면·PSE/PVAR·TH·최근 연구 영수증
+
+집필 검색에서 Source Scene을 사용할 때는 `indexes/scene_retrieval_contract.md`를 먼저 읽습니다. Source Scene의 실제 결합 사슬은 연구를 위한 `observed_chain`이며 집필용 `recommended_chain`이 아닙니다. 장면 전체 일치나 성공 장면의 beat 순서를 요구하지 않고, 현재 문제와 맞는 부분만 찾은 뒤 불일치 경계와 가져오지 말아야 할 요소를 함께 기록합니다.
 
 ## 공통 배치 운영
 
@@ -36,9 +38,10 @@
 
 ## 집필 직전 표현 검색
 
-참고작을 실제 집필에 사용할 때는 먼저 **대상 작품의 승인 문체·시점 계약과 최근 확정 원고**를 native anchor로 읽습니다. 그 다음 사건·스토리 문제, 장면 표현 문제, 필요 시 산문 실현 문제를 분리합니다.
+참고작을 실제 집필에 사용할 때는 먼저 **대상 작품의 승인 문체·시점 계약과 최근 확정 원고**를 native anchor로 읽습니다. 그 다음 사건·스토리 문제, 장면 결합 문제, 장면 표현 문제, 필요 시 산문 실현 문제를 분리합니다.
 
 - 사건·스토리 문제: EVENT·STORY·RELATIONSHIP·CHARACTER·TH에서 조회
+- Source Scene 결합 문제: `indexes/scene_retrieval_contract.md`에 따라 전체 일치 대신 부분 문제로 검색하고 `matched_problem / mismatch_boundary / usable_judgment / do_not_import`를 기록
 - 장면 전체 표현 문제: `indexes/expression_retrieval.md`에 따라 POV·정보권·서술 거리 호환성을 먼저 검사한 뒤 PROSE·Macro·Micro·표현 장면을 조회
 - 문장·지문·문단 실현 문제: `indexes/prose_realization_retrieval.md`에 따라 PVAR → 서로 다른 PSE → source scene 순으로 재독
 - 구조 참고 REF와 표현 참고 REF는 자동으로 같다고 보지 않음
@@ -48,7 +51,7 @@
 - 집필 직전에는 현재 장면에 필요한 판단만 임시 표현 패킷으로 압축하고 외부 표현 사례는 기본적으로 1~3개만 남김
 - PVAR의 표면 차이를 `-지만 → -니까 → 현재형` 같은 순환표로 컴파일하지 않음
 - 참고작을 닫은 뒤 대상 작품의 캐릭터 판단·관계·직업 감각·문체 계약으로 새 표현을 작성
-- 초고 후 POV 계약 위반·외부 문체 혼입·의미 선점·중복 해설·주제 설명 대사·설명성 화말·기계적 시제/어미 다양화를 감사
+- 초고 후 `결합 강제 감사`와 POV 계약 위반·외부 문체 혼입·의미 선점·중복 해설·주제 설명 대사·설명성 화말·기계적 시제/어미 다양화를 감사
 
 표현 facet은 새 기법 ID가 아니라 검색 질문을 만드는 좌표입니다. PSE/PVAR는 반복된 실제 저수준 손실을 해결하기 위해 승인된 PROSE 하위층이며, 이후 추가 표현 스키마는 다시 구조적 검색 실패가 확인되기 전에는 만들지 않습니다.
 
@@ -58,12 +61,14 @@
 
 ## 현재 연구 진행
 
-작품별 현재 범위와 미확인 질문은 각 `works/REF-XX/indexes/research.md` 및 최근 연구 영수증을 정본으로 사용합니다. 루트 README의 예시 범위를 현재 진행 상태로 간주하지 않습니다.
+작품별 현재 범위와 미확인 질문은 각 `works/REF-XX/indexes/research.md`, 완료된 작품은 `works/REF-XX/COMPLETION.md`, 그리고 최근 연구 영수증을 정본으로 사용합니다. 루트 README나 레거시 색인의 예시 범위를 현재 진행 상태로 간주하지 않습니다.
 
 ## 레거시 경계
 
 - `history/`는 Notion 내보내기 원형과 입력 자료를 보존합니다.
-- `catalog/`는 과거 이관 색인이며 일부 실제 식별자가 남아 있는 **익명화 미완료 레거시층**입니다.
+- `catalog/`는 과거 이관 색인이며 일부 실제 식별자가 남아 있는 **익명화 미완료 레거시층**입니다. 신규 연구나 집필 검색의 시작점·실행 권위로 사용하지 않습니다.
+- `catalog/tables/execution-cards.csv`의 `execution_structure`, `completion_conditions`, `recommended_combinations` 등은 과거 실행층의 기록이며, 현행 계약과 원문 재검증 없이 집필 명령·자동 발동 규칙·권장 장면 뼈대로 사용하지 않습니다.
+- 루트에 남아 있는 과거 `REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.1_*`, `v1.2_*` 부속서는 역사적 호환 기록입니다. 현행 적용 부속서는 `REPOSITORY_MANIFEST.yaml`이 가리키는 버전 하나뿐입니다.
 - 신규 연구와 종료 보고는 `works/`의 익명 연구 파일과 연구 영수증을 기준으로 판정합니다.
 - 레거시층의 작품명·고유명은 신규 연구 파일이나 커밋 메시지로 복사하지 않습니다.
 

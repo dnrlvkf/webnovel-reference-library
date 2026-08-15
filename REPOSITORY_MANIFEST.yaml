@@ -1,4 +1,4 @@
-schema_version: "1.5"
+schema_version: "1.6"
 repository_role: reference-research-canonical
 canonical_branch: "main"
 
@@ -14,6 +14,8 @@ works_registry_path: "registry/works.yaml"
 source_inventory_path: "registry/source_inventory.yaml"
 private_identity_map_path: "registry/private/work_identity_map.yaml"
 recent_receipts_index_path: "indexes/recent_receipts.md"
+scene_retrieval_contract_path: "indexes/scene_retrieval_contract.md"
+expression_retrieval_path: "indexes/expression_retrieval.md"
 prose_realization_retrieval_path: "indexes/prose_realization_retrieval.md"
 
 identity_policy:
