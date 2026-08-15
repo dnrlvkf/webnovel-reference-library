@@ -9,10 +9,10 @@
 - base_sha: `6ec97aa61ab0e6e13100a655931f5805f8329e8c`
 - branch: `agent/refresh-entrypoint-contracts`
 - research_content_sha: `ab10b4b0346cb0a135ca20c1ac8d7dc1447ae9bd`
-- final_sha: `ab10b4b0346cb0a135ca20c1ac8d7dc1447ae9bd`
+- final_sha: `df3e4028234406bd735edb45e893c3dcdc1ac510`
 - final_sha_mode: `self_excluding_receipt_and_index_finalization`
-- remote_status: `branch_verified_before_pr`
-- status: `complete_pending_merge`
+- remote_status: `verified_on_main`
+- status: `complete`
 
 ## 조회
 
@@ -59,6 +59,8 @@
 - no new research ID, TH, Macro, Micro, PSE, PVAR created.
 - no source-text claim added.
 - current project-source SOP v7 and schema v2 remain the approved research/model standards.
+- PR #30 merged to `main`.
+- research merge SHA: `df3e4028234406bd735edb45e893c3dcdc1ac510`.
 
 ## HOLD
 
