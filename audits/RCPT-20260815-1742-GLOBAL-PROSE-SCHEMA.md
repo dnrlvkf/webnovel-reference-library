@@ -10,10 +10,10 @@
 - base_sha: `920eb0d17a174400347da64f0813e202a01b302d`
 - branch: `ops/promote-prose-realization-v7-20260815`
 - research_content_sha: `e94ad162941982262a77c7141030a616ec25fbf9`
-- final_sha: `PENDING_FINAL_CHECKPOINT`
+- final_sha: `14071424fb726218a717c608972b2297355db743`
 - final_sha_mode: `self_excluding_receipt_finalization`
-- remote_status: `pending_merge`
-- status: `prepared_for_merge`
+- remote_status: `verified_on_main`
+- status: `complete`
 
 ## 조회한 기록
 
