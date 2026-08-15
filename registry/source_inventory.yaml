@@ -44,4 +44,29 @@ bound_sources:
         lines: 94107-111687
         segment_sha256: e20f2f16b59a2c1e3152e3e980cd346e136f45624762a6bce3bef86e05032d55
 
+  - source_id: SRC-DIRECT-001
+    bound_ref: REF-47
+    identity_status: verified_private
+    boundary_status: partial_header_verification
+    claimed_scope: 1-350
+    verified_episode_headers: 167-350
+    byte_size: 5927798
+    sha256: 95d22f155d582ec702142b906161f4b36241627a76cdf858ff9b39cd6d686a4e
+    encoding: utf-16
+    decoded_line_basis: utf-16 decode + splitlines
+    current_research_scope: selected prose pilot at 245,253,255,319
+    source_locations:
+      - episode: 245
+        lines: 131481-131519
+        segment_sha256_utf8_normalized: ae61fe5c4d8446e3d15735c9d390e3dab5f3f52d2c4877df7e177c8978ea6e14
+      - episode: 253
+        lines: 135351-135385
+        segment_sha256_utf8_normalized: 23e6d5f71dc69f13d1b0df544f90e49c9a31e05e079bc30b7d3cae55c8647f71
+      - episode: 255
+        lines: 136273-136311
+        segment_sha256_utf8_normalized: f37431d6a5aa5fe83339f588e810137d192375fec9cf7cff44ac0c63c28e697d
+      - episode: 319
+        lines: 170617-170641
+        segment_sha256_utf8_normalized: 95fbb05e830a5cc1f54db3471c569262325f8d043f6be8b9f670cc680b7f1e86
+
 unbound_source_policy: assign SRC ID, verify hash and boundary, then bind to an existing or new REF; never infer identity from episode count alone.
