@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260815-2209-GLOBAL-SOURCE-REENTRY` | `GLOBAL` | repository maintenance / expression source-reentry contract audit | `no new source-text research claim; Project Source standards + current repository contracts/indexes + recent REF-47 expression failure audit` | `cb8e758ad494e312baad098405d3764fdd3df598` | complete |
 | `RCPT-20260815-2151-REF47` | `REF-47` | 구간 정밀 분석 / full-episode expression waveform | `SRC-DIRECT-001 / ep1 / lines 471-862` | `b39c09fef7289885b8b607831b5be10df09d6193` | complete |
 | `RCPT-20260815-2131-GLOBAL-SOP71-EXPRESSION` | `GLOBAL` | repository maintenance / standard promotion / expression-retrieval contract audit | `no new source-text research claim; Project Source standards + repository contracts/indexes only` | `f3ae024a9f6ba26e40b2c9d25858a66fbd7347ba` | complete |
 | `RCPT-20260815-2007-GLOBAL-EXPRESSION-CONTEXT` | `GLOBAL / REF-47` | 구간 정밀 분석 / expression-retrieval context audit | `REF-47 / SRC-DIRECT-001 / ep256 full episode / lines 136725-137318` | `db154cbb1b6133036ea84c2a99d9fc065a55bf01` | complete |
@@ -39,6 +40,7 @@
 
 ## 경로
 
+- `audits/RCPT-20260815-2209-GLOBAL-SOURCE-REENTRY.md`
 - `works/REF-47/research_receipts/RCPT-20260815-2151-REF47.md`
 - `audits/RCPT-20260815-2131-GLOBAL-SOP71-EXPRESSION.md`
 - `audits/RCPT-20260815-2007-GLOBAL-EXPRESSION-CONTEXT.md`
