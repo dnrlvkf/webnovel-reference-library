@@ -3,8 +3,8 @@
 - identity exposure: sealed
 - primary source: `SRC-DIRECT-001`
 - source bridge: `source_registry/SOURCE-BRIDGE-REF47.md`
-- current mode: 작품 전체 왕복 채굴 / dialogue cohesion
-- current question: 대사가 이어질 때 지문이 단문 행동비트로 과분절되지 않고, 질문·답변이 정보 조회 인터페이스로 기계화되지 않게 하는 원문 선택은 무엇인가
+- current mode: 작품 전체 왕복 채굴 / integrated scene-chain pilot
+- current question: 한 장면에서 캐릭터 판단·관계 권리·사건 운동·대사/지문 실현·독자 그림이 어떻게 한 사슬로 결합되는가
 
 ## 파일셋 1 — 추론 범위 제한
 
@@ -44,10 +44,21 @@
 - audit: `audits/AUD-20260815-DIALOGUE-COHESION.md`
 - receipt: `research_receipts/RCPT-20260815-1846-REF47.md`
 
+## 파일셋 5 — 통합 Source Scene 사슬 파일럿
+
+- integrated scene index: `indexes/source_scenes.md`
+- reread scenes: `SC-REF47-0005`, `0007`, `0015`, `0017`
+- beat address: `SC-REF47-XXXX#B1` 형식의 장면 내부 주소만 사용
+- batch: `research_batches/BATCH-20260815-INTEGRATED-SCENE-PILOT.md`
+- audit: `audits/AUD-20260815-INTEGRATED-SCENE-PILOT.md`
+- receipt: `research_receipts/RCPT-20260815-1900-REF47.md`
+- status: schema promotion `HOLD` — drafting test로 실제 검색 개선을 확인하기 전 v3를 만들지 않음
+
 ## 공통 인덱스
 
+- `indexes/source_scenes.md` — 집필 상황에서 캐릭터 판단·관계 권리·사건 운동·독자 그림을 함께 찾는 상위 진입점
 - `indexes/prose.md`
 - `indexes/prose_evidence.md`
 - `indexes/prose_variations.md`
 
-현재 REF-47은 작품 전체 문체 모델 완성이 아니라 PSE/PVAR를 실제 집필 문제에 연결해 검증하는 단계다. 대사·지문·효과음을 각각 분리된 비율이 아니라 서로 다른 판단 업무와 문장·문단 결속으로 연구한다. 다른 트랙은 원문 근거가 충분할 때만 별도 ID로 승격한다.
+현재 REF-47은 작품 전체 문체 모델 완성이 아니라 실제 집필 실패를 원문으로 역추적해 검색 구조를 검증하는 단계다. 파일럿 동안 Source Scene을 `포착/관찰 → 판단 → 대사·지문·행동·침묵·효과음 → 상대 수용/재판단 → 관계·사건 상태 변화 → 독자 그림`의 cross-track 허브로 사용한다. PSE/PVAR는 이 사슬의 저수준 실현을 다시 읽는 하위 증거층으로 둔다. 다른 트랙은 독립 장기 질문이 확인될 때만 별도 ID로 승격한다.
