@@ -1,16 +1,20 @@
 # REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.3_PROJECT_SOURCE_ADDENDUM
 
-> v1.2의 프로젝트 소스 정본 운용을 유지하면서 분석 SOP v7과 작품 모델 스키마 v2, PROSE 저수준 증거층(PSE/PVAR)을 정본 표준으로 승격한다.
+> **SUPERSEDED / HISTORICAL COMPATIBILITY RECORD — NON-AUTHORITATIVE**
+>
+> 이 문서는 SOP v7 / Schema v2 / PSE·PVAR 승격 시점의 역사 기록이다. 현재 연구·집필·부트스트랩 지침으로 사용하지 않는다. **현행 적용 부속서는 오직 `REPOSITORY_MANIFEST.yaml`의 `repository_contract_addendum_path`가 가리키는 문서다.** 이 역사 파일 안의 SOP·Schema·필수 루트 경로·검색 라우팅·당시 적용 버전 표기는 모두 과거 상태 기록이며 현재 권위를 갖지 않는다.
+
+> v1.2의 프로젝트 소스 정본 운용을 유지하면서 분석 SOP v7과 작품 모델 스키마 v2, PROSE 저수준 증거층(PSE/PVAR)을 정본 표준으로 승격했던 시점의 기록.
 
 ## 적용 관계
 
-이 문서는 `REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.md`와 함께 적용한다. 연구 표준 문서의 저장 위치·무결성 검증·필수 루트 파일·승인 표준 버전에 관해서는 이 부속서가 우선한다.
+이 문서는 당시 `REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.md`와 함께 적용되었다. 연구 표준 문서의 저장 위치·무결성 검증·필수 루트 파일·승인 표준 버전에 관한 아래 내용은 역사적 상태 기록이며, 현재 권위 판정에는 사용하지 않는다.
 
-루트에 남아 있는 `REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.1_PROJECT_SOURCE_ADDENDUM.md`, `v1.2_PROJECT_SOURCE_ADDENDUM.md`는 역사적 호환 기록이며 현행 운영 권위를 갖지 않는다. 현행 적용 부속서는 `REPOSITORY_MANIFEST.yaml`의 `repository_contract_addendum_path`가 가리키는 이 문서다.
+루트에 남아 있는 v1.1·v1.2·v1.3 부속서는 모두 역사적 호환 기록이다. 현재 적용 관계는 반드시 `REPOSITORY_MANIFEST.yaml`에서 다시 확인한다.
 
 ## 프로젝트 소스 정본
 
-다음 승인 문서의 원문 바이트는 프로젝트 소스를 정본으로 삼는다.
+다음 승인 문서의 원문 바이트는 당시 프로젝트 소스를 정본으로 삼았다.
 
 - `REFERENCE_RESEARCH_ANALYSIS_SOP_v7.md`
 - `REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.md`
@@ -36,7 +40,7 @@ v2 스키마가 승인한 `PSE`와 `PVAR`는 새 최상위 기법 체계가 아�
 
 ## 검색 라우팅
 
-검색 라우팅은 `REPOSITORY_MANIFEST.yaml`의 현행 경로를 따른다.
+아래 검색 라우팅은 당시 상태 기록이다. 현재 연구에서는 `REPOSITORY_MANIFEST.yaml`이 가리키는 현행 경로만 권위로 사용한다.
 
 - Source Scene을 집필 검색에 사용할 때는 `indexes/scene_retrieval_contract.md`를 먼저 적용한다. 실제 결합 사슬은 `observed_chain`이며 `recommended_chain`이 아니다. 장면 전체 일치를 요구하지 않고 부분 문제·불일치 경계·사용 가능한 판단·가져오지 말아야 할 요소를 분리한다.
 - 장면 전체의 표현·POV·대사·정보 공개 문제는 `indexes/expression_retrieval.md`를 사용한다.
@@ -51,6 +55,8 @@ v2 스키마가 승인한 `PSE`와 `PVAR`는 새 최상위 기법 체계가 아�
 - GitHub 잠금 파일: 프로젝트 소스 표준의 무결성과 적용 버전
 
 ## 필수 루트 파일
+
+아래 트리는 당시 상태 기록이다.
 
 ```text
 /
