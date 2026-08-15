@@ -3,8 +3,8 @@
 - identity exposure: sealed
 - primary source: `SRC-DIRECT-001`
 - source bridge: `source_registry/SOURCE-BRIDGE-REF47.md`
-- current mode: 작품 전체 왕복 채굴 / integrated scene-chain pilot
-- current question: 한 장면에서 캐릭터 판단·관계 권리·사건 운동·대사/지문 실현·독자 그림이 어떻게 한 사슬로 결합되는가
+- current mode: 작품 전체 왕복 채굴 / retrieval-contract validation
+- current question: 통합 Source Scene의 실제 결합은 보존하되, 집필에서 장면 전체 일치나 beat 재현을 강제하지 않고 부분 문제만 안전하게 가져올 수 있는가
 
 ## 파일셋 1 — 추론 범위 제한
 
@@ -47,6 +47,7 @@
 ## 파일셋 5 — 통합 Source Scene 사슬 파일럿
 
 - integrated scene index: `indexes/source_scenes.md`
+- global retrieval contract: `../../indexes/scene_retrieval_contract.md`
 - reread scenes: `SC-REF47-0005`, `0007`, `0015`, `0017`
 - beat address: `SC-REF47-XXXX#B1` 형식의 장면 내부 주소만 사용
 - batch: `research_batches/BATCH-20260815-INTEGRATED-SCENE-PILOT.md`
@@ -56,9 +57,10 @@
 
 ## 공통 인덱스
 
-- `indexes/source_scenes.md` — 집필 상황에서 캐릭터 판단·관계 권리·사건 운동·독자 그림을 함께 찾는 상위 진입점
+- `indexes/source_scenes.md` — cross-track observed chain을 보존하되 부분 문제로 검색하는 상위 진입점
+- `../../indexes/scene_retrieval_contract.md` — `observed_chain ≠ recommended_chain`, 부분 일치, 불일치 경계, 결합 강제 감사 계약
 - `indexes/prose.md`
 - `indexes/prose_evidence.md`
 - `indexes/prose_variations.md`
 
-현재 REF-47은 작품 전체 문체 모델 완성이 아니라 실제 집필 실패를 원문으로 역추적해 검색 구조를 검증하는 단계다. 파일럿 동안 Source Scene을 `포착/관찰 → 판단 → 대사·지문·행동·침묵·효과음 → 상대 수용/재판단 → 관계·사건 상태 변화 → 독자 그림`의 cross-track 허브로 사용한다. PSE/PVAR는 이 사슬의 저수준 실현을 다시 읽는 하위 증거층으로 둔다. 다른 트랙은 독립 장기 질문이 확인될 때만 별도 ID로 승격한다.
+현재 REF-47은 작품 전체 문체 모델 완성이 아니라 실제 집필 실패를 원문으로 역추적해 검색 구조를 검증하는 단계다. Source Scene의 결합 사슬은 작가가 그 장면에서 실제로 한 선택을 복원하기 위해 보존하지만, 집필에서는 그 결합을 재현하지 않는다. 현재 장면의 CHARACTER·RELATIONSHIP·EVENT·STORY·PROSE 문제를 분해해 부분 일치로 원문에 재진입하고, 필요할 때 PVAR/PSE로 다른 실현을 확인한 뒤 대상 작품 조건으로 새로 조립한다.
