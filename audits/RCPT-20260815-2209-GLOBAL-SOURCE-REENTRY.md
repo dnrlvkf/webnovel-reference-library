@@ -5,13 +5,14 @@
 - work_id: `GLOBAL`
 - mode: `repository maintenance / expression source-reentry contract audit`
 - question: `참고작 연구층을 최대한 보존하면서도 파생 요약이 실제 원문의 어휘·문법·문장 호흡·회차 표현 파형을 대신해 기계적인 산문을 생성하는 손실 압축 경로를 어떻게 차단할 것인가`
-- source_scope: `no new reference-work claim; Project Source standards + current repository contracts/indexes + recent REF-47 expression failure audit`
+- source_scope: `no new source-text research claim; Project Source standards + current repository contracts/indexes + recent REF-47 expression failure audit`
 - base_sha: `ac25336e6be91fbd959bed3cc157d15ae88fe41f`
 - branch: `research/global-source-reentry-contract-20260815`
 - research_content_sha: `cb8e758ad494e312baad098405d3764fdd3df598`
-- final_sha: `PENDING_INDEX_SEAL`
-- remote_status: `pending_main_reflection`
-- status: `content_complete_pending_index_seal`
+- final_sha: `406113e663379ad2aa8ea841e592978ffda75bdd`
+- final_sha_mode: `self_excluding_receipt_finalization`
+- remote_status: `ready_for_main_reflection`
+- status: `complete`
 
 ## 표준 검증
 - Project Source `REFERENCE_RESEARCH_ANALYSIS_SOP_v7.1.md` SHA-256 `3803ff35ff9d68211aa2ab655b76dd387567f441a424f41e2a8e5884722fe8c5`, 120486 bytes 직접 재검증.
@@ -50,6 +51,8 @@
 - `README.md`
   - 라이브러리의 집필 역할을 `실행 규칙 공급`이 아니라 `원문 재진입 좌표 공급`으로 명확화.
   - 집필 직전 원문 회차·native anchor 동시 참조와 복수 회차/복수 REF 독립 재독 원칙을 반영.
+- `indexes/recent_receipts.md`
+  - 본 감사 영수증과 연구 내용 SHA를 최근 인덱스에 추가.
 
 ## 변경하지 않은 것
 - SOP v7.1 승인 원문은 수정하지 않음.
@@ -61,7 +64,7 @@
 - 기존 작품별 연구 기록은 일괄 이관하지 않음.
 
 ## 여섯 트랙 영향
-- CHARACTER: 변경 없음. 표현 시 캐릭터 판단을 파생 요약만으로 복원하지 않고 원문/naitve anchor와 함께 보게 함.
+- CHARACTER: 변경 없음. 표현 시 캐릭터 판단을 파생 요약만으로 복원하지 않고 원문/native anchor와 함께 보게 함.
 - RELATIONSHIP: 변경 없음. 대사 권리·호칭 표면은 원문 회차 재독에서 확인하도록 강화.
 - EVENT: 변경 없음.
 - STORY: 변경 없음. 회차 전체 제시 파형을 표현 판단에 유지하도록 강화.
@@ -78,6 +81,7 @@
 - 새 스키마 없이 현행 v1.4 부속서와 루트 진입점으로 집필 경로를 교정.
 - 표면 복제 방화벽은 유지하면서 추상화 손실 방화벽을 추가.
 - 원문을 직접 읽지 못한 후보는 특정 작품 표현 근거로 보고할 수 없도록 fail-closed.
+- recent receipt index seal SHA: `406113e663379ad2aa8ea841e592978ffda75bdd`.
 
 ## 다음 질문
 새 계약을 적용해 현재 오리지널 1화를 다시 샘플 개작할 때, 복수 작품·복수 회차의 실제 문장 호흡과 표현 채널 파형을 유지한 상태에서 기존의 연속 단문 회귀가 실제로 감소하는지 검증한다.
