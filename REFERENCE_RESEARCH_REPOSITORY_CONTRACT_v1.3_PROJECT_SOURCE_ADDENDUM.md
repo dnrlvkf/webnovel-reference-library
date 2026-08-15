@@ -6,6 +6,8 @@
 
 이 문서는 `REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.md`와 함께 적용한다. 연구 표준 문서의 저장 위치·무결성 검증·필수 루트 파일·승인 표준 버전에 관해서는 이 부속서가 우선한다.
 
+루트에 남아 있는 `REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.1_PROJECT_SOURCE_ADDENDUM.md`, `v1.2_PROJECT_SOURCE_ADDENDUM.md`는 역사적 호환 기록이며 현행 운영 권위를 갖지 않는다. 현행 적용 부속서는 `REPOSITORY_MANIFEST.yaml`의 `repository_contract_addendum_path`가 가리키는 이 문서다.
+
 ## 프로젝트 소스 정본
 
 다음 승인 문서의 원문 바이트는 프로젝트 소스를 정본으로 삼는다.
@@ -34,9 +36,13 @@ v2 스키마가 승인한 `PSE`와 `PVAR`는 새 최상위 기법 체계가 아�
 
 ## 검색 라우팅
 
-문장·지문·문단의 실제 실현 선택이 문제일 때는 `indexes/prose_realization_retrieval.md`에서 PVAR → PSE → source scene 순으로 재진입한다. 장면 전체의 표현·POV·대사·정보 공개 문제는 기존 `indexes/expression_retrieval.md`를 계속 사용한다.
+검색 라우팅은 `REPOSITORY_MANIFEST.yaml`의 현행 경로를 따른다.
 
-두 인덱스는 서로 대체 관계가 아니다.
+- Source Scene을 집필 검색에 사용할 때는 `indexes/scene_retrieval_contract.md`를 먼저 적용한다. 실제 결합 사슬은 `observed_chain`이며 `recommended_chain`이 아니다. 장면 전체 일치를 요구하지 않고 부분 문제·불일치 경계·사용 가능한 판단·가져오지 말아야 할 요소를 분리한다.
+- 장면 전체의 표현·POV·대사·정보 공개 문제는 `indexes/expression_retrieval.md`를 사용한다.
+- 문장·지문·문단의 실제 실현 선택이 문제일 때는 `indexes/prose_realization_retrieval.md`에서 PVAR → PSE → source scene 순으로 재진입한다.
+
+세 인덱스는 서로 대체 관계가 아니다. Source Scene의 관찰된 beat 수·순서·질문권·명령권·침묵·효과음 조합을 현행 집필 템플릿이나 자동 발동 규칙으로 해석하지 않는다.
 
 ## 정본 역할
 
