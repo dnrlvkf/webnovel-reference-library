@@ -20,3 +20,16 @@
   current_scope: role-bounded-dialogue-closed
   current_question: "After episode 753, how do other characters remember, reuse, or re-evaluate veteran guide A's expertise and final choice?"
   last_receipt: RCPT-20260814-1728-REF46
+
+- id: REF-47
+  status: active
+  identity_exposure: sealed
+  primary_source_id: SRC-DIRECT-001
+  source_registry_path: works/REF-47/source_registry/SOURCE-BRIDGE-REF47.md
+  boundary_status: partial_header_verification
+  claimed_scope: 1-350
+  verified_episode_headers: 167-350
+  research_mode: traversal
+  current_scope: prose-variation-pilot-245-319
+  current_question: "When a strong statement permits an over-broad inference, how does the prose restrict that inference and redistribute correction, reason, and reclassification across sentence and paragraph boundaries?"
+  last_receipt: RCPT-20260815-1753-REF47

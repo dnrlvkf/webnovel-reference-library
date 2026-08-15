@@ -11,3 +11,11 @@ mappings:
     source_sha256: 17b0f41b6b64eefe6f3d1354d22e2d75529be153b1f0f7fd71f00a016f96b766
     identity_status: verified
     exposure: sealed
+
+  - ref_id: REF-47
+    source_id: SRC-DIRECT-001
+    work_title: "악당은 살고 싶다"
+    source_filename: "악당은 살고 싶다 1-350.txt"
+    source_sha256: 95d22f155d582ec702142b906161f4b36241627a76cdf858ff9b39cd6d686a4e
+    identity_status: verified_direct_project_source
+    exposure: sealed
