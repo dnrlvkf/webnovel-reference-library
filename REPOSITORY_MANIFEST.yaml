@@ -19,6 +19,27 @@ expression_retrieval_path: "indexes/expression_retrieval.md"
 prose_realization_retrieval_path: "indexes/prose_realization_retrieval.md"
 initial_onboarding_research_path: "indexes/initial_onboarding_research.md"
 
+authority_boundary:
+  active_research_roots:
+    - "registry/"
+    - "works/"
+    - "comparisons/"
+    - "mc_candidates/"
+    - "indexes/"
+    - "audits/"
+  legacy_non_authoritative_roots:
+    - "catalog/"
+    - "history/"
+  historical_contract_paths:
+    - "REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.1_PROJECT_SOURCE_ADDENDUM.md"
+    - "REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.2_PROJECT_SOURCE_ADDENDUM.md"
+    - "REFERENCE_RESEARCH_REPOSITORY_CONTRACT_v1.3_PROJECT_SOURCE_ADDENDUM.md"
+  routing_policy:
+    current_authority_from_manifest_only: true
+    exclude_legacy_roots_from_default_research_search: true
+    exclude_historical_contracts_from_bootstrap_authority: true
+    legacy_content_may_be_read_for_history_only: true
+
 identity_policy:
   default_exposure: sealed
   sealed_map_required: true
