@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260815-2131-GLOBAL-SOP71-EXPRESSION` | `GLOBAL` | repository maintenance / standard promotion / expression-retrieval contract audit | `no new source-text research claim; Project Source standards + repository contracts/indexes only` | `f3ae024a9f6ba26e40b2c9d25858a66fbd7347ba` | complete |
 | `RCPT-20260815-2007-GLOBAL-EXPRESSION-CONTEXT` | `GLOBAL / REF-47` | 구간 정밀 분석 / expression-retrieval context audit | `REF-47 / SRC-DIRECT-001 / ep256 full episode / lines 136725-137318` | `db154cbb1b6133036ea84c2a99d9fc065a55bf01` | complete |
 | `RCPT-20260815-1933-GLOBAL-ENTRYPOINT-REFRESH` | `GLOBAL / REF-02` | repository maintenance / entrypoint and state consistency audit | `no new source-text research claim; operational metadata and routing only` | `ab10b4b0346cb0a135ca20c1ac8d7dc1447ae9bd` | complete |
 | `RCPT-20260815-1911-GLOBAL-SCENE-RETRIEVAL` | `GLOBAL / REF-47` | 작품 전체 왕복 채굴 / retrieval-contract audit | `REF-47 / SRC-DIRECT-001 / ep238,256,298,331 selected ranges reverified; no new source claim` | `5957239d7004e0604ea80995e32908f4ea2919ff` | complete |
@@ -37,6 +38,7 @@
 
 ## 경로
 
+- `audits/RCPT-20260815-2131-GLOBAL-SOP71-EXPRESSION.md`
 - `audits/RCPT-20260815-2007-GLOBAL-EXPRESSION-CONTEXT.md`
 - `audits/RCPT-20260815-1933-GLOBAL-ENTRYPOINT-REFRESH.md`
 - `audits/RCPT-20260815-1911-GLOBAL-SCENE-RETRIEVAL.md`
