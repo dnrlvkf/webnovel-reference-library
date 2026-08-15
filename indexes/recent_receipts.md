@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260815-2007-GLOBAL-EXPRESSION-CONTEXT` | `GLOBAL / REF-47` | 구간 정밀 분석 / expression-retrieval context audit | `REF-47 / SRC-DIRECT-001 / ep256 full episode / lines 136725-137318` | `db154cbb1b6133036ea84c2a99d9fc065a55bf01` | complete_pending_merge |
 | `RCPT-20260815-1933-GLOBAL-ENTRYPOINT-REFRESH` | `GLOBAL / REF-02` | repository maintenance / entrypoint and state consistency audit | `no new source-text research claim; operational metadata and routing only` | `ab10b4b0346cb0a135ca20c1ac8d7dc1447ae9bd` | complete |
 | `RCPT-20260815-1911-GLOBAL-SCENE-RETRIEVAL` | `GLOBAL / REF-47` | 작품 전체 왕복 채굴 / retrieval-contract audit | `REF-47 / SRC-DIRECT-001 / ep238,256,298,331 selected ranges reverified; no new source claim` | `5957239d7004e0604ea80995e32908f4ea2919ff` | complete |
 | `RCPT-20260815-1900-REF47` | `REF-47` | 작품 전체 왕복 채굴 / integrated scene-chain pilot | `SRC-DIRECT-001 / ep238,256,298,331 selected ranges` | `d711ca0c83669c1212a19f47698e35eb8e2cd0e5` | complete |
@@ -24,7 +25,7 @@
 | `RCPT-20260813-1237-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 241~284화` | `ab80452f5e4ef08e8acd7bc7d4a7039f47d2a1e2` | complete_first_pass_batch |
 | `RCPT-20260813-1150-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 181~240화` | `3299c0c4229db744f8cba33e82c6fe7c54e35605` | complete / relation attribution partially superseded |
 | `RCPT-20260813-1046-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 121~180화` | `19055585f6791dbb8fa17b1a780575bec92d9506` | complete |
-| `RCPT-20260813-0951-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 61~120화` | `8c5b59c7266213f298223372b5f13ae0b01199a4` | complete |
+| `RCPT-20260813-0951-REF02` | `REF-02` | 작품 전체 왕복 채굴 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 61~120화` | `8c5b59c7266213f298223372b5f13ae0b01199a4` | complete |
 | `RCPT-20260813-0924-REF02` | `REF-02` | 구간 정밀 분석 / SOP v6.1 | `SRC-COL2-027 / 51~60화` | `cdcad32bd082c4ca05f8fb766ad903c2992b3e15` | complete |
 | `RCPT-20260813-0906-REF02` | `REF-02` | 구간 정밀 분석 / SOP v6.1 | `SRC-COL2-027 / 41~50화` | `f299e1a9f7a04ca92d7c85458e6c3c1d1d379559` | complete |
 | `RCPT-20260809-0002-REF46` | `REF-46` | 작품 전체 왕복 채굴 | `149~718화 선택 구간 + 책임·연구욕구·역할평가 왕복` | `0b6877c9e13192d5dbf45fa8dd0e89787466ba6c` | complete |
@@ -36,6 +37,7 @@
 
 ## 경로
 
+- `audits/RCPT-20260815-2007-GLOBAL-EXPRESSION-CONTEXT.md`
 - `audits/RCPT-20260815-1933-GLOBAL-ENTRYPOINT-REFRESH.md`
 - `audits/RCPT-20260815-1911-GLOBAL-SCENE-RETRIEVAL.md`
 - `works/REF-47/research_receipts/RCPT-20260815-1900-REF47.md`
