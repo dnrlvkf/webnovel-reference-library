@@ -8,11 +8,11 @@
 - source_scope: `REF-47 / SRC-DIRECT-001 / ep238,256,298,331 selected ranges reverified; no new source claim`
 - base_sha: `255343d8a51cfccad1d6179b40adf297b4233c3d`
 - branch: `research/retrieval-nonforcing-contract`
-- research_content_sha: `PENDING_BRANCH_COMMIT`
+- research_content_sha: `5957239d7004e0604ea80995e32908f4ea2919ff`
 - final_sha: `PENDING_FINAL_CHECKPOINT`
 - final_sha_mode: `self_excluding_receipt_finalization`
 - remote_status: `pending_merge`
-- status: `prepared_for_commit`
+- status: `prepared_for_merge`
 
 ## 조회
 - project-source SOP v7 / repository contract v1 / work model schema v2 + lock 재검증
