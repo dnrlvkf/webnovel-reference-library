@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260815-1753-REF47` | `REF-47` | 작품 전체 왕복 채굴 / PSE-PVAR pilot | `SRC-DIRECT-001 / ep245,253,255,319 selected ranges` | `488eeaecb59e20e7717f5e47697a561bdef7d185` | complete |
 | `RCPT-20260815-1742-GLOBAL-PROSE-SCHEMA` | `GLOBAL` | audit / schema-promotion | `project-source SOP v7 + schema v2 + repository expression audits` | `e94ad162941982262a77c7141030a616ec25fbf9` | complete |
 | `RCPT-20260814-1728-REF46` | `REF-46` | 작품 전체 왕복 채굴 / role-bounded dialogue audit | `149, 174, 449, 473, 634, 746, 753화 핵심 대사 재독` | `ce0453d13eb9a8039a42a0ec4f1a8b0053f32000` | complete |
 | `RCPT-20260814-1646-REF46` | `REF-46` | 작품 전체 왕복 채굴 / post-neardeath guide-duty audit | `742~753화 직접 재독 / 348,691~354,290행` | `a9468d31b26a8f1a7a25d2530b5ac2953d6862c1` | complete |
@@ -29,6 +30,7 @@
 
 ## 경로
 
+- `works/REF-47/research_receipts/RCPT-20260815-1753-REF47.md`
 - `audits/RCPT-20260815-1742-GLOBAL-PROSE-SCHEMA.md`
 - `works/REF-46/research_receipts/RCPT-20260814-1728-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260814-1646-REF46.md`
