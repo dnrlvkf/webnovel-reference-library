@@ -16,12 +16,13 @@
 
 ## 표준·원문
 
-- SOP: `REFERENCE_RESEARCH_ANALYSIS_SOP_v6.1.md`
+- current operating SOP: resolve from `REPOSITORY_MANIFEST.yaml` (`REFERENCE_RESEARCH_ANALYSIS_SOP_v7.md` at this maintenance update)
+- historical completion batches: written under their receipt-recorded SOP versions; those version labels are provenance, not current operating instructions
 - lock: `REFERENCE_RESEARCH_STANDARD_SOURCE_LOCK_v1.yaml`
 - project-source addendum/anonymity: verified
 - whole source SHA-256: `17b0f41b6b64eefe6f3d1354d22e2d75529be153b1f0f7fd71f00a016f96b766`
 - exact source boundary: `1~284화`
-- standard/source integrity: matched
+- standard/source integrity: matched at completion; reverify current manifest/lock before any reopened research write
 
 ## 연구 진행
 
