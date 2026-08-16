@@ -7,8 +7,11 @@
 - line_basis: UTF-16 decode 후 `splitlines` 기준 1-based
 - source_reentry_status: `VERIFIED_MATCH`
 - claimed_scope: `1-350`
-- verified episode header scope: `ep1 direct boundary verified; 167-350 previously verified`
-- boundary_status: `partial_header_verification`
+- verified episode header scope: `ep1-350 directly verified`
+- boundary_status: `verified_all_claimed_scope`
+- early_boundary_registry: `EPISODE-BOUNDARIES-REF47-0001-0166.md`
+- early_boundary_core_sha256: `58d92a04b52dc661e4bbc8d7f4567280cf770976c58a47e8b916d9feb874ff52`
+- early_boundary_fullmap_sha256: `4b707c2c1ee217c280529a258eee15ba8668a0510839c9459da2e24b1a7303d2`
 
 ## cross-project source access
 
@@ -21,13 +24,24 @@
 - expected_byte_size: `5927798`
 - verification: `2026-08-16 raw download SHA-256 + byte size match`
 
-다른 프로젝트에서는 file ID로 원문 바이트를 다시 읽고 canonical identity를 재대조한 뒤에만 이번 실행의 `VERIFIED_MATCH`로 사용한다. source transport가 검증되어도 미검증 episode boundary는 자동 승격하지 않는다.
+다른 프로젝트에서는 file ID로 원문 바이트를 다시 읽고 canonical identity를 재대조한 뒤에만 이번 실행의 `VERIFIED_MATCH`로 사용한다. episode boundary는 본 bridge와 `EPISODE-BOUNDARIES-REF47-0001-0166.md`를 함께 사용한다.
+
+## 회차 경계 검증
+
+- ep1-166: `EPISODE-BOUNDARIES-REF47-0001-0166.md`에서 166개 연속 경계 직접 검증. ep166 종료 다음 line 92262의 명시적 `167화` 헤더까지 확인.
+- ep167-350: 기존 직접 header verification 보존.
+- 따라서 claimed scope `1-350`의 episode boundary는 모두 직접 검증 상태다.
+- `(n)` 형식만으로는 ep25/62/68/157/158 등의 비표준 경계가 누락되므로 boundary registry를 정본 좌표로 사용한다.
 
 ## 전체 회차 재독 위치
 
 | full episode | episode | lines | normalized full-episode sha256 |
 |---|---:|---:|---|
 | `FULL-EP-REF47-0001` | 1 | 471-862 | `a4085b570676be7cd9fc2e59942651d7ad151d7c62286336445d7654460c1368` |
+| `FULL-EP-REF47-0078` | 78 | 42081-42670 | `b03cdc24a766d86cb138ea538641a9b2edc370c66747def523497372e7188a22` |
+| `FULL-EP-REF47-0124` | 124 | 70003-70422 | `4cba2e2667b123b524761769f757ddb7848d2da03ebbd638a46ec6be96845356` |
+| `FULL-EP-REF47-0132` | 132 | 74015-74668 | `2e156e270f3e1bbbaf9bafff8847d7626d5e827611932abd88277622a68632bb` |
+| `FULL-EP-REF47-0163` | 163 | 90276-90733 | `931fe49d7c5638ebcac466ba161aba7828cf2fc40b90814fddb0843cacef8240` |
 | `FULL-EP-REF47-0235` | 235 | 126555-126972 | `5dd3a8e2f60155d8d0681f1f24f0b52647bec32c17216614a34464fd9c84b2b9` |
 | `FULL-EP-REF47-0247` | 247 | 132257-132668 | `3bbf195cd2991db50972b4d01c8509f1a5f6a19cdd879a925dadb908557005e1` |
 | `FULL-EP-REF47-0250` | 250 | 133731-134196 | `57f39471daf578e7c8d20738203b789e453dae1cf3720ab4f7f50241a47d8302` |
@@ -56,9 +70,8 @@
 | `FULL-EP-REF47-0343` | 343 | 181977-182426 | `796a3efb053e3f5b94f31f869559b9e7bbb75a8100f2cd68bc9937e95ff09491` |
 | `FULL-EP-REF47-0350` | 350 | 185225-185651 | `40a14817adc65dee5143a9acbd7706b7419b2656bc4ce42e098122a039d32701` |
 
-- ep235/247/250/251/253/267/269/275/286/287/293/297/298/318/320/323/324/327/328/330/331/332/335/339/342/343/350은 이미 검증된 `167-350` episode-header 범위 안에서 각 배치가 회차 시작과 다음 회차 header 또는 source EOF를 다시 확인해 전체 경계를 고정했다.
 - 기본 정규화 whole-episode hash는 각 표의 행 범위를 `\n`으로 결합하고 마지막 개행을 붙인 UTF-8 바이트 기준이다.
-- `FULL-EP-REF47-0001`만 레거시 직접 검증값을 보존하며, 이 값은 같은 471-862행을 `\r\n`으로 결합하고 마지막 CRLF를 붙인 UTF-8 바이트에서 재현된다. LF 정규화 값은 `133528e6f6ae7e85964cda2cb08f4f671f90304488edcd47fd0cec5855009570`이다. 이는 source mismatch가 아니라 레거시 hash-normalization 예외다.
+- `FULL-EP-REF47-0001`의 표 값은 레거시 CRLF 직접 검증값이다. LF 정규화 값 `133528e6f6ae7e85964cda2cb08f4f671f90304488edcd47fd0cec5855009570`은 early boundary registry에 보존한다.
 
 ## 기존 재독 위치
 
@@ -97,6 +110,10 @@
 | `SC-REF47-0031` | 253 | 135507-135625 | `44ef50141e94da44e3e93e2d51b85d65d59f1d1d1a32d6a1bf73dcc63839fa3b` |
 | `SC-REF47-0032` | 267 | 142489-142521 | `2bb84abc8916ea6614086b1d0b7c42b661861e3041d5e0c967b9d397eb94aca8` |
 | `SC-REF47-0033` | 297 | 158029-158085 | `d0def5c79d4279b2b82f2e64602c6329306a7b72f3b12b4c54a297b74f6cff11` |
+| `SC-REF47-0034` | 78 | 42571-42661 | `00de1a8858d2d6f389d321a423f02b9c0456a237e29e48050c2e8216dc57d098` |
+| `SC-REF47-0035` | 124 | 70335-70419 | `b01193dc27cfb539fb84fe9e72a529893315a8809625e29c8223b8303ef7696b` |
+| `SC-REF47-0036` | 132 | 74159-74189 | `186095f3aaa4cc31eec82a355c36ba3d9f0999d5828dfc76f575d573cd758f85` |
+| `SC-REF47-0037` | 163 | 90358-90460 | `4d27487d83c8ed2f754ba8114d3b5a3cd2c4ea1e5ad64135a496b1e98bbcf7c4` |
 
 ## 저수준 재분류 구간
 
@@ -104,5 +121,3 @@
 |---|---:|---:|---|
 | `PSE-REF47-0018` | 328 | 175413-175457 | `1d7013f1320c636aeaf4ed581b2d090415a4e6185b0e459aafacf5b1e18efa1e` |
 | `PSE-REF47-0019` | 350 | 185409-185499 | `b9e2274b3bae36847dd8480ab751e5feac1949288727482b03fd3243e7469227` |
-
-`ep1`은 line 471의 episode header와 line 863의 다음 episode header를 직접 확인해 471-862 경계를 검증했다. 이는 기존 `1-166화 개별 episode header 미확정` 상태 전체를 해제하는 것이 아니라 ep1 한 건의 직접 경계 검증만 추가한다.
