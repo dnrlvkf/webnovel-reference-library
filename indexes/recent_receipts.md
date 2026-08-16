@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260816-2152-REF47-ROLE-JUDGMENT-TRUST` | `REF-47` | 작품 전체 왕복 채굴 / 관계 역할 판단권과 신뢰 변형 | `SRC-DIRECT-001 / ep286-287,293,297,323-324,331-332,335,339,342-343 + SC-0022~0027` | `1a47230aed6fe48cb518e36aa43ee7388c0d2013` | complete |
 | `RCPT-20260816-2112-REF47-RIGHTS-FOLLOWUP` | `REF-47` | 작품 전체 왕복 채굴 / 현재 관계 권리 후속 검증 | `SRC-DIRECT-001 / ep332, ep335, ep339, ep350 full episodes + SC-0018~0021` | `d5972066e80b7bc38d0cddc9be9a591d4b485157` | complete |
 | `RCPT-20260816-2037-REF47-CONNECTIVITY-PILOT` | `REF-47` | 작품 전체 왕복 채굴 / research-layer connectivity pilot | `SRC-DIRECT-001 / ep256 SC-0007 + ep298 SC-0015 + ep331 SC-0017/full episode` | `3bbfdf6e8cde0b2b15f974a07e67b30f38c4d584` | PASS_WITH_TWO_STALE_REVERSE_LINKS_REPAIRED |
 | `RCPT-20260816-1950-GLOBAL-SOURCE-VAULT-BINDING` | `GLOBAL / REF-02 / REF-46 / REF-47` | repository maintenance / cross-project source vault binding + canonical re-entry E2E validation | `source transport binding + PSE-REF47-0018 canonical re-entry test; no new story/research claim` | `c87aa6cf2b7431ad4b76cb4653b5af7b46452a9f9435cc4ba49bcd994d41fde9` | transport_ready_with_external_project_acceptance_hold |
@@ -49,6 +50,7 @@
 
 ## 경로
 
+- `works/REF-47/research_receipts/RCPT-20260816-2152-REF47-ROLE-JUDGMENT-TRUST.md`
 - `works/REF-47/research_receipts/RCPT-20260816-2112-REF47-RIGHTS-FOLLOWUP.md`
 - `works/REF-47/research_receipts/RCPT-20260816-2037-REF47-CONNECTIVITY-PILOT.md`
 - `audits/RCPT-20260816-1950-GLOBAL-SOURCE-VAULT-BINDING.md`
