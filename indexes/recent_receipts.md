@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260816-1134-REF47` | `REF-47` | 작품 전체 왕복 채굴 / 독자 선행 지식 압축 실패·재온보딩 비용 | `SRC-DIRECT-001 / ep297-298, ep320, ep327-328, ep330-331, ep350 full episodes` | `567527c6c7b9cc1d3a9efe6dfe8ab927d2687329` | complete |
 | `RCPT-20260816-1111-REF47` | `REF-47` | 작품 전체 왕복 채굴 / 초기 제시·압축 회수 변형 | `SRC-DIRECT-001 / ep1 baseline + ep235 + ep269 + ep275 + ep318 + ep350 full episodes` | `c848252343970d1785e4b6d08cb85e647bcefb6f` | complete |
 | `RCPT-20260815-2301-REF47` | `REF-47` | 구간 정밀 분석 / 초기 제시·온보딩 | `SRC-DIRECT-001 / ep1 lines 471-862 + ep2 immediate recovery check lines 863-929` | `df22601a3e4bc1a1335a210506faf8c250f9585f` | complete |
 | `RCPT-20260815-2244-GLOBAL-LEGACY-AUTHORITY-HARDENING` | `GLOBAL` | repository maintenance / legacy authority hardening audit | `no new source-text research claim; current manifest, legacy addenda v1.1-v1.3, catalog legacy boundary, current README/AGENTS routing only` | `c48d13a8ce87d61c25a9f5f27d06c085d47b3f48` | complete |
@@ -44,6 +45,7 @@
 
 ## 경로
 
+- `works/REF-47/research_receipts/RCPT-20260816-1134-REF47.md`
 - `works/REF-47/research_receipts/RCPT-20260816-1111-REF47.md`
 - `works/REF-47/research_receipts/RCPT-20260815-2301-REF47.md`
 - `audits/RCPT-20260815-2244-GLOBAL-LEGACY-AUTHORITY-HARDENING.md`
