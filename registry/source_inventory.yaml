@@ -54,7 +54,7 @@ bound_sources:
     sha256: 95d22f155d582ec702142b906161f4b36241627a76cdf858ff9b39cd6d686a4e
     encoding: utf-16
     decoded_line_basis: utf-16 decode + splitlines
-    current_research_scope: ep1 baseline + ep235/269/275/318/350 full-episode onboarding/callback traversal
+    current_research_scope: onboarding/callback baseline + ep297-298/320/327-328/330-331/350 reclassification traversal
     source_locations:
       - episode: 245
         lines: 131481-131519

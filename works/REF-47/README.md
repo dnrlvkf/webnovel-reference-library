@@ -3,8 +3,8 @@
 - identity exposure: sealed
 - primary source: `SRC-DIRECT-001`
 - source bridge: `source_registry/SOURCE-BRIDGE-REF47.md`
-- current mode: 작품 전체 왕복 채굴 / 초기 제시·압축 회수 변형
-- current question: 독자 선행 지식을 전제로 정보를 압축했지만 재설명·오해·관계 비용이 발생하는 반례는 어디에 있고, 작가는 무엇을 다시 확대하는가
+- current mode: 작품 전체 왕복 채굴 / 독자 선행 지식 압축 실패·재온보딩 비용
+- current question: 재분류 뒤 열린 정보·접근·신뢰 권리가 후속 행동에서 실제로 유지되는가, 또는 정체·기억 주장이 장기 보류될 때 어떤 비용이 누적되는가
 
 ## 파일셋 1 — 추론 범위 제한
 
@@ -94,13 +94,32 @@
 - hold: 설명 밀도가 현재 선택·관계 비용에 비례한다는 더 강한 가설은 실패·재설명·오판 비용 반례가 부족하므로 `HYPOTHESIS` 유지.
 - no new technique record: 현재 근거는 reader-information/character/story 모델 보강으로 손실 없이 저장되므로 Source Scene/Macro/Micro/TH를 추가하지 않음.
 
+## 파일셋 9 — 독자 선행 지식 압축 실패·현재 관계 재분류
+
+- reader information update: `work_model/reader_information_model.md`
+- relationship: `relationships/REL-REF47-0002.md`
+- prose model: `prose/PRO-REF47-0006.md`
+- prose evidence: `prose/evidence/PSE-REF47-0018.md`, `0019.md` + 기존 `0017.md` 비교 연결
+- variation set: `prose/variations/PVAR-REF47-0005.md`
+- thread: `threads/TH-REF47-01.md`
+- full reread: ep297-298, ep320, ep327-328, ep330-331, ep350
+- batch: `research_batches/BATCH-20260816-PRIOR-KNOWLEDGE-RECLASSIFICATION.md`
+- audit: `audits/AUD-20260816-PRIOR-KNOWLEDGE-RECLASSIFICATION.md`
+- receipt: `research_receipts/RCPT-20260816-1134-REF47.md`
+- result: `reader prior knowledge`는 압축의 충분조건이 아니며 현재 분류 과제·인과 모델·체험 기억·관계 주체와 호환되어야 한다는 경계를 `SUPPORTED`로 정밀화.
+- prose result: 오분류 비용이 클수록 문장이 길어진다는 가설은 `CONTRADICTED`; 누락 연결이 인과인지 체험 기억인지 관계 발화 주체인지에 따라 반복 과거판정 / 긴 정체성 블록 / 짧은 주체 대비로 실현이 달라짐.
+- technique result: `TH-REF47-01 VERIFIED_THREAD`; 정체 이름과 과거 사건은 현재 관계 권리를 자동 이전하지 않고 연결부 재검증과 후속 행동이 필요함.
+- storage restraint: 신규 Source Scene/Macro/Micro/EVT/CHR 없음.
+
 ## 공통 인덱스
 
 - `indexes/source_scenes.md` — cross-track observed chain을 보존하되 부분 문제로 검색하는 상위 진입점
+- `indexes/relationships.md` — 현재 확인된 관계 권리 변화와 재검증 진입점
+- `indexes/threads.md` — 작품 내부 VERIFIED_THREAD 진입점
 - `../../indexes/scene_retrieval_contract.md` — `observed_chain ≠ recommended_chain`, 부분 일치, 불일치 경계, 결합 강제 감사 계약
 - `../../indexes/initial_onboarding_research.md` — 첫 제시·재온보딩을 작품별 독립 연구한 뒤 비교하는 라우팅 계약
 - `indexes/prose.md`
 - `indexes/prose_evidence.md`
 - `indexes/prose_variations.md`
 
-현재 REF-47은 작품 전체 문체 모델 완성이 아니라 실제 집필 실패와 초기 제시 문제를 원문으로 역추적해 검색 구조를 검증하는 단계다. Source Scene의 결합 사슬은 작가가 그 장면에서 실제로 한 선택을 복원하기 위해 보존하지만, 집필에서는 그 결합을 재현하지 않는다. 표현 연구에서는 국소 문장을 바로 실행 공식으로 바꾸지 않고 해당 회차 전체를 다시 읽어 장면별 대사·지문·내면·설명·행동·효과음·UI 파형을 먼저 확인한 뒤 문단·문장·절·어휘로 내려간다. 초기 제시 연구에서도 ep1의 표면을 정답으로 만들지 않고, 같은 작품의 후속 첫 제시·압축 회수·반례를 왕복한 뒤에만 작품 내부 메커니즘을 판단한다.
+현재 REF-47은 작품 전체 문체 모델 완성이 아니라 실제 집필 실패와 초기 제시·장기 callback 문제를 원문으로 역추적해 검색 구조를 검증하는 단계다. Source Scene의 결합 사슬은 작가가 그 장면에서 실제로 한 선택을 복원하기 위해 보존하지만, 집필에서는 그 결합을 재현하지 않는다. 표현 연구에서는 국소 문장을 바로 실행 공식으로 바꾸지 않고 해당 회차 전체를 다시 읽어 장면별 대사·지문·내면·설명·행동·효과음·UI 파형을 먼저 확인한 뒤 문단·문장·절·어휘로 내려간다. reader prior knowledge도 단순 `이미 앎/처음 앎` 이분법이 아니라 현재 인물의 기억과 관계 권리, 지금 다시 분류해야 할 인과·주체가 호환되는지까지 확인한다.

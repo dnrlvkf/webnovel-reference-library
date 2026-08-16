@@ -30,6 +30,6 @@
   claimed_scope: 1-350
   verified_episode_headers: ep1, 167-350
   research_mode: traversal
-  current_scope: ep1 baseline + ep235/269/275/318/350 full-episode onboarding/callback traversal
-  current_question: "Where does reader-prior-dependent onboarding compression fail, require re-explanation, or create ambiguity/cost, and how are those limits proven by later choices or relationship rights?"
-  last_receipt: RCPT-20260816-1111-REF47
+  current_scope: onboarding/callback baseline + ep297-298/320/327-328/330-331/350 reclassification traversal
+  current_question: "After reclassification, which information/access/trust rights persist in action, and which identity or memory claims remain unresolved or narrow again?"
+  last_receipt: RCPT-20260816-1134-REF47

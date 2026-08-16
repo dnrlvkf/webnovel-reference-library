@@ -18,4 +18,6 @@
 | `PSE-REF47-0014` | DIRECT | 회의 질문을 반론·공격·권위 행사로 운용, 정치 맥락 지문 결속 | ep230 / 124333-124429 | `PVAR-REF47-0004` | `works/REF-47/prose/evidence/PSE-REF47-0014.md` |
 | `PSE-REF47-0015` | DIRECT | 사실 판정에서 책임·체면 충돌로 프레임 이동 | ep298 / 158903-159005 | `PVAR-REF47-0004` | `works/REF-47/prose/evidence/PSE-REF47-0015.md` |
 | `PSE-REF47-0016` | DIRECT | 짧은 반복 대사에 개별 행동비트 생략, 반복 전체 압축 | ep329 / 175511-175609 | `PVAR-REF47-0004` | `works/REF-47/prose/evidence/PSE-REF47-0016.md` |
-| `PSE-REF47-0017` | DIRECT | 짧은 가치 질문 사이 정체성·시간·관찰 지문 블록 결속 | ep331 / 176495-176571 | `PVAR-REF47-0004` | `works/REF-47/prose/evidence/PSE-REF47-0017.md` |
+| `PSE-REF47-0017` | DIRECT | 짧은 가치 질문 사이 정체성·시간·관찰 지문 블록 결속 | ep331 / 176495-176571 | `PVAR-REF47-0004`,`0005` | `works/REF-47/prose/evidence/PSE-REF47-0017.md` |
+| `PSE-REF47-0018` | DIRECT | 이미 아는 사건의 원인 오독을 반복 과거판정→짧은 전환→현재 재판정으로 수정 | ep328 / 175413-175457 | `PVAR-REF47-0005` | `works/REF-47/prose/evidence/PSE-REF47-0018.md` |
+| `PSE-REF47-0019` | DIRECT | 과거 관계를 재설명하지 않고 짧은 주체 대비로 현재 발화 소유권 재배정 | ep350 / 185409-185499 | `PVAR-REF47-0005` | `works/REF-47/prose/evidence/PSE-REF47-0019.md` |
