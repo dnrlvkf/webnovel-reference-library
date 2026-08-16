@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260816-2331-REF47-FULL-REVOCATION-THRESHOLD` | `REF-47` | 작품 전체 왕복 채굴 / 역할 권리 전면 회수 경계 | `SRC-DIRECT-001 / ep264,266,285-286,299-300,302,324,330,339 + SC-0038~0042` | `c7af4a5b04accf9e80cc5e5c92e7cb83b910555e` | complete_with_housekeeping_hold |
 | `RCPT-20260816-2321-REF47-EARLY-BOUNDARY-TRUST-REPAIR` | `REF-47` | 작품 전체 왕복 채굴 / 초반 회차 경계 검증 + 신뢰 실패 복구 방식 | `SRC-DIRECT-001 / ep1-166 boundary verification + ep78,124,132,163 + SC-0034~0037` | `143411edf64cea71a9a9dc149f0bef4221bc902d` | complete_with_housekeeping_hold |
 | `RCPT-20260816-2248-REF47-TRUST-FAILURE-TAXONOMY` | `REF-47` | 작품 전체 왕복 채굴 / 신뢰·판단권 실패 분류 | `SRC-DIRECT-001 / ep247,250-253,267,287,293,297,323-324,331-332,335,339,342-343 + SC-0024 expanded + SC-0028~0033` | `b4b096704f9e0b11ff5be82321ea7dafdf93cfe1` | complete |
 | `RCPT-20260816-2152-REF47-ROLE-JUDGMENT-TRUST` | `REF-47` | 작품 전체 왕복 채굴 / 관계 역할 판단권과 신뢰 변형 | `SRC-DIRECT-001 / ep286-287,293,297,323-324,331-332,335,339,342-343 + SC-0022~0027` | `1a47230aed6fe48cb518e36aa43ee7388c0d2013` | complete |
@@ -52,6 +53,7 @@
 
 ## 경로
 
+- `works/REF-47/research_receipts/RCPT-20260816-2331-REF47-FULL-REVOCATION-THRESHOLD.md`
 - `works/REF-47/research_receipts/RCPT-20260816-2321-REF47-EARLY-BOUNDARY-TRUST-REPAIR.md`
 - `works/REF-47/research_receipts/RCPT-20260816-2248-REF47-TRUST-FAILURE-TAXONOMY.md`
 - `works/REF-47/research_receipts/RCPT-20260816-2152-REF47-ROLE-JUDGMENT-TRUST.md`
