@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260816-2112-REF47-RIGHTS-FOLLOWUP` | `REF-47` | 작품 전체 왕복 채굴 / 현재 관계 권리 후속 검증 | `SRC-DIRECT-001 / ep332, ep335, ep339, ep350 full episodes + SC-0018~0021` | `d5972066e80b7bc38d0cddc9be9a591d4b485157` | complete |
 | `RCPT-20260816-2037-REF47-CONNECTIVITY-PILOT` | `REF-47` | 작품 전체 왕복 채굴 / research-layer connectivity pilot | `SRC-DIRECT-001 / ep256 SC-0007 + ep298 SC-0015 + ep331 SC-0017/full episode` | `3bbfdf6e8cde0b2b15f974a07e67b30f38c4d584` | PASS_WITH_TWO_STALE_REVERSE_LINKS_REPAIRED |
 | `RCPT-20260816-1950-GLOBAL-SOURCE-VAULT-BINDING` | `GLOBAL / REF-02 / REF-46 / REF-47` | repository maintenance / cross-project source vault binding + canonical re-entry E2E validation | `source transport binding + PSE-REF47-0018 canonical re-entry test; no new story/research claim` | `c87aa6cf2b7431ad4b76cb4653b5af7b46452a9f9435cc4ba49bcd994d41fde9` | transport_ready_with_external_project_acceptance_hold |
 | `RCPT-20260816-1902-GLOBAL-REENTRY-CONNECTIVITY` | `GLOBAL` | repository maintenance / source re-entry transport + research-layer connectivity | `no new source-text research claim; Project Source standards + current canonical manifest/registries/retrieval contracts/source bridges only` | `79efdf8d7357be4693a9ee558560a4e9a82d5c5f918831e453fe0f4365b29c3e` | complete_with_transport_hold |
@@ -48,6 +49,7 @@
 
 ## 경로
 
+- `works/REF-47/research_receipts/RCPT-20260816-2112-REF47-RIGHTS-FOLLOWUP.md`
 - `works/REF-47/research_receipts/RCPT-20260816-2037-REF47-CONNECTIVITY-PILOT.md`
 - `audits/RCPT-20260816-1950-GLOBAL-SOURCE-VAULT-BINDING.md`
 - `audits/RCPT-20260816-1902-GLOBAL-REENTRY-CONNECTIVITY.md`
