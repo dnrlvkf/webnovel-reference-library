@@ -3,8 +3,8 @@
 - identity exposure: sealed
 - primary source: `SRC-DIRECT-001`
 - source bridge: `source_registry/SOURCE-BRIDGE-REF47.md`
-- current mode: 구간 정밀 분석 / 초기 제시·온보딩
-- current question: ep1의 초기 제시 선택이 같은 작품의 후속 신규 인물·관계·규칙 온보딩과 압축 회수에서 어떻게 반복·변형·반례화되는가
+- current mode: 작품 전체 왕복 채굴 / 초기 제시·압축 회수 변형
+- current question: 독자 선행 지식을 전제로 정보를 압축했지만 재설명·오해·관계 비용이 발생하는 반례는 어디에 있고, 작가는 무엇을 다시 확대하는가
 
 ## 파일셋 1 — 추론 범위 제한
 
@@ -79,6 +79,20 @@
 - audit: `audits/AUD-20260815-EP1-ONBOARDING.md`
 - source scope: `ep1 lines 471-862`; next-episode immediate recovery only `ep2 lines 863-929`
 - note: ep1을 전역 1화 공식으로 만들지 않고 같은 REF의 후속 신규 온보딩·압축 회수와 먼저 비교한다.
+
+## 파일셋 8 — 후속 온보딩·압축 회수 왕복 비교
+
+- reader information update: `work_model/reader_information_model.md`
+- character long-range update: `characters/CHR-REF47-0001.md`
+- ep1 comparison boundary: `story/episodes/EP-0001.md`
+- source bridge full-episode entries: `source_registry/SOURCE-BRIDGE-REF47.md`
+- full reread: ep235, ep269, ep275, ep318, ep350
+- batch: `research_batches/BATCH-20260816-ONBOARDING-VARIATION.md`
+- audit: `audits/AUD-20260816-ONBOARDING-VARIATION.md`
+- receipt: `research_receipts/RCPT-20260816-1111-REF47.md`
+- result: ep1의 `외부 분류 → 오독 → 내부 진상` 표면을 작품 기본 템플릿으로 보는 가설은 `CONTRADICTED`; 독자가 지금 새로 분류해야 하는 판단은 확대하고 이미 학습된 정보는 현재 선택·권리·관계 판정의 전제로 압축 회수한다는 작품 내부 경계는 `SUPPORTED`.
+- hold: 설명 밀도가 현재 선택·관계 비용에 비례한다는 더 강한 가설은 실패·재설명·오판 비용 반례가 부족하므로 `HYPOTHESIS` 유지.
+- no new technique record: 현재 근거는 reader-information/character/story 모델 보강으로 손실 없이 저장되므로 Source Scene/Macro/Micro/TH를 추가하지 않음.
 
 ## 공통 인덱스
 

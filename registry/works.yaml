@@ -30,6 +30,6 @@
   claimed_scope: 1-350
   verified_episode_headers: ep1, 167-350
   research_mode: traversal
-  current_scope: ep1-initial-onboarding-baseline + ep2-immediate-recovery-check
-  current_question: "How does ep1 initial presentation vary, recur, or contradict itself in later first presentations and compressed callbacks within REF-47?"
-  last_receipt: RCPT-20260815-2301-REF47
+  current_scope: ep1 baseline + ep235/269/275/318/350 full-episode onboarding/callback traversal
+  current_question: "Where does reader-prior-dependent onboarding compression fail, require re-explanation, or create ambiguity/cost, and how are those limits proven by later choices or relationship rights?"
+  last_receipt: RCPT-20260816-1111-REF47

@@ -49,12 +49,12 @@ bound_sources:
     identity_status: verified_private
     boundary_status: partial_header_verification
     claimed_scope: 1-350
-    verified_episode_headers: 167-350
+    verified_episode_headers: ep1, 167-350
     byte_size: 5927798
     sha256: 95d22f155d582ec702142b906161f4b36241627a76cdf858ff9b39cd6d686a4e
     encoding: utf-16
     decoded_line_basis: utf-16 decode + splitlines
-    current_research_scope: selected prose pilot at 245,253,255,319
+    current_research_scope: ep1 baseline + ep235/269/275/318/350 full-episode onboarding/callback traversal
     source_locations:
       - episode: 245
         lines: 131481-131519

@@ -9,11 +9,24 @@
 - verified episode header scope: `ep1 direct boundary verified; 167-350 previously verified`
 - boundary_status: `partial_header_verification`
 
-## 이번 재독 위치
+## 전체 회차 재독 위치
+
+| full episode | episode | lines | normalized full-episode sha256 |
+|---|---:|---:|---|
+| `FULL-EP-REF47-0001` | 1 | 471-862 | `a4085b570676be7cd9fc2e59942651d7ad151d7c62286336445d7654460c1368` |
+| `FULL-EP-REF47-0235` | 235 | 126555-126972 | `5dd3a8e2f60155d8d0681f1f24f0b52647bec32c17216614a34464fd9c84b2b9` |
+| `FULL-EP-REF47-0269` | 269 | 143231-143724 | `02cc2a442c3c1d1fe9e3c4001ae8ad2ef415add4c08a89d1b3a09005323e34c5` |
+| `FULL-EP-REF47-0275` | 275 | 146201-146834 | `546da03584812072642e1ed5759d120f0fd7cd66c389d6f07cd9e3a9fe668946` |
+| `FULL-EP-REF47-0318` | 318 | 169913-170380 | `c96ab603a4e912101fc962a630002dc1790c97197f8856f972417bceed5c53b6` |
+| `FULL-EP-REF47-0350` | 350 | 185225-185651 | `40a14817adc65dee5143a9acbd7706b7419b2656bc4ce42e098122a039d32701` |
+
+- ep235/269/275/318/350은 이미 검증된 `167-350` episode-header 범위 안에서 현재 배치가 각 회차 시작과 다음 회차 header 또는 source EOF를 다시 확인해 전체 경계를 고정했다.
+- 정규화 whole-episode hash는 각 표의 행 범위를 `\n`으로 결합하고 마지막 개행을 붙인 UTF-8 바이트 기준이다. ep1은 기존 직접 검증값을 유지한다.
+
+## 기존 재독 위치
 
 | scene | episode | lines | normalized segment sha256 |
 |---|---:|---:|---|
-| `FULL-EP-REF47-0001` | 1 | 471-862 | `a4085b570676be7cd9fc2e59942651d7ad151d7c62286336445d7654460c1368` |
 | `SC-REF47-0001` | 245 | 131481-131519 | `ae61fe5c4d8446e3d15735c9d390e3dab5f3f52d2c4877df7e177c8978ea6e14` |
 | `SC-REF47-0002` | 253 | 135351-135385 | `23e6d5f71dc69f13d1b0df544f90e49c9a31e05e079bc30b7d3cae55c8647f71` |
 | `SC-REF47-0003` | 255 | 136273-136311 | `f37431d6a5aa5fe83339f588e810137d192375fec9cf7cff44ac0c63c28e697d` |
@@ -31,7 +44,5 @@
 | `SC-REF47-0015` | 298 | 158903-159005 | `f6ca299d9a6ad557cbeaad6e691dcc230e28b8ff275d41b2f85f2f21b08e64b2` |
 | `SC-REF47-0016` | 329 | 175511-175609 | `746325423092914edcd1d7c38c503f14a2133ee02e17fb899e45f0a13467446d` |
 | `SC-REF47-0017` | 331 | 176495-176571 | `c659e68a4d5cd9a0ad306ff13332b65433abddce22c80a694bbb3a000fce840d` |
-
-정규화 구간 해시는 해당 행 범위를 `\n`으로 결합하고 마지막 개행을 붙인 UTF-8 바이트 기준이다.
 
 `ep1`은 line 471의 episode header와 line 863의 다음 episode header를 직접 확인해 471-862 경계를 검증했다. 이는 기존 `1-166화 개별 episode header 미확정` 상태 전체를 해제하는 것이 아니라 ep1 한 건의 직접 경계 검증만 추가한다.
