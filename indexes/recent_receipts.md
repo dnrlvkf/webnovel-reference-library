@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260816-2037-REF47-CONNECTIVITY-PILOT` | `REF-47` | 작품 전체 왕복 채굴 / research-layer connectivity pilot | `SRC-DIRECT-001 / ep256 SC-0007 + ep298 SC-0015 + ep331 SC-0017/full episode` | `3bbfdf6e8cde0b2b15f974a07e67b30f38c4d584` | PASS_WITH_TWO_STALE_REVERSE_LINKS_REPAIRED |
 | `RCPT-20260816-1950-GLOBAL-SOURCE-VAULT-BINDING` | `GLOBAL / REF-02 / REF-46 / REF-47` | repository maintenance / cross-project source vault binding + canonical re-entry E2E validation | `source transport binding + PSE-REF47-0018 canonical re-entry test; no new story/research claim` | `c87aa6cf2b7431ad4b76cb4653b5af7b46452a9f9435cc4ba49bcd994d41fde9` | transport_ready_with_external_project_acceptance_hold |
 | `RCPT-20260816-1902-GLOBAL-REENTRY-CONNECTIVITY` | `GLOBAL` | repository maintenance / source re-entry transport + research-layer connectivity | `no new source-text research claim; Project Source standards + current canonical manifest/registries/retrieval contracts/source bridges only` | `79efdf8d7357be4693a9ee558560a4e9a82d5c5f918831e453fe0f4365b29c3e` | complete_with_transport_hold |
 | `RCPT-20260816-1134-REF47` | `REF-47` | 작품 전체 왕복 채굴 / 독자 선행 지식 압축 실패·재온보딩 비용 | `SRC-DIRECT-001 / ep297-298, ep320, ep327-328, ep330-331, ep350 full episodes` | `567527c6c7b9cc1d3a9efe6dfe8ab927d2687329` | complete |
@@ -35,7 +36,7 @@
 | `RCPT-20260813-1237-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 241~284화` | `ab80452f5e4ef08e8acd7bc7d4a7039f47d2a1e2` | complete_first_pass_batch |
 | `RCPT-20260813-1150-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 181~240화` | `3299c0c4229db744f8cba33e82c6fe7c54e35605` | complete / relation attribution partially superseded |
 | `RCPT-20260813-1046-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 121~180화` | `19055585f6791dbb8fa17b1a780575bec92d9506` | complete |
-| `RCPT-20260813-0951-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 61~120화` | `8c5b59c7266213f298223372b5f13ae0b01199a4` | complete |
+| `RCPT-20260813-0951-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 61~120화` | `8c5ce4d5867874d36b1470da79921a821294b51be0b899c678facb78693855c` | complete |
 | `RCPT-20260813-0924-REF02` | `REF-02` | 구간 정밀 분석 / SOP v6.1 | `SRC-COL2-027 / 51~60화` | `cdcad32bd082c4ca05f8fb766ad903c2992b3e15` | complete |
 | `RCPT-20260813-0906-REF02` | `REF-02` | 구간 정밀 분석 / SOP v6.1 | `SRC-COL2-027 / 41~50화` | `f299e1a9f7a04ca92d7c85458e6c3c1d1d379559` | complete |
 | `RCPT-20260809-0002-REF46` | `REF-46` | 작품 전체 왕복 채굴 | `149~718화 선택 구간 + 책임·연구욕구·역할평가 왕복` | `0b6877c9e13192d5dbf45fa8dd0e89787466ba6c` | complete |
@@ -47,6 +48,7 @@
 
 ## 경로
 
+- `works/REF-47/research_receipts/RCPT-20260816-2037-REF47-CONNECTIVITY-PILOT.md`
 - `audits/RCPT-20260816-1950-GLOBAL-SOURCE-VAULT-BINDING.md`
 - `audits/RCPT-20260816-1902-GLOBAL-REENTRY-CONNECTIVITY.md`
 - `works/REF-47/research_receipts/RCPT-20260816-1134-REF47.md`
