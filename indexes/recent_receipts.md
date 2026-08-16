@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260816-2248-REF47-TRUST-FAILURE-TAXONOMY` | `REF-47` | 작품 전체 왕복 채굴 / 신뢰·판단권 실패 분류 | `SRC-DIRECT-001 / ep247,250-253,267,287,293,297,323-324,331-332,335,339,342-343 + SC-0024 expanded + SC-0028~0033` | `b4b096704f9e0b11ff5be82321ea7dafdf93cfe1` | complete |
 | `RCPT-20260816-2152-REF47-ROLE-JUDGMENT-TRUST` | `REF-47` | 작품 전체 왕복 채굴 / 관계 역할 판단권과 신뢰 변형 | `SRC-DIRECT-001 / ep286-287,293,297,323-324,331-332,335,339,342-343 + SC-0022~0027` | `1a47230aed6fe48cb518e36aa43ee7388c0d2013` | complete |
 | `RCPT-20260816-2112-REF47-RIGHTS-FOLLOWUP` | `REF-47` | 작품 전체 왕복 채굴 / 현재 관계 권리 후속 검증 | `SRC-DIRECT-001 / ep332, ep335, ep339, ep350 full episodes + SC-0018~0021` | `d5972066e80b7bc38d0cddc9be9a591d4b485157` | complete |
 | `RCPT-20260816-2037-REF47-CONNECTIVITY-PILOT` | `REF-47` | 작품 전체 왕복 채굴 / research-layer connectivity pilot | `SRC-DIRECT-001 / ep256 SC-0007 + ep298 SC-0015 + ep331 SC-0017/full episode` | `3bbfdf6e8cde0b2b15f974a07e67b30f38c4d584` | PASS_WITH_TWO_STALE_REVERSE_LINKS_REPAIRED |
@@ -14,7 +15,7 @@
 | `RCPT-20260815-2301-REF47` | `REF-47` | 구간 정밀 분석 / 초기 제시·온보딩 | `SRC-DIRECT-001 / ep1 lines 471-862 + ep2 immediate recovery check lines 863-929` | `df22601a3e4bc1a1335a210506faf8c250f9585f` | complete |
 | `RCPT-20260815-2244-GLOBAL-LEGACY-AUTHORITY-HARDENING` | `GLOBAL` | repository maintenance / legacy authority hardening audit | `no new source-text research claim; current manifest, legacy addenda v1.1-v1.3, catalog legacy boundary, current README/AGENTS routing only` | `c48d13a8ce87d61c25a9f5f27d06c085d47b3f48` | complete |
 | `RCPT-20260815-2239-GLOBAL-ONBOARDING-ROUTING` | `GLOBAL` | repository maintenance / initial-reonboarding research routing | `no new source-text research claim; Project Source standards + current repository routing/contracts + sample-derived research question only` | `037c61860d948fe40c55c39a41bacf7f182a1593` | complete |
-| `RCPT-20260815-2209-GLOBAL-SOURCE-REENTRY` | `GLOBAL` | repository maintenance / expression source-reentry contract audit | `no new source-text research claim; Project Source standards + current repository contracts/indexes + recent REF-47 expression failure audit` | `cb8e758ad494e312baad098405d3764fdd3df598` | complete |
+| `RCPT-20260815-2209-GLOBAL-SOURCE-REENTRY` | `GLOBAL` | repository maintenance / expression source-reentry contract audit | `no new source-text research claim; Project Source standards + repository contracts/indexes + recent REF-47 expression failure audit` | `cb8e758ad494e312baad098405d3764fdd3df598` | complete |
 | `RCPT-20260815-2151-REF47` | `REF-47` | 구간 정밀 분석 / full-episode expression waveform | `SRC-DIRECT-001 / ep1 / lines 471-862` | `b39c09fef7289885b8b607831b5be10df09d6193` | complete |
 | `RCPT-20260815-2131-GLOBAL-SOP71-EXPRESSION` | `GLOBAL` | repository maintenance / standard promotion / expression-retrieval contract audit | `no new source-text research claim; Project Source standards + repository contracts/indexes only` | `f3ae024a9f6ba26e40b2c9d25858a66fbd7347ba` | complete |
 | `RCPT-20260815-2007-GLOBAL-EXPRESSION-CONTEXT` | `GLOBAL / REF-47` | 구간 정밀 분석 / expression-retrieval context audit | `REF-47 / SRC-DIRECT-001 / ep256 full episode / lines 136725-137318` | `db154cbb1b6133036ea84c2a99d9fc065a55bf01` | complete |
@@ -50,6 +51,7 @@
 
 ## 경로
 
+- `works/REF-47/research_receipts/RCPT-20260816-2248-REF47-TRUST-FAILURE-TAXONOMY.md`
 - `works/REF-47/research_receipts/RCPT-20260816-2152-REF47-ROLE-JUDGMENT-TRUST.md`
 - `works/REF-47/research_receipts/RCPT-20260816-2112-REF47-RIGHTS-FOLLOWUP.md`
 - `works/REF-47/research_receipts/RCPT-20260816-2037-REF47-CONNECTIVITY-PILOT.md`
