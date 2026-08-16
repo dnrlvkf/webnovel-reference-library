@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260816-1950-GLOBAL-SOURCE-VAULT-BINDING` | `GLOBAL / REF-02 / REF-46 / REF-47` | repository maintenance / cross-project source vault binding + canonical re-entry E2E validation | `source transport binding + PSE-REF47-0018 canonical re-entry test; no new story/research claim` | `c87aa6cf2b7431ad4b76cb4653b5af7b46452a9f9435cc4ba49bcd994d41fde9` | transport_ready_with_external_project_acceptance_hold |
 | `RCPT-20260816-1902-GLOBAL-REENTRY-CONNECTIVITY` | `GLOBAL` | repository maintenance / source re-entry transport + research-layer connectivity | `no new source-text research claim; Project Source standards + current canonical manifest/registries/retrieval contracts/source bridges only` | `79efdf8d7357be4693a9ee558560a4e9a82d5c5f918831e453fe0f4365b29c3e` | complete_with_transport_hold |
 | `RCPT-20260816-1134-REF47` | `REF-47` | 작품 전체 왕복 채굴 / 독자 선행 지식 압축 실패·재온보딩 비용 | `SRC-DIRECT-001 / ep297-298, ep320, ep327-328, ep330-331, ep350 full episodes` | `567527c6c7b9cc1d3a9efe6dfe8ab927d2687329` | complete |
 | `RCPT-20260816-1111-REF47` | `REF-47` | 작품 전체 왕복 채굴 / 초기 제시·압축 회수 변형 | `SRC-DIRECT-001 / ep1 baseline + ep235 + ep269 + ep275 + ep318 + ep350 full episodes` | `c848252343970d1785e4b6d08cb85e647bcefb6f` | complete |
@@ -46,6 +47,7 @@
 
 ## 경로
 
+- `audits/RCPT-20260816-1950-GLOBAL-SOURCE-VAULT-BINDING.md`
 - `audits/RCPT-20260816-1902-GLOBAL-REENTRY-CONNECTIVITY.md`
 - `works/REF-47/research_receipts/RCPT-20260816-1134-REF47.md`
 - `works/REF-47/research_receipts/RCPT-20260816-1111-REF47.md`
