@@ -2,8 +2,9 @@
   status: active
   identity_exposure: sealed
   primary_source_id: SRC-COL2-027
-  source_reentry_status: transport_unbound
-  source_transport_scope: project_scoped_only
+  source_reentry_status: verified_match
+  source_transport_scope: cross_project_account_connector
+  source_transport_kind: google_drive_private
   boundary_status: exact
   confirmed_scope: 1-284
   research_mode: whole_work_complete
@@ -14,10 +15,12 @@
 - id: REF-46
   status: active
   identity_exposure: sealed
+  primary_source_id: SRC-LEGACY-REF46
   source_binding: legacy_registry_verified
   source_registry_path: works/REF-46/source_registry/SOURCE-BRIDGE-REF46.md
-  source_reentry_status: transport_unbound
-  source_transport_scope: project_scoped_only
+  source_reentry_status: verified_match
+  source_transport_scope: cross_project_account_connector
+  source_transport_kind: google_drive_private
   boundary_status: exact
   confirmed_scope: 1-917
   research_mode: traversal
@@ -30,8 +33,9 @@
   identity_exposure: sealed
   primary_source_id: SRC-DIRECT-001
   source_registry_path: works/REF-47/source_registry/SOURCE-BRIDGE-REF47.md
-  source_reentry_status: transport_unbound
-  source_transport_scope: project_scoped_only
+  source_reentry_status: verified_match
+  source_transport_scope: cross_project_account_connector
+  source_transport_kind: google_drive_private
   boundary_status: partial_header_verification
   claimed_scope: 1-350
   verified_episode_headers: ep1, 167-350

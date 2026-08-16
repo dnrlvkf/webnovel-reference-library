@@ -5,9 +5,23 @@
 - raw_byte_size: `5927798`
 - raw_encoding: `UTF-16`
 - line_basis: UTF-16 decode 후 `splitlines` 기준 1-based
+- source_reentry_status: `VERIFIED_MATCH`
 - claimed_scope: `1-350`
 - verified episode header scope: `ep1 direct boundary verified; 167-350 previously verified`
 - boundary_status: `partial_header_verification`
+
+## cross-project source access
+
+- transport_kind: `google_drive_private`
+- file_id: `1Ipfl9-ckUFLTjK1j_l6FF4kC48Cg2Rdy`
+- parent_folder_id: `11bd2KIk6LJsGX9zPeue0StX6DlNfPuQW`
+- access_control: `owner_only_not_shared`
+- expected_source_id: `SRC-DIRECT-001`
+- expected_sha256: `95d22f155d582ec702142b906161f4b36241627a76cdf858ff9b39cd6d686a4e`
+- expected_byte_size: `5927798`
+- verification: `2026-08-16 raw download SHA-256 + byte size match`
+
+다른 프로젝트에서는 file ID로 원문 바이트를 다시 읽고 canonical identity를 재대조한 뒤에만 이번 실행의 `VERIFIED_MATCH`로 사용한다. source transport가 검증되어도 미검증 episode boundary는 자동 승격하지 않는다.
 
 ## 전체 회차 재독 위치
 
@@ -28,7 +42,8 @@
 | `FULL-EP-REF47-0350` | 350 | 185225-185651 | `40a14817adc65dee5143a9acbd7706b7419b2656bc4ce42e098122a039d32701` |
 
 - ep235/269/275/297/298/318/320/327/328/330/331/350은 이미 검증된 `167-350` episode-header 범위 안에서 각 배치가 회차 시작과 다음 회차 header 또는 source EOF를 다시 확인해 전체 경계를 고정했다.
-- 정규화 whole-episode hash는 각 표의 행 범위를 `\n`으로 결합하고 마지막 개행을 붙인 UTF-8 바이트 기준이다. ep1은 기존 직접 검증값을 유지한다.
+- 기본 정규화 whole-episode hash는 각 표의 행 범위를 `\n`으로 결합하고 마지막 개행을 붙인 UTF-8 바이트 기준이다.
+- `FULL-EP-REF47-0001`만 레거시 직접 검증값을 보존하며, 이 값은 같은 471-862행을 `\r\n`으로 결합하고 마지막 CRLF를 붙인 UTF-8 바이트에서 재현된다. LF 정규화 값은 `133528e6f6ae7e85964cda2cb08f4f671f90304488edcd47fd0cec5855009570`이다. 이는 source mismatch가 아니라 레거시 hash-normalization 예외다.
 
 ## 기존 재독 위치
 

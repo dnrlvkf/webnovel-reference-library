@@ -6,23 +6,39 @@ identity_exposure: sealed
 inventory_status: indexed
 source_reentry_contract_path: indexes/source_reentry_contract.md
 cross_project_transport:
-  status: unbound
-  current_scope: project_scoped_only
-  verified_match_available_cross_project: false
+  status: partially_bound_verified
+  current_scope: account_scoped_google_drive
+  verified_match_available_cross_project: true
+  verified_source_ids:
+    - SRC-COL2-027
+    - SRC-LEGACY-REF46
+    - SRC-DIRECT-001
+  unbound_collection_items: 42
   public_raw_source_storage: forbidden
-  next_binding_requirement: "Bind an access-controlled source locator whose bytes can be verified against each canonical source identity."
+  note: "Only the listed source IDs are VERIFIED_MATCH. Do not infer transport readiness for the remaining collection items."
 
 bound_sources:
   - source_id: SRC-COL2-027
     bound_ref: REF-02
     identity_status: verified_private
-    reentry_status: transport_unbound
-    transport_scope: project_scoped_only
+    reentry_status: verified_match
+    transport_scope: cross_project_account_connector
     boundary_status: exact
     confirmed_scope: 1-284
     byte_size: 4366295
     sha256: 17b0f41b6b64eefe6f3d1354d22e2d75529be153b1f0f7fd71f00a016f96b766
     encoding: utf-8
+    source_access:
+      transport_kind: google_drive_private
+      file_id: 17nvr-SaeIORyLNDA3ZGeU8FAu_cX8w02
+      parent_folder_id: 11bd2KIk6LJsGX9zPeue0StX6DlNfPuQW
+      access_control: owner_only_not_shared
+      locator_identity_exposure: sealed
+      expected_source_id: SRC-COL2-027
+      expected_sha256: 17b0f41b6b64eefe6f3d1354d22e2d75529be153b1f0f7fd71f00a016f96b766
+      expected_byte_size: 4366295
+      verification_date: 2026-08-16
+      verification_method: raw_download_sha256_and_size_match
     current_research_scope: 1-284
     source_locations:
       - episodes: 1-2
@@ -53,11 +69,34 @@ bound_sources:
         lines: 94107-111687
         segment_sha256: e20f2f16b59a2c1e3152e3e980cd346e136f45624762a6bce3bef86e05032d55
 
+  - source_id: SRC-LEGACY-REF46
+    bound_ref: REF-46
+    identity_status: legacy_registry_verified
+    reentry_status: verified_match
+    transport_scope: cross_project_account_connector
+    boundary_status: exact
+    confirmed_scope: 1-917
+    byte_size: 14520163
+    sha256: 9cf9d175c228c02e960a04f3d721f29bb4362b380065f2fd200b828291ba1191
+    encoding: utf-8
+    source_access:
+      transport_kind: google_drive_private
+      file_id: 1dy1huiWN5uO9VTwjHCCqgoAmc_IvEewz
+      parent_folder_id: 11bd2KIk6LJsGX9zPeue0StX6DlNfPuQW
+      access_control: owner_only_not_shared
+      locator_identity_exposure: sealed
+      expected_source_id: SRC-LEGACY-REF46
+      expected_sha256: 9cf9d175c228c02e960a04f3d721f29bb4362b380065f2fd200b828291ba1191
+      expected_byte_size: 14520163
+      verification_date: 2026-08-16
+      verification_method: raw_download_sha256_and_size_match
+    source_registry_path: works/REF-46/source_registry/SOURCE-BRIDGE-REF46.md
+
   - source_id: SRC-DIRECT-001
     bound_ref: REF-47
     identity_status: verified_private
-    reentry_status: transport_unbound
-    transport_scope: project_scoped_only
+    reentry_status: verified_match
+    transport_scope: cross_project_account_connector
     boundary_status: partial_header_verification
     claimed_scope: 1-350
     verified_episode_headers: ep1, 167-350
@@ -65,6 +104,17 @@ bound_sources:
     sha256: 95d22f155d582ec702142b906161f4b36241627a76cdf858ff9b39cd6d686a4e
     encoding: utf-16
     decoded_line_basis: utf-16 decode + splitlines
+    source_access:
+      transport_kind: google_drive_private
+      file_id: 1Ipfl9-ckUFLTjK1j_l6FF4kC48Cg2Rdy
+      parent_folder_id: 11bd2KIk6LJsGX9zPeue0StX6DlNfPuQW
+      access_control: owner_only_not_shared
+      locator_identity_exposure: sealed
+      expected_source_id: SRC-DIRECT-001
+      expected_sha256: 95d22f155d582ec702142b906161f4b36241627a76cdf858ff9b39cd6d686a4e
+      expected_byte_size: 5927798
+      verification_date: 2026-08-16
+      verification_method: raw_download_sha256_and_size_match
     current_research_scope: onboarding/callback baseline + ep297-298/320/327-328/330-331/350 reclassification traversal
     source_locations:
       - episode: 245

@@ -1,13 +1,29 @@
 # REF-46 원천 브리지
 
 - work_id: `REF-46`
+- source_id: `SRC-LEGACY-REF46`
 - identity_exposure: `sealed`
 - source_binding_status: `legacy_registry_verified`
+- source_reentry_status: `VERIFIED_MATCH`
 - boundary_status: `exact`
 - confirmed_scope: `1~917화`
 - source_sha256: `9cf9d175c228c02e960a04f3d721f29bb4362b380065f2fd200b828291ba1191`
+- raw_byte_size: `14520163`
 - encoding: `utf-8`
 - legacy_registry: `catalog/tables/reference-registry.csv`
+
+## cross-project source access
+
+- transport_kind: `google_drive_private`
+- file_id: `1dy1huiWN5uO9VTwjHCCqgoAmc_IvEewz`
+- parent_folder_id: `11bd2KIk6LJsGX9zPeue0StX6DlNfPuQW`
+- access_control: `owner_only_not_shared`
+- expected_source_id: `SRC-LEGACY-REF46`
+- expected_sha256: `9cf9d175c228c02e960a04f3d721f29bb4362b380065f2fd200b828291ba1191`
+- expected_byte_size: `14520163`
+- verification: `2026-08-16 raw download SHA-256 + byte size match`
+
+다른 프로젝트에서는 file ID로 원문 바이트를 다시 읽고 위 identity를 재대조한 뒤에만 이번 실행의 `VERIFIED_MATCH`로 사용한다. Drive 파일은 공유되지 않은 owner-only 상태이며 공개 연구 저장소에는 원문 바이트를 복제하지 않는다.
 
 ## 경계 주의
 
@@ -35,4 +51,4 @@ selected_segments_sha256: `305f634dc2cc415413d7a1fbaf8652958c0545de95a60a30fbd1c
 
 ## 이관 경계
 
-이번 배치는 원천 자체를 새 source inventory ID로 재이관하지 않는다. 레거시 레지스트리의 exact boundary와 SHA를 정본 재진입 좌표로 보존하고, 새 `works/` 연구층만 추가한다. source inventory 전면 이관은 별도 migration audit 없이 수행하지 않는다.
+이번 배치에서 원천을 `SRC-LEGACY-REF46`으로 정식 결박했다. 기존 레거시 레지스트리의 exact boundary와 SHA를 바꾸지 않고 source ID와 access-controlled transport만 추가했다.

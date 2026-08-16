@@ -7,7 +7,7 @@
 **원천 신원과 원천 접근은 서로 다른 계약이다.**
 
 - `source_id + SHA-256 + byte size + encoding + boundary`는 원천의 **신원(identity)** 을 증명한다.
-- repository/path/project attachment 같은 locator는 이번 실행에서 그 바이트를 실제로 읽을 수 있게 하는 **transport(access)** 다.
+- repository/path/file ID/project attachment 같은 locator는 이번 실행에서 그 바이트를 실제로 읽을 수 있게 하는 **transport(access)** 다.
 - 신원이 맞아도 transport가 없으면 `SOURCE_READY`나 `VERIFIED_MATCH`가 아니다.
 - transport가 있어도 실제 읽은 바이트를 canonical identity와 대조하기 전에는 `VERIFIED_MATCH`가 아니다.
 - Source Scene·PSE·PVAR·PROSE·Macro·Micro·TH는 원문 대신이 아니라 원문으로 내려가는 검색 좌표다.
@@ -31,12 +31,10 @@ cross-project transport를 결박할 때는 source inventory 또는 작품 sourc
 ```yaml
 source_access:
   transport_status: "BOUND_UNVERIFIED"
-  transport_kind: "github_private"
-  repository_id: "<stable repository id>"
-  repository_full_name: "<generic private source vault repo>"
-  canonical_ref: "<branch/tag/immutable ref policy>"
-  path: "sources/<opaque source_id>.txt"
-  path_identity_exposure: "sealed"
+  transport_kind: "github_private | google_drive_private"
+  stable_locator: "<repository/path or provider file id>"
+  access_control: "<private/owner-only/shared-with-authorized-account>"
+  locator_identity_exposure: "sealed"
   expected_source_id: "SRC-..."
   expected_sha256: "..."
   expected_byte_size: 0
@@ -45,9 +43,9 @@ source_access:
 ```
 
 - 실제 필드명은 기존 레지스트리 구조에 맞춰도 된다. 핵심은 같은 정보를 잃지 않는 것이다.
-- 공개 저장소의 locator에는 실제 작품명·작가명·원문 파일명을 넣지 않는다. path는 `source_id` 같은 opaque 식별자를 사용한다.
-- private vault repository 자체도 가능하면 작품명을 드러내지 않는 일반 식별자를 사용한다.
+- 공개 저장소의 locator에는 실제 작품명·작가명·원문 파일명을 넣지 않는다. source ID와 stable provider ID 같은 opaque 식별자를 사용한다.
 - 현재 consumer가 읽을 수 없는 transport 종류를 등록해 놓고 `SOURCE_READY`라고 표시하지 않는다.
+- provider locator 자체가 공개되어도 원문 접근 권한은 provider access control로 차단되어야 한다.
 
 ## 4. project source와 cross-project transport 구분
 
@@ -61,16 +59,23 @@ ChatGPT 프로젝트에 업로드된 ZIP/TXT 같은 `project_source`는 그 프�
 
 ## 5. 권장 transport
 
-현재 구조에서는 **접근 제어된 private GitHub source vault**를 우선 transport로 권장한다.
+현재 구조에서는 **접근 제어된 account-scoped transport**를 사용한다.
 
-이유:
+우선순위:
 
-- 다른 작품 프로젝트에서도 같은 GitHub connector로 읽을 수 있다.
-- repository ID, ref, opaque path로 locator를 안정적으로 결박할 수 있다.
-- 공개 연구 저장소와 원문 보관 권한을 분리할 수 있다.
-- raw source를 공개 라이브러리에 복제하지 않아도 된다.
+1. 현재 consumer가 읽을 수 있는 private GitHub source vault
+2. 현재 consumer가 읽을 수 있는 private Google Drive raw file
+3. 그 밖의 access-controlled provider는 동일한 stable locator + raw-byte verification 계약을 충족할 때만 허용
 
-단, 실제 vault가 존재하고 현재 실행에서 접근 가능한 경우에만 결박한다. 존재하지 않는 vault를 추정하거나 placeholder repository/path를 만들지 않는다.
+공통 조건:
+
+- 다른 작품 프로젝트에서도 같은 연결 계정으로 읽을 수 있어야 한다.
+- stable locator가 있어야 한다.
+- raw source를 공개 라이브러리에 복제하지 않는다.
+- provider가 텍스트를 변환하는 방식이 아니라 원본 파일 바이트를 내려받아 SHA-256·byte size를 검증할 수 있어야 한다.
+- Google Drive는 native Docs 변환본이 아니라 stored raw file을 사용한다. 파일이 공유되지 않았는지 또는 승인된 계정에만 공유되었는지 metadata로 확인한다.
+
+실제 locator가 존재하고 현재 실행에서 접근 가능한 경우에만 결박한다. placeholder repository/path/file ID를 만들지 않는다.
 
 ## 6. `VERIFIED_MATCH` 절차
 
@@ -80,9 +85,9 @@ reference refresh에서 후보 REF를 골랐다면:
 2. `registry/works.yaml`에서 작품 source binding과 `source_reentry_status`를 확인한다.
 3. source inventory 또는 작품 source bridge에서 canonical `source_id / SHA-256 / byte size / encoding / boundary`를 읽는다.
 4. `source_access` locator가 없다면 즉시 `SOURCE_LIMITED`로 닫는다. 파생 연구층만으로 표현 판단을 계속하지 않는다.
-5. locator가 있으면 현재 실행에서 실제 source bytes를 읽는다.
+5. locator가 있으면 현재 실행에서 실제 raw source bytes를 읽는다.
 6. 전체 source identity를 canonical SHA-256·byte size·encoding과 대조한다.
-7. 모두 일치할 때만 `VERIFIED_MATCH`로 올린다.
+7. 모두 일치할 때만 **현재 실행의** `VERIFIED_MATCH`로 올린다. 레지스트리의 과거 VERIFIED_MATCH는 locator 결박 영수증이지 새 실행의 검증을 생략하는 면허가 아니다.
 8. 후보의 정확한 episode boundary를 source bridge/index로 확인한다.
 9. **해당 원문 회차 전체를 직접 재독**한다. 선행 제시·후속 회수와 결합하면 필요한 인접 회차까지 확장한다.
 10. 원문 재독 뒤에만 `take_judgment / do_not_take_surface / pov_conversion` 등 집필 참고 판정을 남긴다.
@@ -98,7 +103,7 @@ Macro / Micro / TH / PROSE / PVAR / PSE
 → source_id
 → canonical source identity
 → source_access locator
-→ VERIFIED_MATCH
+→ current-run VERIFIED_MATCH
 → full episode reread
 ```
 
@@ -108,7 +113,7 @@ Macro / Micro / TH / PROSE / PVAR / PSE
 
 - 저작권 있는 원문 전체
 - 원문 회차 전문
-- 실제 작품명이 드러나는 private source path
+- 실제 작품명이 드러나는 private source path/file name
 - 파생 연구만으로 복원 가능한 대량의 연속 원문
 
 PSE·Source Scene은 현행 익명화·인용 최소화 계약을 유지한다. 정확한 표면은 private/project source에서 재독한다.
@@ -116,9 +121,10 @@ PSE·Source Scene은 현행 익명화·인용 최소화 계약을 유지한다. 
 ## 9. transport 변경과 무효화
 
 - source bytes가 바뀌면 새 source identity로 취급하고 SHA/size/boundary를 다시 검증한다.
-- locator repository/path/ref가 바뀌면 `BOUND_UNVERIFIED`로 내려 다시 대조한다.
+- locator repository/path/file ID가 바뀌면 `BOUND_UNVERIFIED`로 내려 다시 대조한다.
 - 접근 권한이 사라지면 `REVOKED` 또는 `SOURCE_LIMITED`다.
 - canonical source identity와 다른 바이트를 자동으로 새 정본으로 승격하지 않는다.
+- provider가 파일을 native document로 변환하거나 newline/encoding을 바꾼 사본은 기존 raw identity의 `VERIFIED_MATCH`로 사용하지 않는다.
 
 ## 10. 완료 판정
 
@@ -130,4 +136,4 @@ PSE·Source Scene은 현행 익명화·인용 최소화 계약을 유지한다. 
 - 후보의 full episode boundary를 찾을 수 있다.
 - 다른 작품 프로젝트에서도 같은 절차가 재현된다.
 
-locator가 아직 없으면 **계약은 준비되었어도 transport는 미완성**이다. 이 경우 `SOURCE_LIMITED`는 정상적인 fail-closed 상태다.
+일부 source만 locator가 있으면 **그 source만 transport-ready**다. collection 전체나 다른 REF를 자동 승격하지 않는다.
