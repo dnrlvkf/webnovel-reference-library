@@ -4,11 +4,20 @@ item_count: 45
 total_bytes: 384322601
 identity_exposure: sealed
 inventory_status: indexed
+source_reentry_contract_path: indexes/source_reentry_contract.md
+cross_project_transport:
+  status: unbound
+  current_scope: project_scoped_only
+  verified_match_available_cross_project: false
+  public_raw_source_storage: forbidden
+  next_binding_requirement: "Bind an access-controlled source locator whose bytes can be verified against each canonical source identity."
 
 bound_sources:
   - source_id: SRC-COL2-027
     bound_ref: REF-02
     identity_status: verified_private
+    reentry_status: transport_unbound
+    transport_scope: project_scoped_only
     boundary_status: exact
     confirmed_scope: 1-284
     byte_size: 4366295
@@ -47,6 +56,8 @@ bound_sources:
   - source_id: SRC-DIRECT-001
     bound_ref: REF-47
     identity_status: verified_private
+    reentry_status: transport_unbound
+    transport_scope: project_scoped_only
     boundary_status: partial_header_verification
     claimed_scope: 1-350
     verified_episode_headers: ep1, 167-350
@@ -70,3 +81,4 @@ bound_sources:
         segment_sha256_utf8_normalized: 95fbb05e830a5cc1f54db3471c569262325f8d043f6be8b9f670cc680b7f1e86
 
 unbound_source_policy: assign SRC ID, verify hash and boundary, then bind to an existing or new REF; never infer identity from episode count alone.
+reentry_binding_policy: do not claim cross-project SOURCE_READY until an accessible transport locator is bound and verified against canonical source identity.

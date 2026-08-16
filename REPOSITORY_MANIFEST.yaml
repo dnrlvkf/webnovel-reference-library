@@ -1,4 +1,4 @@
-schema_version: "1.6"
+schema_version: "1.7"
 repository_role: reference-research-canonical
 canonical_branch: "main"
 
@@ -18,6 +18,8 @@ scene_retrieval_contract_path: "indexes/scene_retrieval_contract.md"
 expression_retrieval_path: "indexes/expression_retrieval.md"
 prose_realization_retrieval_path: "indexes/prose_realization_retrieval.md"
 initial_onboarding_research_path: "indexes/initial_onboarding_research.md"
+source_reentry_contract_path: "indexes/source_reentry_contract.md"
+research_layer_connectivity_path: "indexes/research_layer_connectivity.md"
 
 authority_boundary:
   active_research_roots:
@@ -52,3 +54,10 @@ standard_verification_policy:
   require_size_match: true
   require_contract_addendum: true
   mismatch_status: HOLD_STANDARD_SOURCE
+
+source_reentry_policy:
+  derived_layers_are_coordinates_only: true
+  require_accessible_transport_for_verified_match: true
+  project_scoped_upload_is_not_cross_project_transport: true
+  public_repository_raw_source_storage: forbidden
+  unbound_transport_terminal_state: SOURCE_LIMITED
