@@ -7,8 +7,8 @@
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_batch: `BATCH-REF46-0013`
 - latest_receipt: `RCPT-20260817-1608-REF46`
-- research_content_sha: `PENDING_MERGE`
-- latest_status: `pending_merge`
+- research_content_sha: `30224cdc3858b3e59c8a67d2fdfd1fa0d68ed027`
+- latest_status: `complete / verified_on_main`
 
 ## 현재 연구 질문
 
@@ -332,7 +332,7 @@ BATCH-0013 교정·신규 HOLD:
 - `AUDIT-REF46-0018~0019` — 역할별 자기평가와 대사 문형 미시 감사 pre/post / passed.
 - `AUDIT-REF46-0020~0021` — 외적 유산 STORY/RELATIONSHIP pre/post / passed.
 - `AUDIT-REF46-0022~0023` — RELATIONSHIP / ORGANIZATION 작품 모델 편중 pre/post / passed.
-- `AUDIT-REF46-0024` — 공동체 대표권·정체 공개 전제 pre-merge / passed.
+- `AUDIT-REF46-0024~0025` — 공동체 대표권·정체 공개 전제 pre/post / passed.
 
 ## 다음 질문
 
