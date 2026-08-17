@@ -7,8 +7,8 @@
 - latest_mode: `작품 전체 왕복 채굴`
 - latest_batch: `BATCH-REF46-0011`
 - latest_receipt: `RCPT-20260817-1202-REF46`
-- research_content_sha: `PENDING_MERGE`
-- latest_status: `pending_merge`
+- research_content_sha: `be64773c28fe2bfeab83e63882dbf0725d6bcfa2`
+- latest_status: `complete / verified_on_main`
 
 ## 현재 연구 질문
 
@@ -283,7 +283,7 @@
 - `AUDIT-REF46-0014~0015` — 교육 실패·사망 자기평가 pre/post / passed.
 - `AUDIT-REF46-0016~0017` — 죽음 경험 이후 역할·생존 재결합 pre/post / passed.
 - `AUDIT-REF46-0018~0019` — 역할별 자기평가와 대사 문형 미시 감사 pre/post / passed.
-- `AUDIT-REF46-0020` — 외적 유산 STORY/RELATIONSHIP pre-merge / passed.
+- `AUDIT-REF46-0020~0021` — 외적 유산 STORY/RELATIONSHIP pre/post / passed.
 
 ## 다음 질문
 
