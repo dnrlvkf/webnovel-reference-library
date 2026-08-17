@@ -4,7 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
-| `RCPT-20260817-1755-REF46` | `REF-46` | 작품 전체 왕복 채굴 / chief office durability vs execution and external jurisdiction | `452,455,494-495,641,780-781,861-862,896 + 873~917 revocation follow-up search` | `1e79c1de1f071916ba67c02474901fde46d97da1` | pre_merge |
+| `RCPT-20260817-1755-REF46` | `REF-46` | 작품 전체 왕복 채굴 / chief office durability vs execution and external jurisdiction | `452,455,494-495,641,780-781,861-862,896 + 873~917 revocation follow-up search` | `1e79c1de1f071916ba67c02474901fde46d97da1` | complete |
 | `RCPT-20260817-1608-REF46` | `REF-46` | 작품 전체 왕복 채굴 / chief legitimacy disclosure premise correction | `434,449-452,490,521,867,872 + 873~917 disclosure follow-up search` | `30224cdc3858b3e59c8a67d2fdfd1fa0d68ed027` | complete |
 | `RCPT-20260817-1523-REF46` | `REF-46` | 작품 전체 왕복 채굴 / RELATIONSHIP-ORGANIZATION coverage audit | `150,174,208,338,354-355,360-362,373,391,452-454,473,553,590,616,650-651,717-718,742-743,746,751-753,777` | `0f1f8b122bf5aa764dab37e35efadcb4077c0090` | complete |
 | `RCPT-20260817-1202-REF46` | `REF-46` | 작품 전체 왕복 채굴 / posthumous legacy STORY-RELATIONSHIP audit | `634,651,739,753-754,758-759,768-769,773-777,782,789,794,829 + 829~917 direct recall search` | `be64773c28fe2bfeab83e63882dbf0725d6bcfa2` | complete |
@@ -31,7 +31,7 @@
 | `RCPT-20260815-1846-REF47` | `REF-47` | 작품 전체 왕복 채굴 / dialogue cohesion | `SRC-DIRECT-001 / ep230,256(existing),298,329,331 selected ranges` | `c2df66829c7d04b595ddaefcdb7558c6f3ccbc39` | complete |
 | `RCPT-20260815-1819-REF47` | `REF-47` | 작품 전체 왕복 채굴 / sound-effect allocation | `SRC-DIRECT-001 / ep228,269,300,307,318,319 selected ranges` | `0f4d48f590c70ecae24dd50aa109a294428dfeed` | complete |
 | `RCPT-20260815-1807-REF47` | `REF-47` | 작품 전체 왕복 채굴 / dialogue-narration allocation | `SRC-DIRECT-001 / ep238,251,256,300 selected ranges` | `a8291d5bdfe5a4ac52ff15bf995ea6ed474ad3ba` | complete |
-| `RCPT-20260815-1753-REF47` | `REF-47` | 작품 전체 왕복 채굴 / PSE-PVAR pilot | `SRC-DIRECT-001 / ep245,253,255,319 selected ranges` | `488eeaecb59e20e7717f5e47697a561bdef7d185` | complete |
+| `RCPT-20260815-1753-REF47` | `REF-47` | 작품 전체 왕복 채굴 / PSE-PVAR pilot | `SRC-DIRECT-001 / ep245,253,255,319 selected ranges` | `488eeaecb59e20e771f5e47697a561bdef7d185` | complete |
 | `RCPT-20260815-1742-GLOBAL-PROSE-SCHEMA` | `GLOBAL` | audit / schema-promotion | `project-source SOP v7 + schema v2 + repository expression audits` | `e94ad162941982262a77c7141030a616ec25fbf9` | complete |
 | `RCPT-20260814-1728-REF46` | `REF-46` | 작품 전체 왕복 채굴 / role-bounded dialogue audit | `149, 174, 449, 473, 634, 746, 753화 핵심 대사 재독` | `ce0453d13eb9a8039a42a0ec4f1a8b0053f32000` | complete |
 | `RCPT-20260814-1646-REF46` | `REF-46` | 작품 전체 왕복 채굴 / post-neardeath guide-duty audit | `742~753화 직접 재독 / 348,691~354,290행` | `a9468d31b26a8f1a7a25d2530b5ac2953d6862c1` | complete |
@@ -45,7 +45,7 @@
 | `RCPT-20260813-1237-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 241~284화` | `ab80452f5e4ef08e8acd7bc7d4a7039f47d2a1e2` | complete_first_pass_batch |
 | `RCPT-20260813-1150-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 181~240화` | `3299c0c4229db744f8cba33e82c6fe7c54e35605` | complete / relation attribution partially superseded |
 | `RCPT-20260813-1046-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 121~180화` | `19055585f6791dbb8fa17b1a780575bec92d9506` | complete |
-| `RCPT-20260813-0951-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 61~120화` | `8c5b59c7266213f298223372b5f13ae0b01199a4` | complete |
+| `RCPT-20260813-0951-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 61~120화` | `8c5b59c7266213f298223372b5be9a591d4b485157` | complete |
 | `RCPT-20260813-0924-REF02` | `REF-02` | 구간 정밀 분석 / SOP v6.1 | `SRC-COL2-027 / 51~60화` | `cdcad32bd082c4ca05f8fb766ad903c2992b3e15` | complete |
 | `RCPT-20260813-0906-REF02` | `REF-02` | 구간 정밀 분석 / SOP v6.1 | `SRC-COL2-027 / 41~50화` | `f299e1a9f7a04ca92d7c85458e6c3c1d1d379559` | complete |
 | `RCPT-20260809-0002-REF46` | `REF-46` | 작품 전체 왕복 채굴 | `149~718화 선택 구간 + 책임·연구욕구·역할평가 왕복` | `0b6877c9e13192d5dbf45fa8dd0e89787466ba6c` | complete |
