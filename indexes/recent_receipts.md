@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260817-1608-REF46` | `REF-46` | 작품 전체 왕복 채굴 / chief legitimacy disclosure premise correction | `434,449-452,490,521,867,872 + 873~917 disclosure follow-up search` | `30224cdc3858b3e59c8a67d2fdfd1fa0d68ed027` | complete |
 | `RCPT-20260817-1523-REF46` | `REF-46` | 작품 전체 왕복 채굴 / RELATIONSHIP-ORGANIZATION coverage audit | `150,174,208,338,354-355,360-362,373,391,452-454,473,553,590,616,650-651,717-718,742-743,746,751-753,777` | `0f1f8b122bf5aa764dab37e35efadcb4077c0090` | complete |
 | `RCPT-20260817-1202-REF46` | `REF-46` | 작품 전체 왕복 채굴 / posthumous legacy STORY-RELATIONSHIP audit | `634,651,739,753-754,758-759,768-769,773-777,782,789,794,829 + 829~917 direct recall search` | `be64773c28fe2bfeab83e63882dbf0725d6bcfa2` | complete |
 | `RCPT-20260816-2331-REF47-FULL-REVOCATION-THRESHOLD` | `REF-47` | 작품 전체 왕복 채굴 / 역할 권리 전면 회수 경계 | `SRC-DIRECT-001 / ep264,266,285-286,299-300,302,324,330,339 + SC-0038~0042` | `c7af4a5b04accf9e80cc5e5c92e7cb83b910555e` | complete_with_housekeeping_hold |
@@ -55,6 +56,7 @@
 
 ## 경로
 
+- `works/REF-46/research_receipts/RCPT-20260817-1608-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260817-1523-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260817-1202-REF46.md`
 - `works/REF-47/research_receipts/RCPT-20260816-2331-REF47-FULL-REVOCATION-THRESHOLD.md`
