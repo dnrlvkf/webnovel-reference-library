@@ -4,6 +4,7 @@
 
 | 영수증 | 작품 | 모드 | 원문 범위 | 연구 내용 SHA | 상태 |
 |---|---|---|---|---|---|
+| `RCPT-20260817-1755-REF46` | `REF-46` | 작품 전체 왕복 채굴 / chief office durability vs execution and external jurisdiction | `452,455,494-495,641,780-781,861-862,896 + 873~917 revocation follow-up search` | `1e79c1de1f071916ba67c02474901fde46d97da1` | pre_merge |
 | `RCPT-20260817-1608-REF46` | `REF-46` | 작품 전체 왕복 채굴 / chief legitimacy disclosure premise correction | `434,449-452,490,521,867,872 + 873~917 disclosure follow-up search` | `30224cdc3858b3e59c8a67d2fdfd1fa0d68ed027` | complete |
 | `RCPT-20260817-1523-REF46` | `REF-46` | 작품 전체 왕복 채굴 / RELATIONSHIP-ORGANIZATION coverage audit | `150,174,208,338,354-355,360-362,373,391,452-454,473,553,590,616,650-651,717-718,742-743,746,751-753,777` | `0f1f8b122bf5aa764dab37e35efadcb4077c0090` | complete |
 | `RCPT-20260817-1202-REF46` | `REF-46` | 작품 전체 왕복 채굴 / posthumous legacy STORY-RELATIONSHIP audit | `634,651,739,753-754,758-759,768-769,773-777,782,789,794,829 + 829~917 direct recall search` | `be64773c28fe2bfeab83e63882dbf0725d6bcfa2` | complete |
@@ -36,10 +37,10 @@
 | `RCPT-20260814-1646-REF46` | `REF-46` | 작품 전체 왕복 채굴 / post-neardeath guide-duty audit | `742~753화 직접 재독 / 348,691~354,290행` | `a9468d31b26a8f1a7a25d2530b5ac2953d6862c1` | complete |
 | `RCPT-20260814-1548-REF46` | `REF-46` | 작품 전체 왕복 채굴 / education failure self-evaluation audit | `1~917화 전체 검색 + 473, 478, 634, 739~743화 및 후속 교육 역할/유산 재독` | `2362e25c48b17341c5365d5a971dd643999a41be` | complete |
 | `RCPT-20260814-1452-REF46` | `REF-46` | 작품 전체 왕복 채굴 / responsibility architecture audit | `1~917화 전체 검색 + 208, 254, 285, 338, 354~355, 391, 590, 616화 재독` | `308126f52c41a17c0075d7cfd17306ebbb00312e` | complete |
-| `RCPT-20260814-1419-REF46` | `REF-46` | 작품 전체 왕복 채굴 / upward warning follow-up | `1~917화 전체 검색 + 354~355, 360~364, 373, 391, 553, 777화 재독` | `724d7bcc75945c4e6bd66c99ec83537fa615c941` | complete |
-| `RCPT-20260814-0513-REF46` | `REF-46` | 작품 전체 왕복 채굴 / research-stop authority audit | `1~917화 전체 검색 + 170~171, 604~606, 717~718, 807화 재독` | `b8573713ddf4a250cdbef2d2549de698f6782aa7` | complete |
-| `RCPT-20260813-1732-REF46` | `REF-46` | 작품 전체 왕복 채굴 / direct command-failure audit | `1~917화 전체 검색 + 285, 338, 354~364, 391, 551~560, 710화 이후 재독` | `49e1a1fe262bc14b9ecd697d697403fe30ad8528` | complete |
-| `RCPT-20260813-1713-REF46` | `REF-46` | 작품 전체 왕복 채굴 / role self-evaluation follow-up | `1~917화 전체 검색 + 149, 449, 473, 634화 재독` | `fe3b4baca9a959fbd56939b5ee81165d9e06cb12` | complete |
+| `RCPT-20260814-1419-REF46` | `REF-46` | 작품 전체 왕복 채굴 / upward warning follow-up | `1~917화 전체 검색 + 354~355,360~364,373,391,553,777화 재독` | `724d7bcc75945c4e6bd66c99ec83537fa615c941` | complete |
+| `RCPT-20260814-0513-REF46` | `REF-46` | 작품 전체 왕복 채굴 / research-stop authority audit | `1~917화 전체 검색 + 170~171,604~606,717~718,807화 재독` | `b8573713ddf4a250cdbef2d2549de698f6782aa7` | complete |
+| `RCPT-20260813-1732-REF46` | `REF-46` | 작품 전체 왕복 채굴 / direct command-failure audit | `1~917화 전체 검색 + 285,338,354~364,391,551~560,710화 이후 재독` | `49e1a1fe262bc14b9ecd697d697403fe30ad8528` | complete |
+| `RCPT-20260813-1713-REF46` | `REF-46` | 작품 전체 왕복 채굴 / role self-evaluation follow-up | `1~917화 전체 검색 + 149,449,473,634화 재독` | `fe3b4baca9a959fbd56939b5ee81165d9e06cb12` | complete |
 | `RCPT-20260813-1302-REF02` | `REF-02` | 작품 전체 왕복 채굴 / SOP v6.1 | `SRC-COL2-027 / 1~284화 exact / early-middle-late reread` | `a75c00314c1f213cca72b519e448b8f56ed3c99d` | complete |
 | `RCPT-20260813-1237-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 241~284화` | `ab80452f5e4ef08e8acd7bc7d4a7039f47d2a1e2` | complete_first_pass_batch |
 | `RCPT-20260813-1150-REF02` | `REF-02` | 구간 정밀 분석 / adaptive sweep / SOP v6.1 | `SRC-COL2-027 / 181~240화` | `3299c0c4229db744f8cba33e82c6fe7c54e35605` | complete / relation attribution partially superseded |
@@ -56,6 +57,7 @@
 
 ## 경로
 
+- `works/REF-46/research_receipts/RCPT-20260817-1755-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260817-1608-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260817-1523-REF46.md`
 - `works/REF-46/research_receipts/RCPT-20260817-1202-REF46.md`
