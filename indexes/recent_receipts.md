@@ -21,7 +21,7 @@
 | `RCPT-20260815-2301-REF47` | `REF-47` | 구간 정밀 분석 / 초기 제시·온보딩 | `SRC-DIRECT-001 / ep1 lines 471-862 + ep2 immediate recovery check lines 863-929` | `df22601a3e4bc1a1335a210506faf8c250f9585f` | complete |
 | `RCPT-20260815-2244-GLOBAL-LEGACY-AUTHORITY-HARDENING` | `GLOBAL` | repository maintenance / legacy authority hardening audit | `no new source-text research claim; current manifest, legacy addenda v1.1-v1.3, catalog legacy boundary, current README/AGENTS routing only` | `c48d13a8ce87d61c25a9f5f27d06c085d47b3f48` | complete |
 | `RCPT-20260815-2239-GLOBAL-ONBOARDING-ROUTING` | `GLOBAL` | repository maintenance / initial-reonboarding research routing | `no new source-text research claim; Project Source standards + current repository routing/contracts + sample-derived research question only` | `037c61860d948fe40c55c39a41bacf7f182a1593` | complete |
-| `RCPT-20260815-2209-GLOBAL-SOURCE-REENTRY` | `GLOBAL` | repository maintenance / expression source-reentry contract audit | `no new source-text research claim; Project Source standards + current repository contracts/indexes + recent REF-47 expression failure audit` | `cb8e758ad494e312baad098405d3764fdd3df598` | complete |
+| `RCPT-20260815-2209-GLOBAL-SOURCE-REENTRY` | `GLOBAL` | repository maintenance / expression source-reentry contract audit | `no new source-text research claim; Project Source standards + repository contracts/indexes + recent REF-47 expression failure audit` | `cb8e758ad494e312baad098405d3764fdd3df598` | complete |
 | `RCPT-20260815-2151-REF47` | `REF-47` | 구간 정밀 분석 / full-episode expression waveform | `SRC-DIRECT-001 / ep1 / lines 471-862` | `b39c09fef7289885b8b607831b5be10df09d6193` | complete |
 | `RCPT-20260815-2131-GLOBAL-SOP71-EXPRESSION` | `GLOBAL` | repository maintenance / standard promotion / expression-retrieval contract audit | `no new source-text research claim; Project Source standards + repository contracts/indexes only` | `f3ae024a9f6ba26e40b2c9d25858a66fbd7347ba` | complete |
 | `RCPT-20260815-2007-GLOBAL-EXPRESSION-CONTEXT` | `GLOBAL / REF-47` | 구간 정밀 분석 / expression-retrieval context audit | `REF-47 / SRC-DIRECT-001 / ep256 full episode / lines 136725-137318` | `db154cbb1b6133036ea84c2a99d9fc065a55bf01` | complete |
@@ -120,3 +120,4 @@
 - `works/REF-02/research_receipts/RCPT-20260806-2013-REF02-FINAL.md`
 - `works/REF-02/research_receipts/RCPT-20260806-2013-REF02-SEAL.md`
 - `works/REF-02/research_receipts/RCPT-20260806-1832-REF02.md`
+- `works/REF-02/research_receipts/RCPT-20260806-1812-REF02.md`
